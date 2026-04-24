@@ -1,1 +1,1 @@
-window.STUDY_SITES_KML = [];
+window.STUDY_SITES_KML = ``;
