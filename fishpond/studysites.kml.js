@@ -1,6 +1,6 @@
 window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
-<Document id="document">
+<Document id="1Y1heKHYLGFkz87frEe2vmnVx3iNgBpfE">
 	<name>MA_Trim_r</name>
 	<Schema name="__managed_schema" id="__managed_schema">
 		<SimpleField type="double" name="COL5BD06BA3221432FA">
@@ -58,7 +58,28 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 			<displayName>path</displayName>
 		</SimpleField>
 	</Schema>
-	<gx:CascadingStyle kml:id="__managed_style_0F6996B6BB3EF2BC4E56_highlight">
+	<gx:CascadingStyle kml:id="__managed_style_0B2F0618073EF80E55AB_normal">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0B2F0618073EF80E55AB_highlight">
 		<Style>
 			<IconStyle>
 				<scale>1.2</scale>
@@ -77,11 +98,32 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<color>40ffffff</color>
 			</PolyStyle>
 			<BalloonStyle>
-				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_0F6996B6BB3EF2BC4E56_normal">
+	<gx:CascadingStyle kml:id="__managed_style_0559B64E693EF80E55A9_highlight">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0559B64E693EF80E55A9_normal">
 		<Style>
 			<IconStyle>
 				<Icon>
@@ -99,43 +141,30 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<color>40ffffff</color>
 			</PolyStyle>
 			<BalloonStyle>
-				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_0F6996B6BB3EF2BC4E56">
+	<StyleMap id="__managed_style_0B2F0618073EF80E55AB">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56_normal</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB_normal</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56_highlight</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<gx:CascadingStyle kml:id="__managed_style_06BD5032BB3EF2BC4E59_normal">
-		<Style>
-			<IconStyle>
-				<Icon>
-					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-			</IconStyle>
-			<LabelStyle>
-			</LabelStyle>
-			<LineStyle>
-				<color>ff2dc0fb</color>
-				<width>2</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>40ffffff</color>
-			</PolyStyle>
-			<BalloonStyle>
-				<displayMode>hide</displayMode>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_06BD5032BB3EF2BC4E59_highlight">
+	<StyleMap id="__managed_style_0559B64E693EF80E55A9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_0B9A9DE4CD3EF80E55AC_highlight">
 		<Style>
 			<IconStyle>
 				<scale>1.2</scale>
@@ -154,28 +183,48 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<color>40ffffff</color>
 			</PolyStyle>
 			<BalloonStyle>
-				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_06BD5032BB3EF2BC4E59">
+	<gx:CascadingStyle kml:id="__managed_style_0B9A9DE4CD3EF80E55AC_normal">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0B9A9DE4CD3EF80E55AC">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#__managed_style_06BD5032BB3EF2BC4E59_normal</styleUrl>
+			<styleUrl>#__managed_style_0B9A9DE4CD3EF80E55AC_normal</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#__managed_style_06BD5032BB3EF2BC4E59_highlight</styleUrl>
+			<styleUrl>#__managed_style_0B9A9DE4CD3EF80E55AC_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Folder id="5BD06B9F0D000001">
 		<name>MA_trim</name>
 		<open>1</open>
-		<styleUrl>#__managed_style_06BD5032BB3EF2BC4E59</styleUrl>
+		<styleUrl>#__managed_style_0B9A9DE4CD3EF80E55AC</styleUrl>
 		<Placemark id="5BD06B9F0D000002">
 			<name>ST106</name>
 			<description><![CDATA[description:               <br>   ST106    <br>       <br>   FID   0    <br>   POND_NO   ST106    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108414    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108415    <br>   PHOTO   108416    <br>   LAST_UPDAT   2/6/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   4718    <br>   CAL_POND_A   5604    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   770586    <br>   SHAPE_Leng   336.887814    <br>   SHAPE_Area   5603.89985              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">1</SimpleData>
@@ -234,7 +283,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000003">
 			<name>ST100</name>
 			<description><![CDATA[description:               <br>   ST100    <br>       <br>   FID   1    <br>   POND_NO   ST100    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   100791    <br>   PLAN_PROJE       <br>   PLAN_REPOR   100792    <br>   PHOTO   100793    <br>   LAST_UPDAT   4/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   19546    <br>   CAL_POND_A   19469    <br>   AFFS   Y    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   672551    <br>   SHAPE_Leng   678.069148    <br>   SHAPE_Area   19469.10624              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">2</SimpleData>
@@ -300,7 +349,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000004">
 			<name>ST029</name>
 			<description><![CDATA[description:               <br>   ST029    <br>       <br>   FID   3    <br>   POND_NO   ST029    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108385    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108386    <br>   PHOTO   108387    <br>   LAST_UPDAT   4/26/2013    <br>   LAST_UPD_1   kmng2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   9436    <br>   CAL_POND_A   11215    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   25    <br>   SHAPE_Leng   577.605038    <br>   SHAPE_Area   11214.674202              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">4</SimpleData>
@@ -366,7 +415,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000005">
 			<name>ST028</name>
 			<description><![CDATA[description:               <br>   ST028    <br>       <br>   FID   4    <br>   POND_NO   ST028    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108382    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108383    <br>   PHOTO   108384    <br>   LAST_UPDAT   4/26/2013    <br>   LAST_UPD_1   kmng2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   1011    <br>   CAL_POND_A   1478    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   25    <br>   SHAPE_Leng   148.632802    <br>   SHAPE_Area   1477.978625              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">5</SimpleData>
@@ -425,7 +474,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000006">
 			<name>ST039b</name>
 			<description><![CDATA[description:               <br>   ST039b    <br>       <br>   FID   5    <br>   POND_NO   ST039b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   100746    <br>   PLAN_PROJE       <br>   PLAN_REPOR   100747    <br>   PHOTO   100748    <br>   LAST_UPDAT   2/13/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   7414    <br>   CAL_POND_A   8430    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   701407    <br>   SHAPE_Leng   363.939697    <br>   SHAPE_Area   8429.989584              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">6</SimpleData>
@@ -484,7 +533,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000007">
 			<name>ST039a</name>
 			<description><![CDATA[description:               <br>   ST039a    <br>       <br>   FID   6    <br>   POND_NO   ST039a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101403    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101404    <br>   PHOTO   101405    <br>   LAST_UPDAT   2/13/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   7414    <br>   CAL_POND_A   8389    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   701407    <br>   SHAPE_Leng   403.643969    <br>   SHAPE_Area   8388.535122              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">7</SimpleData>
@@ -543,7 +592,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000008">
 			<name>ST193</name>
 			<description><![CDATA[description:               <br>   ST193    <br>       <br>   FID   10    <br>   POND_NO   ST193    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106143    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106144    <br>   PHOTO   106145    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   3707    <br>   CAL_POND_A   2938    <br>   AFFS       <br>   LANDUSAGE   23    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   253.328941    <br>   SHAPE_Area   2938.150685              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">11</SimpleData>
@@ -609,7 +658,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000009">
 			<name>ST197a</name>
 			<description><![CDATA[description:               <br>   ST197a    <br>       <br>   FID   11    <br>   POND_NO   ST197a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106155    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106156    <br>   PHOTO   106157    <br>   LAST_UPDAT   8/13/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   2022    <br>   CAL_POND_A   2054    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   63    <br>   SHAPE_Leng   224.962271    <br>   SHAPE_Area   2053.886945              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">12</SimpleData>
@@ -668,7 +717,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00000A">
 			<name>ST197b</name>
 			<description><![CDATA[description:               <br>   ST197b    <br>       <br>   FID   12    <br>   POND_NO   ST197b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106158    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106159    <br>   PHOTO   106160    <br>   LAST_UPDAT   8/13/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   3370    <br>   CAL_POND_A   5230    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   63    <br>   SHAPE_Leng   467.971009    <br>   SHAPE_Area   5230.270039              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">13</SimpleData>
@@ -727,7 +776,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00000B">
 			<name>ST030</name>
 			<description><![CDATA[description:               <br>   ST030    <br>       <br>   FID   13    <br>   POND_NO   ST030    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103629    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103650    <br>   PHOTO   103651    <br>   LAST_UPDAT   3/12/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8088    <br>   CAL_POND_A   9063    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   20    <br>   SHAPE_Leng   462.972848    <br>   SHAPE_Area   9062.918711              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">14</SimpleData>
@@ -793,7 +842,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00000C">
 			<name>ST110</name>
 			<description><![CDATA[description:               <br>   ST110    <br>       <br>   FID   14    <br>   POND_NO   ST110    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106648    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106649    <br>   PHOTO   106650    <br>   LAST_UPDAT   1/2/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   8088    <br>   CAL_POND_A   6843    <br>   AFFS       <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   770586    <br>   SHAPE_Leng   321.818464    <br>   SHAPE_Area   6843.356534              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">15</SimpleData>
@@ -852,7 +901,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00000D">
 			<name>ST144</name>
 			<description><![CDATA[description:               <br>   ST144    <br>       <br>   FID   15    <br>   POND_NO   ST144    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103930    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103931    <br>   PHOTO   103932    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   15550    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   533.813869    <br>   SHAPE_Area   15550.395648              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">16</SimpleData>
@@ -911,7 +960,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00000E">
 			<name>ST022</name>
 			<description><![CDATA[description:               <br>   ST022    <br>       <br>   FID   16    <br>   POND_NO   ST022    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   0    <br>   PLAN_PROJE       <br>   PLAN_REPOR   0    <br>   PHOTO   0    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   1685    <br>   CAL_POND_A   2199    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   209    <br>   SHAPE_Leng   287.971024    <br>   SHAPE_Area   2198.782426              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">17</SimpleData>
@@ -977,7 +1026,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00000F">
 			<name>ST027</name>
 			<description><![CDATA[description:               <br>   ST027    <br>       <br>   FID   17    <br>   POND_NO   ST027    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105990    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105991    <br>   PHOTO   105992    <br>   LAST_UPDAT   6/30/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   13480    <br>   CAL_POND_A   12239    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   56    <br>   SHAPE_Leng   447.461694    <br>   SHAPE_Area   12239.229238              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">18</SimpleData>
@@ -1036,7 +1085,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000010">
 			<name>ST172</name>
 			<description><![CDATA[description:               <br>   ST172    <br>       <br>   FID   18    <br>   POND_NO   ST172    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106116    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106117    <br>   PHOTO   106118    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   1011    <br>   CAL_POND_A   1365    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   180.518321    <br>   SHAPE_Area   1364.616189              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">19</SimpleData>
@@ -1095,7 +1144,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000011">
 			<name>ST201</name>
 			<description><![CDATA[description:               <br>   ST201    <br>       <br>   FID   26    <br>   POND_NO   ST201    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106173    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106174    <br>   PHOTO   106175    <br>   LAST_UPDAT   7/3/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   3707    <br>   CAL_POND_A   4290    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Self-consume    <br>   FARM_ID   769546    <br>   SHAPE_Leng   287.567401    <br>   SHAPE_Area   4289.672815              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">27</SimpleData>
@@ -1161,7 +1210,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000012">
 			<name>ST087</name>
 			<description><![CDATA[description:               <br>   ST087    <br>       <br>   FID   27    <br>   POND_NO   ST087    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101290    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101291    <br>   PHOTO   101292    <br>   LAST_UPDAT   4/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   1685    <br>   CAL_POND_A   2516    <br>   AFFS   Y    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   672551    <br>   SHAPE_Leng   194.395501    <br>   SHAPE_Area   2516.264367              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">28</SimpleData>
@@ -1220,7 +1269,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000013">
 			<name>ST038c</name>
 			<description><![CDATA[description:               <br>   ST038c    <br>       <br>   FID   28    <br>   POND_NO   ST038c    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   112205    <br>   PLAN_PROJE       <br>   PLAN_REPOR   112206    <br>   PHOTO   112207    <br>   LAST_UPDAT   6/30/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   9556    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   21    <br>   SHAPE_Leng   443.752722    <br>   SHAPE_Area   9556.433588              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">29</SimpleData>
@@ -1279,7 +1328,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000014">
 			<name>ST081</name>
 			<description><![CDATA[description:               <br>   ST081    <br>       <br>   FID   29    <br>   POND_NO   ST081    <br>   GRADING       <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   115165    <br>   PLAN_PROJE       <br>   PLAN_REPOR   115166    <br>   PHOTO   115167    <br>   LAST_UPDAT   1/5/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   0    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   11321    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   770586    <br>   SHAPE_Leng   450.192159    <br>   SHAPE_Area   11321.418088              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">30</SimpleData>
@@ -1338,7 +1387,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000015">
 			<name>ST013B</name>
 			<description><![CDATA[description:               <br>   ST013B    <br>       <br>   FID   30    <br>   POND_NO   ST013B    <br>   GRADING       <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   115212    <br>   PLAN_PROJE       <br>   PLAN_REPOR   115213    <br>   PHOTO   115214    <br>   LAST_UPDAT   1/23/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   0    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   2168    <br>   AFFS   Y    <br>   LANDUSAGE   0    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   189.452756    <br>   SHAPE_Area   2168.472868              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">31</SimpleData>
@@ -1397,7 +1446,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000016">
 			<name>ST013A</name>
 			<description><![CDATA[description:               <br>   ST013A    <br>       <br>   FID   31    <br>   POND_NO   ST013A    <br>   GRADING       <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   115209    <br>   PLAN_PROJE       <br>   PLAN_REPOR   115210    <br>   PHOTO   115211    <br>   LAST_UPDAT   1/23/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   0    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   2656    <br>   AFFS   Y    <br>   LANDUSAGE   0    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   199.213184    <br>   SHAPE_Area   2655.972186              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">32</SimpleData>
@@ -1456,7 +1505,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000017">
 			<name>ST038b</name>
 			<description><![CDATA[description:               <br>   ST038b    <br>       <br>   FID   32    <br>   POND_NO   ST038b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101412    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101413    <br>   PHOTO   101414    <br>   LAST_UPDAT   6/30/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   7556    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   21    <br>   SHAPE_Leng   348.837397    <br>   SHAPE_Area   7555.681715              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">33</SimpleData>
@@ -1515,7 +1564,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000018">
 			<name>ST200</name>
 			<description><![CDATA[description:               <br>   ST200    <br>       <br>   FID   33    <br>   POND_NO   ST200    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106170    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106171    <br>   PHOTO   106172    <br>   LAST_UPDAT   7/10/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   2359    <br>   CAL_POND_A   2532    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Self-consume    <br>   FARM_ID   608849    <br>   SHAPE_Leng   209.126625    <br>   SHAPE_Area   2532.261893              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">34</SimpleData>
@@ -1574,7 +1623,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000019">
 			<name>ST129</name>
 			<description><![CDATA[description:               <br>   ST129    <br>       <br>   FID   36    <br>   POND_NO   ST129    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103209    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103210    <br>   PHOTO   103211    <br>   LAST_UPDAT   2/13/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   9436    <br>   CAL_POND_A   10467    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   44    <br>   SHAPE_Leng   442.535518    <br>   SHAPE_Area   10466.653978              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">37</SimpleData>
@@ -1633,7 +1682,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00001A">
 			<name>ST199</name>
 			<description><![CDATA[description:               <br>   ST199    <br>       <br>   FID   45    <br>   POND_NO   ST199    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106167    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106168    <br>   PHOTO   106169    <br>   LAST_UPDAT   7/10/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   2696    <br>   CAL_POND_A   3080    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Self-consume    <br>   FARM_ID   608849    <br>   SHAPE_Leng   259.308007    <br>   SHAPE_Area   3079.898627              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">46</SimpleData>
@@ -1692,7 +1741,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00001B">
 			<name>ST128</name>
 			<description><![CDATA[description:               <br>   ST128    <br>       <br>   FID   49    <br>   POND_NO   ST128    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103206    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103207    <br>   PHOTO   103208    <br>   LAST_UPDAT   2/13/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   14828    <br>   CAL_POND_A   13956    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   44    <br>   SHAPE_Leng   531.824606    <br>   SHAPE_Area   13956.386702              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">50</SimpleData>
@@ -1751,7 +1800,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00001C">
 			<name>ST209</name>
 			<description><![CDATA[description:               <br>   ST209    <br>       <br>   FID   56    <br>   POND_NO   ST209    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106197    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106198    <br>   PHOTO   106199    <br>   LAST_UPDAT   5/27/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   9436    <br>   CAL_POND_A   8240    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   673609    <br>   SHAPE_Leng   429.225143    <br>   SHAPE_Area   8239.948109              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">57</SimpleData>
@@ -1810,7 +1859,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00001D">
 			<name>ST148</name>
 			<description><![CDATA[description:               <br>   ST148    <br>       <br>   FID   67    <br>   POND_NO   ST148    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106065    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106066    <br>   PHOTO   106067    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   6430    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   440.846351    <br>   SHAPE_Area   6429.936818              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">68</SimpleData>
@@ -1869,7 +1918,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00001E">
 			<name>ST067</name>
 			<description><![CDATA[description:               <br>   ST067    <br>       <br>   FID   69    <br>   POND_NO   ST067    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104153    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104154    <br>   PHOTO   104155    <br>   LAST_UPDAT   5/7/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   17524    <br>   CAL_POND_A   17896    <br>   AFFS   Y    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   34    <br>   SHAPE_Leng   588.64967    <br>   SHAPE_Area   17895.972818              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">70</SimpleData>
@@ -1935,7 +1984,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00001F">
 			<name>ST076</name>
 			<description><![CDATA[description:               <br>   ST076    <br>       <br>   FID   72    <br>   POND_NO   ST076    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   102544    <br>   PLAN_PROJE       <br>   PLAN_REPOR   102545    <br>   PHOTO   102546    <br>   LAST_UPDAT   1/2/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   16850    <br>   CAL_POND_A   15303    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   770586    <br>   SHAPE_Leng   507.205542    <br>   SHAPE_Area   15303.472904              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">73</SimpleData>
@@ -1994,7 +2043,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000020">
 			<name>ST198b</name>
 			<description><![CDATA[description:               <br>   ST198b    <br>       <br>   FID   83    <br>   POND_NO   ST198b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106164    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106165    <br>   PHOTO   106166    <br>   LAST_UPDAT   8/13/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   3370    <br>   CAL_POND_A   3065    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   53    <br>   SHAPE_Leng   278.279115    <br>   SHAPE_Area   3065.33393              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">83</SimpleData>
@@ -2053,7 +2102,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000021">
 			<name>ST090</name>
 			<description><![CDATA[description:               <br>   ST090    <br>       <br>   FID   88    <br>   POND_NO   ST090    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   113534    <br>   PLAN_PROJE       <br>   PLAN_REPOR   113535    <br>   PHOTO   113536    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   7414    <br>   CAL_POND_A   6895    <br>   AFFS       <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   521.369814    <br>   SHAPE_Area   6894.528635              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">88</SimpleData>
@@ -2112,7 +2161,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000022">
 			<name>ST091</name>
 			<description><![CDATA[description:               <br>   ST091    <br>       <br>   FID   89    <br>   POND_NO   ST091    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   107285    <br>   PLAN_PROJE       <br>   PLAN_REPOR   107286    <br>   PHOTO   107287    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   21231    <br>   CAL_POND_A   21354    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   0    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   791.205832    <br>   SHAPE_Area   21353.827576              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">89</SimpleData>
@@ -2178,7 +2227,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000023">
 			<name>ST096</name>
 			<description><![CDATA[description:               <br>   ST096    <br>       <br>   FID   90    <br>   POND_NO   ST096    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   107294    <br>   PLAN_PROJE       <br>   PLAN_REPOR   107295    <br>   PHOTO   107296    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   8088    <br>   CAL_POND_A   10473    <br>   AFFS       <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   0    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   444.33586    <br>   SHAPE_Area   10472.972245              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">90</SimpleData>
@@ -2244,7 +2293,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000024">
 			<name>ST151</name>
 			<description><![CDATA[description:               <br>   ST151    <br>       <br>   FID   93    <br>   POND_NO   ST151    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106074    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106075    <br>   PHOTO   106076    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   10550    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   403.68079    <br>   SHAPE_Area   10550.30311              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">93</SimpleData>
@@ -2303,7 +2352,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000025">
 			<name>ST190</name>
 			<description><![CDATA[description:               <br>   ST190    <br>       <br>   FID   95    <br>   POND_NO   ST190    <br>   GRADING       <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110572    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110573    <br>   PHOTO   110574    <br>   LAST_UPDAT   7/17/2009    <br>   LAST_UPD_1   kkchan4    <br>   PFCZ   28    <br>   PFCZ_SYS_D       <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   6621    <br>   AFFS       <br>   LANDUSAGE   0    <br>   LU_SYS_DET       <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   0    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   420.184188    <br>   SHAPE_Area   6620.64302              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">95</SimpleData>
@@ -2362,7 +2411,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000026">
 			<name>MP147</name>
 			<description><![CDATA[description:               <br>   MP147    <br>       <br>   FID   97    <br>   POND_NO   MP147    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105681    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105682    <br>   PHOTO   105683    <br>   LAST_UPDAT   8/27/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   20220    <br>   CAL_POND_A   18074    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   700369    <br>   SHAPE_Leng   565.517188    <br>   SHAPE_Area   18074.197082              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">97</SimpleData>
@@ -2421,7 +2470,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000027">
 			<name>ST207</name>
 			<description><![CDATA[description:               <br>   ST207    <br>       <br>   FID   98    <br>   POND_NO   ST207    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106191    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106192    <br>   PHOTO   106193    <br>   LAST_UPDAT   5/27/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   4718    <br>   CAL_POND_A   4839    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   673609    <br>   SHAPE_Leng   350.993186    <br>   SHAPE_Area   4839.478255              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">98</SimpleData>
@@ -2480,7 +2529,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000028">
 			<name>ST080</name>
 			<description><![CDATA[description:               <br>   ST080    <br>       <br>   FID   101    <br>   POND_NO   ST080    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108402    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108403    <br>   PHOTO   108404    <br>   LAST_UPDAT   1/2/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   16850    <br>   CAL_POND_A   17095    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   770586    <br>   SHAPE_Leng   546.983309    <br>   SHAPE_Area   17094.686101              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">101</SimpleData>
@@ -2539,7 +2588,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000029">
 			<name>MP083</name>
 			<description><![CDATA[description:               <br>   MP083    <br>       <br>   FID   102    <br>   POND_NO   MP083    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105447    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105448    <br>   PHOTO   105449    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   4044    <br>   CAL_POND_A   5037    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   323.014973    <br>   SHAPE_Area   5037.301843              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">102</SimpleData>
@@ -2598,7 +2647,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00002A">
 			<name>ST206</name>
 			<description><![CDATA[description:               <br>   ST206    <br>       <br>   FID   104    <br>   POND_NO   ST206    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106188    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106189    <br>   PHOTO   106190    <br>   LAST_UPDAT   5/27/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   16850    <br>   CAL_POND_A   15721    <br>   AFFS   N    <br>   LANDUSAGE   9    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   673609    <br>   SHAPE_Leng   628.229889    <br>   SHAPE_Area   15721.038893              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">104</SimpleData>
@@ -2657,7 +2706,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00002B">
 			<name>ST024</name>
 			<description><![CDATA[description:               <br>   ST024    <br>       <br>   FID   106    <br>   POND_NO   ST024    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103626    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103627    <br>   PHOTO   103628    <br>   LAST_UPDAT   10/3/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   5392    <br>   CAL_POND_A   6329    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   685975    <br>   SHAPE_Leng   312.952891    <br>   SHAPE_Area   6328.845516              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">106</SimpleData>
@@ -2716,7 +2765,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00002C">
 			<name>ST117</name>
 			<description><![CDATA[description:               <br>   ST117    <br>       <br>   FID   108    <br>   POND_NO   ST117    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101514    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101515    <br>   PHOTO   101516    <br>   LAST_UPDAT   1/2/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   15502    <br>   CAL_POND_A   13176    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   770586    <br>   SHAPE_Leng   454.886066    <br>   SHAPE_Area   13175.854577              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">108</SimpleData>
@@ -2775,7 +2824,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00002D">
 			<name>ST034</name>
 			<description><![CDATA[description:               <br>   ST034    <br>       <br>   FID   109    <br>   POND_NO   ST034    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   112884    <br>   PLAN_PROJE       <br>   PLAN_REPOR   112885    <br>   PHOTO   112886    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   4044    <br>   CAL_POND_A   4813    <br>   AFFS       <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   300.3961    <br>   SHAPE_Area   4812.984672              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">109</SimpleData>
@@ -2841,7 +2890,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00002E">
 			<name>ST031</name>
 			<description><![CDATA[description:               <br>   ST031    <br>       <br>   FID   110    <br>   POND_NO   ST031    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103652    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103653    <br>   PHOTO   103654    <br>   LAST_UPDAT   3/12/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   1011    <br>   CAL_POND_A   1340    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   20    <br>   SHAPE_Leng   154.698013    <br>   SHAPE_Area   1339.64206              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">110</SimpleData>
@@ -2900,7 +2949,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00002F">
 			<name>ST052</name>
 			<description><![CDATA[description:               <br>   ST052    <br>       <br>   FID   111    <br>   POND_NO   ST052    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106002    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106003    <br>   PHOTO   106004    <br>   LAST_UPDAT   6/30/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   9436    <br>   CAL_POND_A   8915    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   56    <br>   SHAPE_Leng   394.516654    <br>   SHAPE_Area   8914.697945              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">111</SimpleData>
@@ -2966,7 +3015,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000030">
 			<name>MP149</name>
 			<description><![CDATA[description:               <br>   MP149    <br>       <br>   FID   112    <br>   POND_NO   MP149    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103218    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103219    <br>   PHOTO   103220    <br>   LAST_UPDAT   8/11/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   10110    <br>   CAL_POND_A   11357    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   7    <br>   SHAPE_Leng   435.600359    <br>   SHAPE_Area   11356.763432              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">112</SimpleData>
@@ -3025,7 +3074,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000031">
 			<name>MP150</name>
 			<description><![CDATA[description:               <br>   MP150    <br>       <br>   FID   113    <br>   POND_NO   MP150    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103694    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103695    <br>   PHOTO   103696    <br>   LAST_UPDAT   8/11/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   12132    <br>   CAL_POND_A   13582    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   7    <br>   SHAPE_Leng   471.543264    <br>   SHAPE_Area   13582.242867              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">113</SimpleData>
@@ -3084,7 +3133,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000032">
 			<name>ST147</name>
 			<description><![CDATA[description:               <br>   ST147    <br>       <br>   FID   114    <br>   POND_NO   ST147    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106062    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106063    <br>   PHOTO   106064    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   9947    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   417.887815    <br>   SHAPE_Area   9947.208813              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">114</SimpleData>
@@ -3150,7 +3199,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000033">
 			<name>ST062b</name>
 			<description><![CDATA[description:               <br>   ST062b    <br>       <br>   FID   115    <br>   POND_NO   ST062b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108583    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108584    <br>   PHOTO   108585    <br>   LAST_UPDAT   3/14/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   9157    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   33    <br>   SHAPE_Leng   415.237889    <br>   SHAPE_Area   9157.4444              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">115</SimpleData>
@@ -3209,7 +3258,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000034">
 			<name>ST062a</name>
 			<description><![CDATA[description:               <br>   ST062a    <br>       <br>   FID   116    <br>   POND_NO   ST062a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106020    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106021    <br>   PHOTO   106022    <br>   LAST_UPDAT   3/14/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   6827    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   33    <br>   SHAPE_Leng   332.782228    <br>   SHAPE_Area   6827.041547              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">116</SimpleData>
@@ -3268,7 +3317,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000035">
 			<name>ST224</name>
 			<description><![CDATA[description:               <br>   ST224    <br>       <br>   FID   117    <br>   POND_NO   ST224    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106803    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106804    <br>   PHOTO   106805    <br>   LAST_UPDAT   6/9/2014    <br>   LAST_UPD_1   tffung    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   2696    <br>   CAL_POND_A   3437    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   54    <br>   SHAPE_Leng   275.039913    <br>   SHAPE_Area   3436.747904              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">117</SimpleData>
@@ -3327,7 +3376,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000036">
 			<name>ST065</name>
 			<description><![CDATA[description:               <br>   ST065    <br>       <br>   FID   118    <br>   POND_NO   ST065    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108633    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108634    <br>   PHOTO   108635    <br>   LAST_UPDAT   1/3/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   13480    <br>   CAL_POND_A   14200    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   40    <br>   SHAPE_Leng   504.876601    <br>   SHAPE_Area   14200.065217              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">118</SimpleData>
@@ -3386,7 +3435,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000037">
 			<name>MP074</name>
 			<description><![CDATA[description:               <br>   MP074    <br>       <br>   FID   119    <br>   POND_NO   MP074    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105420    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105421    <br>   PHOTO   105422    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   2022    <br>   CAL_POND_A   2611    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   269.273965    <br>   SHAPE_Area   2610.824155              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">119</SimpleData>
@@ -3445,7 +3494,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000038">
 			<name>MP140a</name>
 			<description><![CDATA[description:               <br>   MP140a    <br>       <br>   FID   122    <br>   POND_NO   MP140a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105666    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105667    <br>   PHOTO   105668    <br>   LAST_UPDAT   1/9/2015    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   7795    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   763346    <br>   SHAPE_Leng   372.198708    <br>   SHAPE_Area   7795.190428              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">122</SimpleData>
@@ -3504,7 +3553,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000039">
 			<name>ST054</name>
 			<description><![CDATA[description:               <br>   ST054    <br>       <br>   FID   124    <br>   POND_NO   ST054    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   112905    <br>   PLAN_PROJE       <br>   PLAN_REPOR   112906    <br>   PHOTO   112907    <br>   LAST_UPDAT   7/22/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   10277    <br>   AFFS   Y    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   45    <br>   SHAPE_Leng   423.627298    <br>   SHAPE_Area   10276.907244              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">124</SimpleData>
@@ -3563,7 +3612,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00003A">
 			<name>ST068</name>
 			<description><![CDATA[description:               <br>   ST068    <br>       <br>   FID   125    <br>   POND_NO   ST068    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101651    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101652    <br>   PHOTO   101653    <br>   LAST_UPDAT   5/7/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   14828    <br>   CAL_POND_A   15887    <br>   AFFS   Y    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   34    <br>   SHAPE_Leng   556.675546    <br>   SHAPE_Area   15886.737213              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">125</SimpleData>
@@ -3629,7 +3678,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00003B">
 			<name>ST222</name>
 			<description><![CDATA[description:               <br>   ST222    <br>       <br>   FID   127    <br>   POND_NO   ST222    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103727    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103728    <br>   PHOTO   103729    <br>   LAST_UPDAT   6/10/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   12132    <br>   CAL_POND_A   11487    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   54    <br>   SHAPE_Leng   462.961685    <br>   SHAPE_Area   11486.999555              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">127</SimpleData>
@@ -3688,7 +3737,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00003C">
 			<name>ST123</name>
 			<description><![CDATA[description:               <br>   ST123    <br>       <br>   FID   139    <br>   POND_NO   ST123    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   102899    <br>   PLAN_PROJE       <br>   PLAN_REPOR   102900    <br>   PHOTO   102901    <br>   LAST_UPDAT   10/8/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   5392    <br>   CAL_POND_A   5663    <br>   AFFS   Y    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   36    <br>   SHAPE_Leng   337.317033    <br>   SHAPE_Area   5663.437321              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">139</SimpleData>
@@ -3754,7 +3803,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00003D">
 			<name>MP172b</name>
 			<description><![CDATA[description:               <br>   MP172b    <br>       <br>   FID   143    <br>   POND_NO   MP172b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   100933    <br>   PLAN_PROJE       <br>   PLAN_REPOR   100934    <br>   PHOTO   100935    <br>   LAST_UPDAT   4/19/2011    <br>   LAST_UPD_1   kmng2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   12806    <br>   CAL_POND_A   11634    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   142    <br>   SHAPE_Leng   452.836203    <br>   SHAPE_Area   11634.151813              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">143</SimpleData>
@@ -3813,7 +3862,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00003E">
 			<name>MP075</name>
 			<description><![CDATA[description:               <br>   MP075    <br>       <br>   FID   145    <br>   POND_NO   MP075    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105423    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105424    <br>   PHOTO   105425    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   9436    <br>   CAL_POND_A   7240    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   370.969583    <br>   SHAPE_Area   7240.250258              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">145</SimpleData>
@@ -3872,7 +3921,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00003F">
 			<name>ST204</name>
 			<description><![CDATA[description:               <br>   ST204    <br>       <br>   FID   146    <br>   POND_NO   ST204    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106182    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106183    <br>   PHOTO   106184    <br>   LAST_UPDAT   2/11/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   3370    <br>   CAL_POND_A   4013    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Self-consume    <br>   FARM_ID   663189    <br>   SHAPE_Leng   270.076807    <br>   SHAPE_Area   4012.696839              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">146</SimpleData>
@@ -3931,7 +3980,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000040">
 			<name>MP079</name>
 			<description><![CDATA[description:               <br>   MP079    <br>       <br>   FID   147    <br>   POND_NO   MP079    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105432    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105433    <br>   PHOTO   105434    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   3370    <br>   CAL_POND_A   3285    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   281.525641    <br>   SHAPE_Area   3284.839755              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">147</SimpleData>
@@ -3990,7 +4039,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000041">
 			<name>ST056</name>
 			<description><![CDATA[description:               <br>   ST056    <br>       <br>   FID   149    <br>   POND_NO   ST056    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   102778    <br>   PLAN_PROJE       <br>   PLAN_REPOR   102779    <br>   PHOTO   102780    <br>   LAST_UPDAT   3/14/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   7414    <br>   CAL_POND_A   7595    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   19    <br>   SHAPE_Leng   362.570528    <br>   SHAPE_Area   7595.135393              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">149</SimpleData>
@@ -4049,7 +4098,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000042">
 			<name>ST058</name>
 			<description><![CDATA[description:               <br>   ST058    <br>       <br>   FID   150    <br>   POND_NO   ST058    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106017    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106018    <br>   PHOTO   106019    <br>   LAST_UPDAT   6/17/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   12132    <br>   CAL_POND_A   13178    <br>   AFFS   N    <br>   LANDUSAGE   24    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   25    <br>   SHAPE_Leng   468.827039    <br>   SHAPE_Area   13178.364595              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">150</SimpleData>
@@ -4108,7 +4157,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000043">
 			<name>MP132</name>
 			<description><![CDATA[description:               <br>   MP132    <br>       <br>   FID   152    <br>   POND_NO   MP132    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105645    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105646    <br>   PHOTO   105647    <br>   LAST_UPDAT   11/24/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   8762    <br>   CAL_POND_A   10580    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   202    <br>   SHAPE_Leng   427.19886    <br>   SHAPE_Area   10580.317808              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">152</SimpleData>
@@ -4167,7 +4216,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000044">
 			<name>ST057</name>
 			<description><![CDATA[description:               <br>   ST057    <br>       <br>   FID   162    <br>   POND_NO   ST057    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106014    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106015    <br>   PHOTO   106016    <br>   LAST_UPDAT   3/14/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   14828    <br>   CAL_POND_A   15274    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   19    <br>   SHAPE_Leng   569.570535    <br>   SHAPE_Area   15273.822915              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">162</SimpleData>
@@ -4233,7 +4282,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000045">
 			<name>MP076</name>
 			<description><![CDATA[description:               <br>   MP076    <br>       <br>   FID   163    <br>   POND_NO   MP076    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   102905    <br>   PLAN_PROJE       <br>   PLAN_REPOR   102906    <br>   PHOTO   102907    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   4718    <br>   CAL_POND_A   5427    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   309.573056    <br>   SHAPE_Area   5427.223119              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">163</SimpleData>
@@ -4292,7 +4341,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000046">
 			<name>MP134</name>
 			<description><![CDATA[description:               <br>   MP134    <br>       <br>   FID   165    <br>   POND_NO   MP134    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104247    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104248    <br>   PHOTO   104249    <br>   LAST_UPDAT   5/21/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   16850    <br>   CAL_POND_A   16833    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Self-retail    <br>   FARM_ID   17    <br>   SHAPE_Leng   529.413372    <br>   SHAPE_Area   16833.068895              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">165</SimpleData>
@@ -4351,7 +4400,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000047">
 			<name>ST098</name>
 			<description><![CDATA[description:               <br>   ST098    <br>       <br>   FID   172    <br>   POND_NO   ST098    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106672    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106673    <br>   PHOTO   106674    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   7414    <br>   CAL_POND_A   7207    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   558.086173    <br>   SHAPE_Area   7206.612891              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">172</SimpleData>
@@ -4417,7 +4466,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000048">
 			<name>ST244</name>
 			<description><![CDATA[description:               <br>   ST244    <br>       <br>   FID   179    <br>   POND_NO   ST244    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106882    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106883    <br>   PHOTO   106884    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   17524    <br>   CAL_POND_A   16629    <br>   AFFS       <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   628.277833    <br>   SHAPE_Area   16629.372996              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">179</SimpleData>
@@ -4483,7 +4532,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000049">
 			<name>ST055</name>
 			<description><![CDATA[description:               <br>   ST055    <br>       <br>   FID   180    <br>   POND_NO   ST055    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106011    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106012    <br>   PHOTO   106013    <br>   LAST_UPDAT   3/3/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   10110    <br>   CAL_POND_A   10083    <br>   AFFS   N    <br>   LANDUSAGE   24    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   45    <br>   SHAPE_Leng   419.031491    <br>   SHAPE_Area   10082.740465              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">180</SimpleData>
@@ -4542,7 +4591,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00004A">
 			<name>ST164</name>
 			<description><![CDATA[description:               <br>   ST164    <br>       <br>   FID   181    <br>   POND_NO   ST164    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106107    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106108    <br>   PHOTO   106109    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   8186    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   386.714343    <br>   SHAPE_Area   8185.69664              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">181</SimpleData>
@@ -4601,7 +4650,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00004B">
 			<name>MP131</name>
 			<description><![CDATA[description:               <br>   MP131    <br>       <br>   FID   182    <br>   POND_NO   MP131    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105642    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105643    <br>   PHOTO   105644    <br>   LAST_UPDAT   10/7/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   12132    <br>   CAL_POND_A   12595    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   734107    <br>   SHAPE_Leng   427.468151    <br>   SHAPE_Area   12595.282142              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">182</SimpleData>
@@ -4660,7 +4709,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00004C">
 			<name>ST165</name>
 			<description><![CDATA[description:               <br>   ST165    <br>       <br>   FID   184    <br>   POND_NO   ST165    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106110    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106111    <br>   PHOTO   106112    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   7279    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   383.63058    <br>   SHAPE_Area   7278.970402              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">184</SimpleData>
@@ -4719,7 +4768,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00004D">
 			<name>ST178</name>
 			<description><![CDATA[description:               <br>   ST178    <br>       <br>   FID   185    <br>   POND_NO   ST178    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   114400    <br>   PLAN_PROJE       <br>   PLAN_REPOR   114401    <br>   PHOTO   114402    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   5429    <br>   AFFS       <br>   LANDUSAGE   8    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   326.111987    <br>   SHAPE_Area   5428.739051              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">185</SimpleData>
@@ -4785,7 +4834,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00004E">
 			<name>ST176</name>
 			<description><![CDATA[description:               <br>   ST176    <br>       <br>   FID   186    <br>   POND_NO   ST176    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   114397    <br>   PLAN_PROJE       <br>   PLAN_REPOR   114398    <br>   PHOTO   114399    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   2110    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   209.957154    <br>   SHAPE_Area   2110.22996              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">186</SimpleData>
@@ -4844,7 +4893,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00004F">
 			<name>ST182</name>
 			<description><![CDATA[description:               <br>   ST182    <br>       <br>   FID   187    <br>   POND_NO   ST182    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   114403    <br>   PLAN_PROJE       <br>   PLAN_REPOR   114404    <br>   PHOTO   114405    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   1685    <br>   CAL_POND_A   2577    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   223.016583    <br>   SHAPE_Area   2577.057182              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">187</SimpleData>
@@ -4903,7 +4952,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000050">
 			<name>MP093b</name>
 			<description><![CDATA[description:               <br>   MP093b    <br>       <br>   FID   188    <br>   POND_NO   MP093b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105480    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105481    <br>   PHOTO   105482    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   12132    <br>   CAL_POND_A   12950    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   4    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   541.292073    <br>   SHAPE_Area   12950.055011              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">188</SimpleData>
@@ -4969,7 +5018,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000051">
 			<name>ST126</name>
 			<description><![CDATA[description:               <br>   ST126    <br>       <br>   FID   190    <br>   POND_NO   ST126    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103200    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103201    <br>   PHOTO   103202    <br>   LAST_UPDAT   2/13/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   11427    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   44    <br>   SHAPE_Leng   420.668663    <br>   SHAPE_Area   11426.979571              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">190</SimpleData>
@@ -5028,7 +5077,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000052">
 			<name>MP140b</name>
 			<description><![CDATA[description:               <br>   MP140b    <br>       <br>   FID   191    <br>   POND_NO   MP140b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108985    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108986    <br>   PHOTO   108987    <br>   LAST_UPDAT   1/9/2015    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   8025    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   763346    <br>   SHAPE_Leng   346.753552    <br>   SHAPE_Area   8024.938114              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">191</SimpleData>
@@ -5087,7 +5136,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000053">
 			<name>ST246</name>
 			<description><![CDATA[description:               <br>   ST246    <br>       <br>   FID   194    <br>   POND_NO   ST246    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   114418    <br>   PLAN_PROJE       <br>   PLAN_REPOR   114419    <br>   PHOTO   114420    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   14828    <br>   CAL_POND_A   13667    <br>   AFFS       <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   557.552173    <br>   SHAPE_Area   13666.831027              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">194</SimpleData>
@@ -5146,7 +5195,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000054">
 			<name>ST216</name>
 			<description><![CDATA[description:               <br>   ST216    <br>       <br>   FID   196    <br>   POND_NO   ST216    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   111065    <br>   PLAN_PROJE       <br>   PLAN_REPOR   111066    <br>   PHOTO   111067    <br>   LAST_UPDAT   9/16/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   6740    <br>   CAL_POND_A   9358    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   690106    <br>   SHAPE_Leng   402.389836    <br>   SHAPE_Area   9358.465075              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">196</SimpleData>
@@ -5205,7 +5254,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000055">
 			<name>ST040</name>
 			<description><![CDATA[description:               <br>   ST040    <br>       <br>   FID   197    <br>   POND_NO   ST040    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103617    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103618    <br>   PHOTO   103619    <br>   LAST_UPDAT   1/3/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   10110    <br>   CAL_POND_A   9855    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   38    <br>   SHAPE_Leng   426.519471    <br>   SHAPE_Area   9855.303678              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">197</SimpleData>
@@ -5264,7 +5313,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000056">
 			<name>MP143</name>
 			<description><![CDATA[description:               <br>   MP143    <br>       <br>   FID   199    <br>   POND_NO   MP143    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105672    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105673    <br>   PHOTO   105674    <br>   LAST_UPDAT   8/27/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   15502    <br>   CAL_POND_A   15118    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   700369    <br>   SHAPE_Leng   487.71128    <br>   SHAPE_Area   15118.294831              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">199</SimpleData>
@@ -5323,7 +5372,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000057">
 			<name>MP145</name>
 			<description><![CDATA[description:               <br>   MP145    <br>       <br>   FID   200    <br>   POND_NO   MP145    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101552    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101553    <br>   PHOTO   101554    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   14828    <br>   CAL_POND_A   15461    <br>   AFFS       <br>   LANDUSAGE   24    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   4    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   530.836984    <br>   SHAPE_Area   15460.888744              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">200</SimpleData>
@@ -5389,7 +5438,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000058">
 			<name>ST089</name>
 			<description><![CDATA[description:               <br>   ST089    <br>       <br>   FID   201    <br>   POND_NO   ST089    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   107282    <br>   PLAN_PROJE       <br>   PLAN_REPOR   107283    <br>   PHOTO   107284    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   N    <br>   CULTURE_ME   0    <br>   EST_POND_A   1685    <br>   CAL_POND_A   1416    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   183.940655    <br>   SHAPE_Area   1416.025742              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">201</SimpleData>
@@ -5448,7 +5497,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000059">
 			<name>ST146</name>
 			<description><![CDATA[description:               <br>   ST146    <br>       <br>   FID   203    <br>   POND_NO   ST146    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103933    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103934    <br>   PHOTO   103935    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   12829    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   496.703112    <br>   SHAPE_Area   12828.857056              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">203</SimpleData>
@@ -5507,7 +5556,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00005A">
 			<name>ST120</name>
 			<description><![CDATA[description:               <br>   ST120    <br>       <br>   FID   204    <br>   POND_NO   ST120    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108548    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108549    <br>   PHOTO   108550    <br>   LAST_UPDAT   7/2/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   18004    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   6    <br>   SHAPE_Leng   552.458693    <br>   SHAPE_Area   18003.815573              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">204</SimpleData>
@@ -5577,7 +5626,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00005B">
 			<name>MP178</name>
 			<description><![CDATA[description:               <br>   MP178    <br>       <br>   FID   206    <br>   POND_NO   MP178    <br>   GRADING       <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105504    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105505    <br>   PHOTO   105506    <br>   LAST_UPDAT   2/5/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   8524    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Others    <br>   FARM_ID   243    <br>   SHAPE_Leng   415.486038    <br>   SHAPE_Area   8524.012589              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">206</SimpleData>
@@ -5636,7 +5685,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00005C">
 			<name>MP133b</name>
 			<description><![CDATA[description:               <br>   MP133b    <br>       <br>   FID   207    <br>   POND_NO   MP133b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105651    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105652    <br>   PHOTO   105653    <br>   LAST_UPDAT   11/24/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8088    <br>   CAL_POND_A   4441    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   202    <br>   SHAPE_Leng   282.559591    <br>   SHAPE_Area   4441.330356              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">207</SimpleData>
@@ -5695,7 +5744,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00005D">
 			<name>ST082</name>
 			<description><![CDATA[description:               <br>   ST082    <br>       <br>   FID   220    <br>   POND_NO   ST082    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   102954    <br>   PLAN_PROJE       <br>   PLAN_REPOR   102955    <br>   PHOTO   102956    <br>   LAST_UPDAT   1/2/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   11458    <br>   CAL_POND_A   10876    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   770586    <br>   SHAPE_Leng   444.3221    <br>   SHAPE_Area   10876.32653              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">220</SimpleData>
@@ -5754,7 +5803,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00005E">
 			<name>MP088</name>
 			<description><![CDATA[description:               <br>   MP088    <br>       <br>   FID   224    <br>   POND_NO   MP088    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105462    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105463    <br>   PHOTO   105464    <br>   LAST_UPDAT   10/20/2011    <br>   LAST_UPD_1   kmng2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   5392    <br>   CAL_POND_A   5959    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   4    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   135    <br>   SHAPE_Leng   359.813256    <br>   SHAPE_Area   5959.347439              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">224</SimpleData>
@@ -5820,7 +5869,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00005F">
 			<name>ST006</name>
 			<description><![CDATA[description:               <br>   ST006    <br>       <br>   FID   225    <br>   POND_NO   ST006    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103739    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103740    <br>   PHOTO   103741    <br>   LAST_UPDAT   5/2/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   9436    <br>   CAL_POND_A   9401    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   43    <br>   SHAPE_Leng   394.317385    <br>   SHAPE_Area   9400.586707              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">225</SimpleData>
@@ -5879,7 +5928,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000060">
 			<name>ST010</name>
 			<description><![CDATA[description:               <br>   ST010    <br>       <br>   FID   227    <br>   POND_NO   ST010    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104035    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104036    <br>   PHOTO   104037    <br>   LAST_UPDAT   1/2/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   4718    <br>   CAL_POND_A   6780    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   41    <br>   SHAPE_Leng   315.67005    <br>   SHAPE_Area   6780.245515              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">227</SimpleData>
@@ -5938,7 +5987,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000061">
 			<name>MP204</name>
 			<description><![CDATA[description:               <br>   MP204    <br>       <br>   FID   229    <br>   POND_NO   MP204    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   107482    <br>   PLAN_PROJE       <br>   PLAN_REPOR   107483    <br>   PHOTO   107484    <br>   LAST_UPDAT   8/25/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   N    <br>   CULTURE_ME   2    <br>   EST_POND_A   600    <br>   CAL_POND_A   600    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   239    <br>   SHAPE_Leng   119.998657    <br>   SHAPE_Area   599.996174              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">229</SimpleData>
@@ -5997,7 +6046,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000062">
 			<name>ST050</name>
 			<description><![CDATA[description:               <br>   ST050    <br>       <br>   FID   233    <br>   POND_NO   ST050    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   102810    <br>   PLAN_PROJE       <br>   PLAN_REPOR   102811    <br>   PHOTO   102812    <br>   LAST_UPDAT   7/15/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8762    <br>   CAL_POND_A   6100    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale    <br>   FARM_ID   767566    <br>   SHAPE_Leng   334.102696    <br>   SHAPE_Area   6100.276738              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">233</SimpleData>
@@ -6056,7 +6105,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000063">
 			<name>ST019</name>
 			<description><![CDATA[description:               <br>   ST019    <br>       <br>   FID   234    <br>   POND_NO   ST019    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103742    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103743    <br>   PHOTO   103744    <br>   LAST_UPDAT   6/16/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8762    <br>   CAL_POND_A   8243    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   52    <br>   SHAPE_Leng   433.641524    <br>   SHAPE_Area   8242.547038              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">234</SimpleData>
@@ -6115,7 +6164,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000064">
 			<name>ST044</name>
 			<description><![CDATA[description:               <br>   ST044    <br>       <br>   FID   237    <br>   POND_NO   ST044    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   100971    <br>   PLAN_PROJE       <br>   PLAN_REPOR   100972    <br>   PHOTO   100973    <br>   LAST_UPDAT   1/8/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   6740    <br>   CAL_POND_A   7354    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   770566    <br>   SHAPE_Leng   404.049728    <br>   SHAPE_Area   7354.030031              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">237</SimpleData>
@@ -6181,7 +6230,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000065">
 			<name>ST046</name>
 			<description><![CDATA[description:               <br>   ST046    <br>       <br>   FID   238    <br>   POND_NO   ST046    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108630    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108631    <br>   PHOTO   108632    <br>   LAST_UPDAT   1/8/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8088    <br>   CAL_POND_A   9155    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   40    <br>   SHAPE_Leng   470.936776    <br>   SHAPE_Area   9154.919518              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">238</SimpleData>
@@ -6247,7 +6296,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000066">
 			<name>ST036b</name>
 			<description><![CDATA[description:               <br>   ST036b    <br>       <br>   FID   239    <br>   POND_NO   ST036b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108627    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108628    <br>   PHOTO   108629    <br>   LAST_UPDAT   6/30/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8088    <br>   CAL_POND_A   7619    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   21    <br>   SHAPE_Leng   424.786513    <br>   SHAPE_Area   7619.498282              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">239</SimpleData>
@@ -6306,7 +6355,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000067">
 			<name>ST122a</name>
 			<description><![CDATA[description:               <br>   ST122a    <br>       <br>   FID   240    <br>   POND_NO   ST122a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   100889    <br>   PLAN_PROJE       <br>   PLAN_REPOR   100890    <br>   PHOTO   100931    <br>   LAST_UPDAT   10/8/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   5392    <br>   CAL_POND_A   5810    <br>   AFFS   Y    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   36    <br>   SHAPE_Leng   301.737758    <br>   SHAPE_Area   5810.30105              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">240</SimpleData>
@@ -6365,7 +6414,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000068">
 			<name>ST049</name>
 			<description><![CDATA[description:               <br>   ST049    <br>       <br>   FID   241    <br>   POND_NO   ST049    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105996    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105997    <br>   PHOTO   105998    <br>   LAST_UPDAT   1/8/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   5392    <br>   CAL_POND_A   3210    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   39    <br>   SHAPE_Leng   223.025625    <br>   SHAPE_Area   3210.108435              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">241</SimpleData>
@@ -6424,7 +6473,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000069">
 			<name>MP080</name>
 			<description><![CDATA[description:               <br>   MP080    <br>       <br>   FID   242    <br>   POND_NO   MP080    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105435    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105436    <br>   PHOTO   105437    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   4044    <br>   CAL_POND_A   4490    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   349.238738    <br>   SHAPE_Area   4490.182863              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">242</SimpleData>
@@ -6483,7 +6532,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00006A">
 			<name>MP090</name>
 			<description><![CDATA[description:               <br>   MP090    <br>       <br>   FID   243    <br>   POND_NO   MP090    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105468    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105469    <br>   PHOTO   105470    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   2022    <br>   CAL_POND_A   1918    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   4    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   216.567075    <br>   SHAPE_Area   1917.581037              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">243</SimpleData>
@@ -6542,7 +6591,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00006B">
 			<name>ST042a</name>
 			<description><![CDATA[description:               <br>   ST042a    <br>       <br>   FID   245    <br>   POND_NO   ST042a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108005    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108006    <br>   PHOTO   108007    <br>   LAST_UPDAT   1/3/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   12132    <br>   CAL_POND_A   11987    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   38    <br>   SHAPE_Leng   442.783648    <br>   SHAPE_Area   11986.597928              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">245</SimpleData>
@@ -6601,7 +6650,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00006C">
 			<name>ST166</name>
 			<description><![CDATA[description:               <br>   ST166    <br>       <br>   FID   246    <br>   POND_NO   ST166    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   114391    <br>   PLAN_PROJE       <br>   PLAN_REPOR   114392    <br>   PHOTO   114393    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   5334    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   316.449956    <br>   SHAPE_Area   5333.613414              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">246</SimpleData>
@@ -6660,7 +6709,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00006D">
 			<name>MP089</name>
 			<description><![CDATA[description:               <br>   MP089    <br>       <br>   FID   247    <br>   POND_NO   MP089    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105465    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105466    <br>   PHOTO   105467    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   10110    <br>   CAL_POND_A   5863    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   321.12572    <br>   SHAPE_Area   5862.661758              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">247</SimpleData>
@@ -6719,7 +6768,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00006E">
 			<name>ST243</name>
 			<description><![CDATA[description:               <br>   ST243    <br>       <br>   FID   248    <br>   POND_NO   ST243    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   113989    <br>   PLAN_PROJE       <br>   PLAN_REPOR   113990    <br>   PHOTO   113991    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   14828    <br>   CAL_POND_A   14507    <br>   AFFS       <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   489.783586    <br>   SHAPE_Area   14507.00364              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">248</SimpleData>
@@ -6778,7 +6827,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00006F">
 			<name>ST017</name>
 			<description><![CDATA[description:               <br>   ST017    <br>       <br>   FID   249    <br>   POND_NO   ST017    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101579    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101580    <br>   PHOTO   101581    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   20220    <br>   CAL_POND_A   11945    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   422.643716    <br>   SHAPE_Area   11945.177506              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">249</SimpleData>
@@ -6837,7 +6886,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000070">
 			<name>MP169</name>
 			<description><![CDATA[description:               <br>   MP169    <br>       <br>   FID   250    <br>   POND_NO   MP169    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103890    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103891    <br>   PHOTO   103892    <br>   LAST_UPDAT   3/19/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   22579    <br>   CAL_POND_A   20168    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   142    <br>   SHAPE_Leng   629.154929    <br>   SHAPE_Area   20167.752742              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">250</SimpleData>
@@ -6896,7 +6945,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000071">
 			<name>MP086</name>
 			<description><![CDATA[description:               <br>   MP086    <br>       <br>   FID   251    <br>   POND_NO   MP086    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105456    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105457    <br>   PHOTO   105458    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   4718    <br>   CAL_POND_A   5536    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   414.327167    <br>   SHAPE_Area   5536.166413              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">251</SimpleData>
@@ -6962,7 +7011,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000072">
 			<name>MP087</name>
 			<description><![CDATA[description:               <br>   MP087    <br>       <br>   FID   255    <br>   POND_NO   MP087    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105459    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105460    <br>   PHOTO   105461    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   4044    <br>   CAL_POND_A   3803    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   434.680567    <br>   SHAPE_Area   3802.792883              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">255</SimpleData>
@@ -7021,7 +7070,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000073">
 			<name>ST015</name>
 			<description><![CDATA[description:               <br>   ST015    <br>       <br>   FID   256    <br>   POND_NO   ST015    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105972    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105973    <br>   PHOTO   105974    <br>   LAST_UPDAT   6/16/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   6066    <br>   CAL_POND_A   5198    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   586409    <br>   SHAPE_Leng   370.310833    <br>   SHAPE_Area   5197.777313              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">256</SimpleData>
@@ -7087,7 +7136,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000074">
 			<name>MP095</name>
 			<description><![CDATA[description:               <br>   MP095    <br>       <br>   FID   257    <br>   POND_NO   MP095    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105486    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105487    <br>   PHOTO   105488    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   13480    <br>   CAL_POND_A   14807    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   564.213442    <br>   SHAPE_Area   14807.404093              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">257</SimpleData>
@@ -7146,7 +7195,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000075">
 			<name>ST009</name>
 			<description><![CDATA[description:               <br>   ST009    <br>       <br>   FID   258    <br>   POND_NO   ST009    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103246    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103247    <br>   PHOTO   103248    <br>   LAST_UPDAT   1/2/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   16850    <br>   CAL_POND_A   16140    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   91    <br>   SHAPE_Leng   533.945542    <br>   SHAPE_Area   16139.935531              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">258</SimpleData>
@@ -7202,69 +7251,10 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark id="5BD06B9F0D000076">
-			<name>ST014</name>
-			<description><![CDATA[description:               <br>   ST014    <br>       <br>   FID   262    <br>   POND_NO   ST014    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104132    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104133    <br>   PHOTO   104134    <br>   LAST_UPDAT   6/17/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   7414    <br>   CAL_POND_A   7213    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   25    <br>   SHAPE_Leng   399.622585    <br>   SHAPE_Area   7213.363956              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="COL5BD06BA3221432FA">262</SimpleData>
-					<SimpleData name="COL5BD06BA322B4AA40">5BCCAAA426000272</SimpleData>
-					<SimpleData name="COL5BD06BA3221712EE">-1</SimpleData>
-					<SimpleData name="COL5BD06BA32284C59C">0</SimpleData>
-					<SimpleData name="COL5BD06BA322345B1E">-1</SimpleData>
-					<SimpleData name="COL5BD06BA3224393F5">
-   ST014    
-       
-   FID   262    
-   POND_NO   ST014    
-   GRADING   good    
-   ERF_REF       
-   DAMAGE_REF       
-   DAMAGE_REP   104132    
-   PLAN_PROJE       
-   PLAN_REPOR   104133    
-   PHOTO   104134    
-   LAST_UPDAT   6/17/2014    
-   LAST_UPD_1   wmli2    
-   PFCZ   28    
-   PFCZ_SYS_D   Y    
-   CULTURE_ME   1    
-   EST_POND_A   7414    
-   CAL_POND_A   7213    
-   AFFS   N    
-   LANDUSAGE   4    
-   LU_SYS_DET   Y    
-   LANDSTATUS   6    
-   LS_SYS_DET   Y    
-   POND_STATU   1    
-   REMARK       
-   SALES_CHAN   Wholesale    
-   FARM_ID   25    
-   SHAPE_Leng   399.622585    
-   SHAPE_Area   7213.363956</SimpleData>
-					<SimpleData name="COL5BD06BA322FD7493">-1</SimpleData>
-					<SimpleData name="COL5BD06BA322DFB108">0</SimpleData>
-					<SimpleData name="COL5BD06BA3223A2916">0</SimpleData>
-					<SimpleData name="COL5BD06BA32296489A"></SimpleData>
-					<SimpleData name="COL5BD06BA32249FF5F">MA — fishpond_maori__fishpond_outside_ramsar</SimpleData>
-					<SimpleData name="COL5BD06BA3225D33AC">C:\Users\User\Desktop\MA.gpkg|layername=fishpond_maori__fishpond_outside_ramsar</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							114.059271,22.500473,0 114.059284,22.500437,0 114.059281,22.500437,0 114.059288,22.500411,0 114.059301,22.500414,0 114.059316,22.500367,0 114.059301,22.500363,0 114.059308,22.500343,0 114.059376,22.500363,0 114.059398,22.500299,0 114.059365,22.500289,0 114.059373,22.500269,0 114.05938,22.500249,0 114.059349,22.50024000000001,0 114.059353,22.500228,0 114.059344,22.500225,0 114.059356,22.500219,0 114.059374,22.500213,0 114.059381,22.500211,0 114.059392,22.50021,0 114.059402,22.50021,0 114.059446,22.500216,0 114.059455,22.500218,0 114.059493,22.500228,0 114.059521,22.50023,0 114.05953,22.500232,0 114.059725,22.500287,0 114.059762,22.500295,0 114.059892,22.500325,0 114.059979,22.50035,0 114.060109,22.50038,0 114.060294,22.500436,0 114.060401,22.500459,0 114.060416,22.500463,0 114.060461,22.500477,0 114.060463,22.500478,0 114.060468,22.50048,0 114.060472,22.500483,0 114.060475,22.500485,0 114.060476,22.500488,0 114.060478,22.500494,0 114.060481,22.500531,0 114.060446,22.500532,0 114.060446,22.5006,0 114.060481,22.5006,0 114.060484,22.500621,0 114.060499,22.500706,0 114.060508,22.500733,0 114.060413,22.500723,0 114.060405,22.500766,0 114.06033,22.500764,0 114.060275,22.50076200000001,0 114.06021,22.500764,0 114.060192,22.500765,0 114.060101,22.500772,0 114.060086,22.500776,0 114.06008,22.500778,0 114.060075,22.500781,0 114.060063,22.50079,0 114.060055,22.500797,0 114.060031,22.500822,0 114.060001,22.500866,0 114.059995,22.50087600000001,0 114.059977,22.500919,0 114.059942,22.501025,0 114.059939,22.501031,0 114.059935,22.501034,0 114.059931,22.501037,0 114.059925,22.501041,0 114.05992,22.501042,0 114.059905,22.501043,0 114.059897,22.501042,0 114.05989,22.501041,0 114.059884,22.501039,0 114.059837,22.501022,0 114.059828,22.501018,0 114.059781,22.500991,0 114.059777,22.50099000000001,0 114.059771,22.500988,0 114.059766,22.500984,0 114.059759,22.50098,0 114.05964,22.500919,0 114.059609,22.500904,0 114.059539,22.500872,0 114.059232,22.50073799999999,0 114.059218,22.500731,0 114.05921,22.500727,0 114.0592,22.50072,0 114.059195,22.500716,0 114.059189,22.500707,0 114.059186,22.500701,0 114.059185,22.500694,0 114.059185,22.500688,0 114.059188,22.500667,0 114.059189,22.500654,0 114.059192,22.500638,0 114.059195,22.500625,0 114.059203,22.500605,0 114.059205,22.500601,0 114.059216,22.500586,0 114.05922,22.500579,0 114.059222,22.500577,0 114.059223,22.500576,0 114.059226,22.500575,0 114.059238,22.500575,0 114.059241,22.500574,0 114.059241,22.500572,0 114.059242,22.500566,0 114.059243,22.500543,0 114.059242,22.500538,0 114.05924,22.500533,0 114.05924,22.500531,0 114.05924,22.50052700000001,0 114.059241,22.500523,0 114.059244,22.500517,0 114.059262,22.500484,0 114.059266,22.500478,0 114.059271,22.500473,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
 		<Placemark id="5BD06B9F0D000077">
 			<name>ST194b</name>
 			<description><![CDATA[description:               <br>   ST194b    <br>       <br>   FID   263    <br>   POND_NO   ST194b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106149    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106150    <br>   PHOTO   106151    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   1685    <br>   CAL_POND_A   1121    <br>   AFFS       <br>   LANDUSAGE   23    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   133.600537    <br>   SHAPE_Area   1120.958381              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">263</SimpleData>
@@ -7323,7 +7313,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000078">
 			<name>MP151b</name>
 			<description><![CDATA[description:               <br>   MP151b    <br>       <br>   FID   265    <br>   POND_NO   MP151b    <br>   GRADING       <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   114931    <br>   PLAN_PROJE       <br>   PLAN_REPOR   114932    <br>   PHOTO   114933    <br>   LAST_UPDAT   8/22/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   N    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   7888    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   7    <br>   SHAPE_Leng   365.590074    <br>   SHAPE_Area   7888.481994              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">265</SimpleData>
@@ -7382,7 +7372,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000079">
 			<name>ST043</name>
 			<description><![CDATA[description:               <br>   ST043    <br>       <br>   FID   268    <br>   POND_NO   ST043    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101406    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101407    <br>   PHOTO   101408    <br>   LAST_UPDAT   2/13/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   4718    <br>   CAL_POND_A   5710    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   701407    <br>   SHAPE_Leng   321.610102    <br>   SHAPE_Area   5710.117986              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">268</SimpleData>
@@ -7441,7 +7431,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00007A">
 			<name>ST041</name>
 			<description><![CDATA[description:               <br>   ST041    <br>       <br>   FID   269    <br>   POND_NO   ST041    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108002    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108003    <br>   PHOTO   108004    <br>   LAST_UPDAT   1/3/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   10110    <br>   CAL_POND_A   9921    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   38    <br>   SHAPE_Leng   402.873477    <br>   SHAPE_Area   9920.684496              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">269</SimpleData>
@@ -7500,7 +7490,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00007B">
 			<name>ST227</name>
 			<description><![CDATA[description:               <br>   ST227    <br>       <br>   FID   270    <br>   POND_NO   ST227    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   112525    <br>   PLAN_PROJE       <br>   PLAN_REPOR   112526    <br>   PHOTO   112527    <br>   LAST_UPDAT   5/27/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   13480    <br>   CAL_POND_A   14670    <br>   AFFS   N    <br>   LANDUSAGE   9    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   673609    <br>   SHAPE_Leng   530.37478    <br>   SHAPE_Area   14670.126351              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">270</SimpleData>
@@ -7559,7 +7549,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00007C">
 			<name>ST205</name>
 			<description><![CDATA[description:               <br>   ST205    <br>       <br>   FID   271    <br>   POND_NO   ST205    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106185    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106186    <br>   PHOTO   106187    <br>   LAST_UPDAT   5/27/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   19546    <br>   CAL_POND_A   16538    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   673609    <br>   SHAPE_Leng   588.344836    <br>   SHAPE_Area   16537.578553              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">271</SimpleData>
@@ -7618,7 +7608,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00007D">
 			<name>ST083</name>
 			<description><![CDATA[description:               <br>   ST083    <br>       <br>   FID   272    <br>   POND_NO   ST083    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101275    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101276    <br>   PHOTO   101277    <br>   LAST_UPDAT   4/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   14828    <br>   CAL_POND_A   13005    <br>   AFFS   Y    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   672551    <br>   SHAPE_Leng   522.280409    <br>   SHAPE_Area   13004.674739              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">272</SimpleData>
@@ -7684,7 +7674,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00007E">
 			<name>MP071</name>
 			<description><![CDATA[description:               <br>   MP071    <br>       <br>   FID   273    <br>   POND_NO   MP071    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105414    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105415    <br>   PHOTO   105416    <br>   LAST_UPDAT   3/3/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   12132    <br>   CAL_POND_A   11768    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   557.836155    <br>   SHAPE_Area   11767.530726              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">273</SimpleData>
@@ -7750,7 +7740,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00007F">
 			<name>MP072</name>
 			<description><![CDATA[description:               <br>   MP072    <br>       <br>   FID   274    <br>   POND_NO   MP072    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104262    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104263    <br>   PHOTO   104264    <br>   LAST_UPDAT   3/3/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8088    <br>   CAL_POND_A   8269    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   135    <br>   SHAPE_Leng   389.911091    <br>   SHAPE_Area   8268.583731              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">274</SimpleData>
@@ -7809,7 +7799,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000080">
 			<name>MP151a</name>
 			<description><![CDATA[description:               <br>   MP151a    <br>       <br>   FID   275    <br>   POND_NO   MP151a    <br>   GRADING       <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   114928    <br>   PLAN_PROJE       <br>   PLAN_REPOR   114929    <br>   PHOTO   114930    <br>   LAST_UPDAT   8/22/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   N    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   13492    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   7    <br>   SHAPE_Leng   458.020024    <br>   SHAPE_Area   13491.671174              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">275</SimpleData>
@@ -7868,7 +7858,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000081">
 			<name>ST245</name>
 			<description><![CDATA[description:               <br>   ST245    <br>       <br>   FID   276    <br>   POND_NO   ST245    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   114415    <br>   PLAN_PROJE       <br>   PLAN_REPOR   114416    <br>   PHOTO   114417    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   15502    <br>   CAL_POND_A   15702    <br>   AFFS       <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   613.193253    <br>   SHAPE_Area   15702.308342              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">276</SimpleData>
@@ -7934,7 +7924,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000082">
 			<name>MP068a</name>
 			<description><![CDATA[description:               <br>   MP068a    <br>       <br>   FID   277    <br>   POND_NO   MP068a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104265    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104266    <br>   PHOTO   104267    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   1348    <br>   CAL_POND_A   1384    <br>   AFFS       <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   0    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   185.795008    <br>   SHAPE_Area   1384.216242              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">277</SimpleData>
@@ -7993,7 +7983,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000083">
 			<name>ST095</name>
 			<description><![CDATA[description:               <br>   ST095    <br>       <br>   FID   278    <br>   POND_NO   ST095    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106029    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106030    <br>   PHOTO   106031    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   20220    <br>   CAL_POND_A   19681    <br>   AFFS       <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   0    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   696.506219    <br>   SHAPE_Area   19680.634778              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">278</SimpleData>
@@ -8052,7 +8042,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000084">
 			<name>ST099</name>
 			<description><![CDATA[description:               <br>   ST099    <br>       <br>   FID   279    <br>   POND_NO   ST099    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   107297    <br>   PLAN_PROJE       <br>   PLAN_REPOR   107298    <br>   PHOTO   107299    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   19546    <br>   CAL_POND_A   16495    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   0    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   582.710246    <br>   SHAPE_Area   16494.530729              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">279</SimpleData>
@@ -8108,76 +8098,10 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark id="5BD06B9F0D000085">
-			<name>ST037</name>
-			<description><![CDATA[description:               <br>   ST037    <br>       <br>   FID   280    <br>   POND_NO   ST037    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   111589    <br>   PLAN_PROJE       <br>   PLAN_REPOR   111590    <br>   PHOTO   111591    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   12806    <br>   CAL_POND_A   14743    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   562.351678    <br>   SHAPE_Area   14743.304604              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="COL5BD06BA3221432FA">280</SimpleData>
-					<SimpleData name="COL5BD06BA322B4AA40">5BCCAAA426000284</SimpleData>
-					<SimpleData name="COL5BD06BA3221712EE">-1</SimpleData>
-					<SimpleData name="COL5BD06BA32284C59C">0</SimpleData>
-					<SimpleData name="COL5BD06BA322345B1E">-1</SimpleData>
-					<SimpleData name="COL5BD06BA3224393F5">
-   ST037    
-       
-   FID   280    
-   POND_NO   ST037    
-   GRADING   good    
-   ERF_REF       
-   DAMAGE_REF       
-   DAMAGE_REP   111589    
-   PLAN_PROJE       
-   PLAN_REPOR   111590    
-   PHOTO   111591    
-   LAST_UPDAT   3/15/2008    
-   LAST_UPD_1   CONVERSION    
-   PFCZ   28    
-   PFCZ_SYS_D   Y    
-   CULTURE_ME   0    
-   EST_POND_A   12806    
-   CAL_POND_A   14743    
-   AFFS       
-   LANDUSAGE   4    
-   LU_SYS_DET   Y    
-   LANDSTATUS   6    
-   LS_SYS_DET   Y    
-   POND_STATU   1    
-   REMARK       
-   SALES_CHAN       
-   FARM_ID   0    
-   SHAPE_Leng   562.351678    
-   SHAPE_Area   14743.304604</SimpleData>
-					<SimpleData name="COL5BD06BA322FD7493">-1</SimpleData>
-					<SimpleData name="COL5BD06BA322DFB108">0</SimpleData>
-					<SimpleData name="COL5BD06BA3223A2916">0</SimpleData>
-					<SimpleData name="COL5BD06BA32296489A"></SimpleData>
-					<SimpleData name="COL5BD06BA32249FF5F">MA — fishpond_maori__fishpond_outside_ramsar</SimpleData>
-					<SimpleData name="COL5BD06BA3225D33AC">C:\Users\User\Desktop\MA.gpkg|layername=fishpond_maori__fishpond_outside_ramsar</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							114.061849,22.504664,0 114.061811,22.504693,0 114.061775,22.504712,0 114.061729,22.504729,0 114.061682,22.50474,0 114.061621,22.504761,0 114.061558,22.50478,0 114.061499,22.504804,0 114.06145,22.50482299999999,0 114.061424,22.504839,0 114.061385,22.504848,0 114.061349,22.50484700000001,0 114.061317,22.504838,0 114.061295,22.504816,0 114.061285,22.504767,0 114.061271,22.50471,0 114.06126,22.504645,0 114.06124,22.504576,0 114.061227,22.504513,0 114.061209,22.504449,0 114.061192,22.504394,0 114.06117,22.504338,0 114.06115,22.50428,0 114.061127,22.504218,0 114.061104,22.504158,0 114.061085,22.504106,0 114.061071,22.504061,0 114.061056,22.504011,0 114.061047,22.503971,0 114.061045,22.50393,0 114.061053,22.503904,0 114.061075,22.503875,0 114.061109,22.503849,0 114.061151,22.503828,0 114.061195,22.503805,0 114.061274,22.503763,0 114.061377,22.503698,0 114.061434,22.503665,0 114.061478,22.503643,0 114.061506,22.503639,0 114.061529,22.503636,0 114.061544,22.503609,0 114.061562,22.503576,0 114.061593,22.503549,0 114.061641,22.503511,0 114.061705,22.503469,0 114.061764,22.503434,0 114.061834,22.50339,0 114.061902,22.503357,0 114.061965,22.503322,0 114.061997,22.503302,0 114.062028,22.503283,0 114.062061,22.50327,0 114.062096,22.503261,0 114.062126,22.50327,0 114.06215,22.503291,0 114.062161,22.503328,0 114.062177,22.503432,0 114.062194,22.50363,0 114.062207,22.503737,0 114.062221,22.503825,0 114.06224,22.503921,0 114.062249,22.50398,0 114.062268,22.504091,0 114.062281,22.504171,0 114.062299,22.504245,0 114.062312,22.504318,0 114.062319,22.504383,0 114.062325,22.504425,0 114.06232,22.504454,0 114.062306,22.50448099999999,0 114.062274,22.504508,0 114.06224,22.504527,0 114.062191,22.504545,0 114.062127,22.504567,0 114.062063,22.504592,0 114.061993,22.504607,0 114.061957,22.504616,0 114.061942,22.504613,0 114.061911,22.504599,0 114.061907,22.504615,0 114.061907,22.504616,0 114.061896,22.504635,0 114.061874,22.504652,0 114.061849,22.504664,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-				<innerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							114.061834,22.504649,0 114.061829,22.504637,0 114.061812,22.504598,0 114.061769,22.504616,0 114.061794,22.504667,0 114.061834,22.504649,0 
-						</coordinates>
-					</LinearRing>
-				</innerBoundaryIs>
-			</Polygon>
-		</Placemark>
 		<Placemark id="5BD06B9F0D000086">
 			<name>ST042b</name>
 			<description><![CDATA[description:               <br>   ST042b    <br>       <br>   FID   281    <br>   POND_NO   ST042b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108008    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108009    <br>   PHOTO   108010    <br>   LAST_UPDAT   1/3/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8088    <br>   CAL_POND_A   6823    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   38    <br>   SHAPE_Leng   403.156707    <br>   SHAPE_Area   6822.844724              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">281</SimpleData>
@@ -8243,7 +8167,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000087">
 			<name>ST033</name>
 			<description><![CDATA[description:               <br>   ST033    <br>       <br>   FID   282    <br>   POND_NO   ST033    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   100737    <br>   PLAN_PROJE       <br>   PLAN_REPOR   100738    <br>   PHOTO   100739    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   2022    <br>   CAL_POND_A   2990    <br>   AFFS       <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   209.552041    <br>   SHAPE_Area   2989.688899              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">282</SimpleData>
@@ -8302,7 +8226,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000088">
 			<name>ST142</name>
 			<description><![CDATA[description:               <br>   ST142    <br>       <br>   FID   283    <br>   POND_NO   ST142    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106053    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106054    <br>   PHOTO   106055    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   10432    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   633.223011    <br>   SHAPE_Area   10432.160678              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">283</SimpleData>
@@ -8361,7 +8285,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000089">
 			<name>ST143</name>
 			<description><![CDATA[description:               <br>   ST143    <br>       <br>   FID   284    <br>   POND_NO   ST143    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106056    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106057    <br>   PHOTO   106058    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   584    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   104.831631    <br>   SHAPE_Area   584.057273              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">284</SimpleData>
@@ -8420,7 +8344,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00008A">
 			<name>MP092</name>
 			<description><![CDATA[description:               <br>   MP092    <br>       <br>   FID   290    <br>   POND_NO   MP092    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105474    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105475    <br>   PHOTO   105476    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   1348    <br>   CAL_POND_A   1465    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   4    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   158.298124    <br>   SHAPE_Area   1464.786873              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">290</SimpleData>
@@ -8479,7 +8403,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00008B">
 			<name>ST078</name>
 			<description><![CDATA[description:               <br>   ST078    <br>       <br>   FID   293    <br>   POND_NO   ST078    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103850    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103851    <br>   PHOTO   103852    <br>   LAST_UPDAT   1/2/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   24938    <br>   CAL_POND_A   24271    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   770586    <br>   SHAPE_Leng   701.381761    <br>   SHAPE_Area   24271.201527              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">293</SimpleData>
@@ -8538,7 +8462,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00008C">
 			<name>ST231</name>
 			<description><![CDATA[description:               <br>   ST231    <br>       <br>   FID   294    <br>   POND_NO   ST231    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   112492    <br>   PLAN_PROJE       <br>   PLAN_REPOR   112493    <br>   PHOTO   112494    <br>   LAST_UPDAT   5/27/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   10784    <br>   CAL_POND_A   11501    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   673609    <br>   SHAPE_Leng   451.870452    <br>   SHAPE_Area   11501.223171              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">294</SimpleData>
@@ -8597,7 +8521,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00008D">
 			<name>ST232</name>
 			<description><![CDATA[description:               <br>   ST232    <br>       <br>   FID   295    <br>   POND_NO   ST232    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   112495    <br>   PLAN_PROJE       <br>   PLAN_REPOR   112496    <br>   PHOTO   112497    <br>   LAST_UPDAT   5/27/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   10784    <br>   CAL_POND_A   11918    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   673609    <br>   SHAPE_Leng   478.062083    <br>   SHAPE_Area   11917.851806              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">295</SimpleData>
@@ -8656,7 +8580,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00008E">
 			<name>ST194a</name>
 			<description><![CDATA[description:               <br>   ST194a    <br>       <br>   FID   297    <br>   POND_NO   ST194a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106146    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106147    <br>   PHOTO   106148    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   2022    <br>   CAL_POND_A   2052    <br>   AFFS       <br>   LANDUSAGE   23    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   213.385083    <br>   SHAPE_Area   2052.188405              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">297</SimpleData>
@@ -8715,7 +8639,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D00008F">
 			<name>MP146b</name>
 			<description><![CDATA[description:               <br>   MP146b    <br>       <br>   FID   298    <br>   POND_NO   MP146b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105678    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105679    <br>   PHOTO   105680    <br>   LAST_UPDAT   8/27/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   18198    <br>   CAL_POND_A   16709    <br>   AFFS   N    <br>   LANDUSAGE   24    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   766566    <br>   SHAPE_Leng   516.068835    <br>   SHAPE_Area   16709.150205              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">298</SimpleData>
@@ -8774,7 +8698,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000090">
 			<name>ST130</name>
 			<description><![CDATA[description:               <br>   ST130    <br>       <br>   FID   299    <br>   POND_NO   ST130    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   107985    <br>   PLAN_PROJE       <br>   PLAN_REPOR   107986    <br>   PHOTO   107987    <br>   LAST_UPDAT   5/2/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   1685    <br>   CAL_POND_A   2276    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   43    <br>   SHAPE_Leng   245.515659    <br>   SHAPE_Area   2276.412129              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">299</SimpleData>
@@ -8833,7 +8757,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000091">
 			<name>ST020</name>
 			<description><![CDATA[description:               <br>   ST020    <br>       <br>   FID   300    <br>   POND_NO   ST020    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105981    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105982    <br>   PHOTO   105983    <br>   LAST_UPDAT   4/26/2013    <br>   LAST_UPD_1   kmng2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   11458    <br>   CAL_POND_A   11104    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   25    <br>   SHAPE_Leng   470.073266    <br>   SHAPE_Area   11103.901409              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">300</SimpleData>
@@ -8892,7 +8816,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000092">
 			<name>ST048</name>
 			<description><![CDATA[description:               <br>   ST048    <br>       <br>   FID   301    <br>   POND_NO   ST048    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   102813    <br>   PLAN_PROJE       <br>   PLAN_REPOR   102814    <br>   PHOTO   102815    <br>   LAST_UPDAT   1/8/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   9436    <br>   CAL_POND_A   7908    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   39    <br>   SHAPE_Leng   412.426052    <br>   SHAPE_Area   7907.722333              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">301</SimpleData>
@@ -8951,7 +8875,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000093">
 			<name>ST045</name>
 			<description><![CDATA[description:               <br>   ST045    <br>       <br>   FID   302    <br>   POND_NO   ST045    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106581    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106582    <br>   PHOTO   106583    <br>   LAST_UPDAT   1/8/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   2696    <br>   CAL_POND_A   3245    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   40    <br>   SHAPE_Leng   260.354186    <br>   SHAPE_Area   3245.245803              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">302</SimpleData>
@@ -9010,7 +8934,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000094">
 			<name>ST181</name>
 			<description><![CDATA[description:               <br>   ST181    <br>       <br>   FID   303    <br>   POND_NO   ST181    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   112881    <br>   PLAN_PROJE       <br>   PLAN_REPOR   112882    <br>   PHOTO   112883    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   674    <br>   CAL_POND_A   2919    <br>   AFFS       <br>   LANDUSAGE   8    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   224.370718    <br>   SHAPE_Area   2918.527073              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">303</SimpleData>
@@ -9069,7 +8993,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000095">
 			<name>ST219a</name>
 			<description><![CDATA[description:               <br>   ST219a    <br>       <br>   FID   304    <br>   POND_NO   ST219a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   112872    <br>   PLAN_PROJE       <br>   PLAN_REPOR   112873    <br>   PHOTO   112874    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   11458    <br>   CAL_POND_A   12020    <br>   AFFS       <br>   LANDUSAGE   9    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   445.187237    <br>   SHAPE_Area   12020.413575              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">304</SimpleData>
@@ -9128,7 +9052,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0D000096">
 			<name>MP077</name>
 			<description><![CDATA[description:               <br>   MP077    <br>       <br>   FID   307    <br>   POND_NO   MP077    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105426    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105427    <br>   PHOTO   105428    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   4718    <br>   CAL_POND_A   5353    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   376.687274    <br>   SHAPE_Area   5352.740328              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">307</SimpleData>
@@ -9194,7 +9118,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000097">
 			<name>MP078</name>
 			<description><![CDATA[description:               <br>   MP078    <br>       <br>   FID   308    <br>   POND_NO   MP078    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105429    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105430    <br>   PHOTO   105431    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   3370    <br>   CAL_POND_A   3100    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   287.857247    <br>   SHAPE_Area   3100.129285              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">308</SimpleData>
@@ -9260,7 +9184,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000098">
 			<name>ST202</name>
 			<description><![CDATA[description:               <br>   ST202    <br>       <br>   FID   309    <br>   POND_NO   ST202    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106176    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106177    <br>   PHOTO   106178    <br>   LAST_UPDAT   7/3/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   2022    <br>   CAL_POND_A   3223    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Self-consume    <br>   FARM_ID   769546    <br>   SHAPE_Leng   215.121806    <br>   SHAPE_Area   3223.458592              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">309</SimpleData>
@@ -9319,7 +9243,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000099">
 			<name>ST131</name>
 			<description><![CDATA[description:               <br>   ST131    <br>       <br>   FID   310    <br>   POND_NO   ST131    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108020    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108021    <br>   PHOTO   108022    <br>   LAST_UPDAT   5/2/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   10784    <br>   CAL_POND_A   13458    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   43    <br>   SHAPE_Leng   445.455894    <br>   SHAPE_Area   13458.087261              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">310</SimpleData>
@@ -9378,7 +9302,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00009A">
 			<name>ST138</name>
 			<description><![CDATA[description:               <br>   ST138    <br>       <br>   FID   311    <br>   POND_NO   ST138    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106041    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106042    <br>   PHOTO   106043    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   24594    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   627.071651    <br>   SHAPE_Area   24594.417651              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">311</SimpleData>
@@ -9437,7 +9361,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00009B">
 			<name>ST137</name>
 			<description><![CDATA[description:               <br>   ST137    <br>       <br>   FID   312    <br>   POND_NO   ST137    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106038    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106039    <br>   PHOTO   106040    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   17347    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   7    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   582.083704    <br>   SHAPE_Area   17347.381822              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">312</SimpleData>
@@ -9496,7 +9420,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00009C">
 			<name>ST150</name>
 			<description><![CDATA[description:               <br>   ST150    <br>       <br>   FID   318    <br>   POND_NO   ST150    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106071    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106072    <br>   PHOTO   106073    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   10194    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   400.081337    <br>   SHAPE_Area   10193.767634              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">318</SimpleData>
@@ -9555,7 +9479,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00009D">
 			<name>ST077</name>
 			<description><![CDATA[description:               <br>   ST077    <br>       <br>   FID   319    <br>   POND_NO   ST077    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   102547    <br>   PLAN_PROJE       <br>   PLAN_REPOR   102548    <br>   PHOTO   102549    <br>   LAST_UPDAT   1/2/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   12132    <br>   CAL_POND_A   10832    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   770586    <br>   SHAPE_Leng   451.02715    <br>   SHAPE_Area   10832.414379              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">319</SimpleData>
@@ -9621,7 +9545,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00009E">
 			<name>ST214</name>
 			<description><![CDATA[description:               <br>   ST214    <br>       <br>   FID   320    <br>   POND_NO   ST214    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   114406    <br>   PLAN_PROJE       <br>   PLAN_REPOR   114407    <br>   PHOTO   114408    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   2022    <br>   CAL_POND_A   2429    <br>   AFFS       <br>   LANDUSAGE   9    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   200.95528    <br>   SHAPE_Area   2429.377316              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">320</SimpleData>
@@ -9680,7 +9604,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00009F">
 			<name>MP081</name>
 			<description><![CDATA[description:               <br>   MP081    <br>       <br>   FID   321    <br>   POND_NO   MP081    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105438    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105439    <br>   PHOTO   105440    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   4044    <br>   CAL_POND_A   4444    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   375.520301    <br>   SHAPE_Area   4443.937872              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">321</SimpleData>
@@ -9746,7 +9670,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000A0">
 			<name>MP082a</name>
 			<description><![CDATA[description:               <br>   MP082a    <br>       <br>   FID   322    <br>   POND_NO   MP082a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105441    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105442    <br>   PHOTO   105443    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   8762    <br>   CAL_POND_A   8010    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   348.934643    <br>   SHAPE_Area   8010.274846              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">322</SimpleData>
@@ -9805,7 +9729,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000A1">
 			<name>ST016</name>
 			<description><![CDATA[description:               <br>   ST016    <br>       <br>   FID   327    <br>   POND_NO   ST016    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105975    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105976    <br>   PHOTO   105977    <br>   LAST_UPDAT   7/15/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8762    <br>   CAL_POND_A   7143    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   210    <br>   SHAPE_Leng   409.922466    <br>   SHAPE_Area   7142.76458              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">327</SimpleData>
@@ -9864,7 +9788,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000A2">
 			<name>ST047</name>
 			<description><![CDATA[description:               <br>   ST047    <br>       <br>   FID   330    <br>   POND_NO   ST047    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105993    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105994    <br>   PHOTO   105995    <br>   LAST_UPDAT   1/3/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8762    <br>   CAL_POND_A   8649    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   40    <br>   SHAPE_Leng   446.122589    <br>   SHAPE_Area   8648.715278              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">330</SimpleData>
@@ -9930,7 +9854,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000A3">
 			<name>ST111</name>
 			<description><![CDATA[description:               <br>   ST111    <br>       <br>   FID   331    <br>   POND_NO   ST111    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   109225    <br>   PLAN_PROJE       <br>   PLAN_REPOR   109226    <br>   PHOTO   109227    <br>   LAST_UPDAT   1/2/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   8088    <br>   CAL_POND_A   7718    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   770586    <br>   SHAPE_Leng   372.734048    <br>   SHAPE_Area   7718.378351              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">331</SimpleData>
@@ -9989,7 +9913,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000A4">
 			<name>ST183</name>
 			<description><![CDATA[description:               <br>   ST183    <br>       <br>   FID   332    <br>   POND_NO   ST183    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106128    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106129    <br>   PHOTO   106130    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   5392    <br>   CAL_POND_A   5129    <br>   AFFS       <br>   LANDUSAGE   8    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   1    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   339.344864    <br>   SHAPE_Area   5128.633958              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">332</SimpleData>
@@ -10048,7 +9972,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000A5">
 			<name>ST115</name>
 			<description><![CDATA[description:               <br>   ST115    <br>       <br>   FID   333    <br>   POND_NO   ST115    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108423    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108424    <br>   PHOTO   108425    <br>   LAST_UPDAT   1/2/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   13480    <br>   CAL_POND_A   13577    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   770586    <br>   SHAPE_Leng   452.016139    <br>   SHAPE_Area   13577.101831              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">333</SimpleData>
@@ -10107,7 +10031,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000A6">
 			<name>ST141</name>
 			<description><![CDATA[description:               <br>   ST141    <br>       <br>   FID   334    <br>   POND_NO   ST141    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106050    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106051    <br>   PHOTO   106052    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   8465    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   368.710092    <br>   SHAPE_Area   8465.036178              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">334</SimpleData>
@@ -10166,7 +10090,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000A7">
 			<name>ST210</name>
 			<description><![CDATA[description:               <br>   ST210    <br>       <br>   FID   335    <br>   POND_NO   ST210    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106200    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106201    <br>   PHOTO   106202    <br>   LAST_UPDAT   9/15/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   2022    <br>   CAL_POND_A   2259    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   692146    <br>   SHAPE_Leng   198.076287    <br>   SHAPE_Area   2258.953344              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">335</SimpleData>
@@ -10225,7 +10149,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000A8">
 			<name>ST211</name>
 			<description><![CDATA[description:               <br>   ST211    <br>       <br>   FID   336    <br>   POND_NO   ST211    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   107268    <br>   PLAN_PROJE       <br>   PLAN_REPOR   107269    <br>   PHOTO   107270    <br>   LAST_UPDAT   9/15/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   10110    <br>   CAL_POND_A   7450    <br>   AFFS   N    <br>   LANDUSAGE   9    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   692146    <br>   SHAPE_Leng   362.740602    <br>   SHAPE_Area   7450.065303              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">336</SimpleData>
@@ -10291,7 +10215,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000A9">
 			<name>ST223</name>
 			<description><![CDATA[description:               <br>   ST223    <br>       <br>   FID   337    <br>   POND_NO   ST223    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106800    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106801    <br>   PHOTO   106802    <br>   LAST_UPDAT   6/10/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   11458    <br>   CAL_POND_A   10236    <br>   AFFS   N    <br>   LANDUSAGE   9    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   54    <br>   SHAPE_Leng   437.986559    <br>   SHAPE_Area   10236.43915              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">337</SimpleData>
@@ -10350,7 +10274,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000AA">
 			<name>ST018</name>
 			<description><![CDATA[description:               <br>   ST018    <br>       <br>   FID   339    <br>   POND_NO   ST018    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105978    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105979    <br>   PHOTO   105980    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   18198    <br>   CAL_POND_A   15278    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   579.209471    <br>   SHAPE_Area   15278.349345              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">339</SimpleData>
@@ -10409,7 +10333,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000AB">
 			<name>ST188</name>
 			<description><![CDATA[description:               <br>   ST188    <br>       <br>   FID   340    <br>   POND_NO   ST188    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110569    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110570    <br>   PHOTO   110571    <br>   LAST_UPDAT   5/27/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   5105    <br>   AFFS   N    <br>   LANDUSAGE   23    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   685973    <br>   SHAPE_Leng   342.533072    <br>   SHAPE_Area   5105.330978              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">340</SimpleData>
@@ -10468,7 +10392,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000AC">
 			<name>ST189</name>
 			<description><![CDATA[description:               <br>   ST189    <br>       <br>   FID   341    <br>   POND_NO   ST189    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106131    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106132    <br>   PHOTO   106133    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   4044    <br>   CAL_POND_A   4277    <br>   AFFS       <br>   LANDUSAGE   23    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   332.975982    <br>   SHAPE_Area   4276.791585              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">341</SimpleData>
@@ -10534,7 +10458,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000AD">
 			<name>ST051</name>
 			<description><![CDATA[description:               <br>   ST051    <br>       <br>   FID   342    <br>   POND_NO   ST051    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105999    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106000    <br>   PHOTO   106001    <br>   LAST_UPDAT   7/15/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   7414    <br>   CAL_POND_A   5706    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale    <br>   FARM_ID   767566    <br>   SHAPE_Leng   358.984305    <br>   SHAPE_Area   5706.446242              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">342</SimpleData>
@@ -10593,7 +10517,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000AE">
 			<name>ST112</name>
 			<description><![CDATA[description:               <br>   ST112    <br>       <br>   FID   343    <br>   POND_NO   ST112    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   100743    <br>   PLAN_PROJE       <br>   PLAN_REPOR   100744    <br>   PHOTO   100745    <br>   LAST_UPDAT   1/2/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   12132    <br>   CAL_POND_A   10614    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   770586    <br>   SHAPE_Leng   482.878077    <br>   SHAPE_Area   10614.379236              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">343</SimpleData>
@@ -10652,7 +10576,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000AF">
 			<name>ST139</name>
 			<description><![CDATA[description:               <br>   ST139    <br>       <br>   FID   344    <br>   POND_NO   ST139    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106044    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106045    <br>   PHOTO   106046    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   1497    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   189.716931    <br>   SHAPE_Area   1497.429033              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">344</SimpleData>
@@ -10711,7 +10635,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000B0">
 			<name>ST134</name>
 			<description><![CDATA[description:               <br>   ST134    <br>       <br>   FID   346    <br>   POND_NO   ST134    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103939    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103940    <br>   PHOTO   103941    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   14154    <br>   CAL_POND_A   14881    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   7    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   631.723121    <br>   SHAPE_Area   14880.996396              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">346</SimpleData>
@@ -10777,7 +10701,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000B1">
 			<name>ST036a</name>
 			<description><![CDATA[description:               <br>   ST036a    <br>       <br>   FID   349    <br>   POND_NO   ST036a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103620    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103621    <br>   PHOTO   103622    <br>   LAST_UPDAT   6/30/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   10784    <br>   CAL_POND_A   9341    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   21    <br>   SHAPE_Leng   443.675073    <br>   SHAPE_Area   9341.343714              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">349</SimpleData>
@@ -10836,7 +10760,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000B2">
 			<name>ST215</name>
 			<description><![CDATA[description:               <br>   ST215    <br>       <br>   FID   350    <br>   POND_NO   ST215    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   114409    <br>   PLAN_PROJE       <br>   PLAN_REPOR   114410    <br>   PHOTO   114411    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   2022    <br>   CAL_POND_A   2687    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   198.962686    <br>   SHAPE_Area   2687.137553              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">350</SimpleData>
@@ -10895,7 +10819,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000B3">
 			<name>ST230</name>
 			<description><![CDATA[description:               <br>   ST230    <br>       <br>   FID   351    <br>   POND_NO   ST230    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   112489    <br>   PLAN_PROJE       <br>   PLAN_REPOR   112490    <br>   PHOTO   112491    <br>   LAST_UPDAT   5/27/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   12806    <br>   CAL_POND_A   14095    <br>   AFFS   N    <br>   LANDUSAGE   9    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   673609    <br>   SHAPE_Leng   576.346531    <br>   SHAPE_Area   14094.938433              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">351</SimpleData>
@@ -10954,7 +10878,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000B4">
 			<name>MP091</name>
 			<description><![CDATA[description:               <br>   MP091    <br>       <br>   FID   352    <br>   POND_NO   MP091    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105471    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105472    <br>   PHOTO   105473    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   1348    <br>   CAL_POND_A   1965    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   4    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   198.696639    <br>   SHAPE_Area   1965.089808              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">352</SimpleData>
@@ -11013,7 +10937,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000B5">
 			<name>ST136</name>
 			<description><![CDATA[description:               <br>   ST136    <br>       <br>   FID   353    <br>   POND_NO   ST136    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   109488    <br>   PLAN_PROJE       <br>   PLAN_REPOR   109489    <br>   PHOTO   109490    <br>   LAST_UPDAT   5/2/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   11458    <br>   CAL_POND_A   11811    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   7    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   92    <br>   SHAPE_Leng   484.312551    <br>   SHAPE_Area   11811.368765              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">353</SimpleData>
@@ -11072,7 +10996,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000B6">
 			<name>ST053</name>
 			<description><![CDATA[description:               <br>   ST053    <br>       <br>   FID   354    <br>   POND_NO   ST053    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106005    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106006    <br>   PHOTO   106007    <br>   LAST_UPDAT   6/30/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   12806    <br>   CAL_POND_A   9802    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   56    <br>   SHAPE_Leng   387.493682    <br>   SHAPE_Area   9801.804218              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">354</SimpleData>
@@ -11131,7 +11055,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000B7">
 			<name>ST140</name>
 			<description><![CDATA[description:               <br>   ST140    <br>       <br>   FID   355    <br>   POND_NO   ST140    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106047    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106048    <br>   PHOTO   106049    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   4702    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   288.749677    <br>   SHAPE_Area   4701.746415              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">355</SimpleData>
@@ -11190,7 +11114,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000B8">
 			<name>ST217</name>
 			<description><![CDATA[description:               <br>   ST217    <br>       <br>   FID   356    <br>   POND_NO   ST217    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   111068    <br>   PLAN_PROJE       <br>   PLAN_REPOR   111069    <br>   PHOTO   111070    <br>   LAST_UPDAT   9/16/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   3370    <br>   CAL_POND_A   2947    <br>   AFFS   N    <br>   LANDUSAGE   9    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   690106    <br>   SHAPE_Leng   249.749545    <br>   SHAPE_Area   2946.797948              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">356</SimpleData>
@@ -11249,7 +11173,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000B9">
 			<name>ST198a</name>
 			<description><![CDATA[description:               <br>   ST198a    <br>       <br>   FID   357    <br>   POND_NO   ST198a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106161    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106162    <br>   PHOTO   106163    <br>   LAST_UPDAT   8/13/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   2359    <br>   CAL_POND_A   2290    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   53    <br>   SHAPE_Leng   242.545437    <br>   SHAPE_Area   2290.343355              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">357</SimpleData>
@@ -11308,7 +11232,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000BA">
 			<name>ST038a</name>
 			<description><![CDATA[description:               <br>   ST038a    <br>       <br>   FID   358    <br>   POND_NO   ST038a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101409    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101410    <br>   PHOTO   101411    <br>   LAST_UPDAT   6/16/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   11458    <br>   CAL_POND_A   10864    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   52    <br>   SHAPE_Leng   464.094167    <br>   SHAPE_Area   10864.393606              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">358</SimpleData>
@@ -11374,7 +11298,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000BB">
 			<name>ST021</name>
 			<description><![CDATA[description:               <br>   ST021    <br>       <br>   FID   359    <br>   POND_NO   ST021    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105984    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105985    <br>   PHOTO   105986    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   7414    <br>   CAL_POND_A   7072    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   209    <br>   SHAPE_Leng   444.828408    <br>   SHAPE_Area   7072.137193              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">359</SimpleData>
@@ -11433,7 +11357,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000BC">
 			<name>ST185</name>
 			<description><![CDATA[description:               <br>   ST185    <br>       <br>   FID   361    <br>   POND_NO   ST185    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   113405    <br>   PLAN_PROJE       <br>   PLAN_REPOR   113406    <br>   PHOTO   113407    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   6740    <br>   CAL_POND_A   9057    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   432.379273    <br>   SHAPE_Area   9056.747238              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">361</SimpleData>
@@ -11492,7 +11416,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000BD">
 			<name>ST187</name>
 			<description><![CDATA[description:               <br>   ST187    <br>       <br>   FID   362    <br>   POND_NO   ST187    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110566    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110567    <br>   PHOTO   110568    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   5413    <br>   AFFS       <br>   LANDUSAGE   23    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   330.349711    <br>   SHAPE_Area   5412.657873              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">362</SimpleData>
@@ -11551,7 +11475,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000BE">
 			<name>ST135</name>
 			<description><![CDATA[description:               <br>   ST135    <br>       <br>   FID   366    <br>   POND_NO   ST135    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106035    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106036    <br>   PHOTO   106037    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   15502    <br>   CAL_POND_A   14812    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   7    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   614.689572    <br>   SHAPE_Area   14811.597274              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">366</SimpleData>
@@ -11610,7 +11534,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000BF">
 			<name>ST007</name>
 			<description><![CDATA[description:               <br>   ST007    <br>       <br>   FID   367    <br>   POND_NO   ST007    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101534    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101535    <br>   PHOTO   101536    <br>   LAST_UPDAT   1/2/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   9436    <br>   CAL_POND_A   9255    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   91    <br>   SHAPE_Leng   454.770842    <br>   SHAPE_Area   9255.28352              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">367</SimpleData>
@@ -11669,7 +11593,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000C0">
 			<name>ST008</name>
 			<description><![CDATA[description:               <br>   ST008    <br>       <br>   FID   368    <br>   POND_NO   ST008    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101537    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101538    <br>   PHOTO   101539    <br>   LAST_UPDAT   1/2/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8088    <br>   CAL_POND_A   6820    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   91    <br>   SHAPE_Leng   364.486325    <br>   SHAPE_Area   6820.165646              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">368</SimpleData>
@@ -11735,7 +11659,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000C1">
 			<name>ST084</name>
 			<description><![CDATA[description:               <br>   ST084    <br>       <br>   FID   373    <br>   POND_NO   ST084    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101278    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101279    <br>   PHOTO   101280    <br>   LAST_UPDAT   4/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   4718    <br>   CAL_POND_A   4229    <br>   AFFS   Y    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   672551    <br>   SHAPE_Leng   254.68933    <br>   SHAPE_Area   4228.873681              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">373</SimpleData>
@@ -11794,7 +11718,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000C2">
 			<name>ST184</name>
 			<description><![CDATA[description:               <br>   ST184    <br>       <br>   FID   374    <br>   POND_NO   ST184    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   112878    <br>   PLAN_PROJE       <br>   PLAN_REPOR   112879    <br>   PHOTO   112880    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   9436    <br>   CAL_POND_A   12495    <br>   AFFS       <br>   LANDUSAGE   8    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   458.394043    <br>   SHAPE_Area   12495.131336              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">374</SimpleData>
@@ -11853,7 +11777,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000C3">
 			<name>MP171</name>
 			<description><![CDATA[description:               <br>   MP171    <br>       <br>   FID   379    <br>   POND_NO   MP171    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105708    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105709    <br>   PHOTO   105710    <br>   LAST_UPDAT   4/19/2011    <br>   LAST_UPD_1   kmng2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   13480    <br>   CAL_POND_A   9328    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   142    <br>   SHAPE_Leng   426.274106    <br>   SHAPE_Area   9328.146165              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">379</SimpleData>
@@ -11919,7 +11843,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000C4">
 			<name>MP130</name>
 			<description><![CDATA[description:               <br>   MP130    <br>       <br>   FID   380    <br>   POND_NO   MP130    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104244    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104245    <br>   PHOTO   104246    <br>   LAST_UPDAT   10/7/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   9436    <br>   CAL_POND_A   10544    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   734107    <br>   SHAPE_Leng   514.671751    <br>   SHAPE_Area   10543.557032              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">380</SimpleData>
@@ -11978,7 +11902,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000C5">
 			<name>MP094</name>
 			<description><![CDATA[description:               <br>   MP094    <br>       <br>   FID   383    <br>   POND_NO   MP094    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105483    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105484    <br>   PHOTO   105485    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   13480    <br>   CAL_POND_A   14994    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   578.45081    <br>   SHAPE_Area   14993.684394              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">383</SimpleData>
@@ -12037,7 +11961,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000C6">
 			<name>MP082b</name>
 			<description><![CDATA[description:               <br>   MP082b    <br>       <br>   FID   384    <br>   POND_NO   MP082b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105444    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105445    <br>   PHOTO   105446    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   9436    <br>   CAL_POND_A   9374    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   477.895032    <br>   SHAPE_Area   9374.336816              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">384</SimpleData>
@@ -12103,7 +12027,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000C7">
 			<name>ST212</name>
 			<description><![CDATA[description:               <br>   ST212    <br>       <br>   FID   385    <br>   POND_NO   ST212    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   107271    <br>   PLAN_PROJE       <br>   PLAN_REPOR   107272    <br>   PHOTO   107273    <br>   LAST_UPDAT   9/15/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   1011    <br>   CAL_POND_A   1428    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   692146    <br>   SHAPE_Leng   151.57718    <br>   SHAPE_Area   1428.402897              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">385</SimpleData>
@@ -12162,7 +12086,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000C8">
 			<name>ST213</name>
 			<description><![CDATA[description:               <br>   ST213    <br>       <br>   FID   386    <br>   POND_NO   ST213    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   107265    <br>   PLAN_PROJE       <br>   PLAN_REPOR   107266    <br>   PHOTO   107267    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   337    <br>   CAL_POND_A   665    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   101.275443    <br>   SHAPE_Area   665.233407              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">386</SimpleData>
@@ -12221,7 +12145,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000C9">
 			<name>ST124</name>
 			<description><![CDATA[description:               <br>   ST124    <br>       <br>   FID   387    <br>   POND_NO   ST124    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101219    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101220    <br>   PHOTO   101221    <br>   LAST_UPDAT   11/6/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   11458    <br>   CAL_POND_A   12545    <br>   AFFS   Y    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   36    <br>   SHAPE_Leng   468.555966    <br>   SHAPE_Area   12544.513628              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">387</SimpleData>
@@ -12280,7 +12204,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000CA">
 			<name>ST072</name>
 			<description><![CDATA[description:               <br>   ST072    <br>       <br>   FID   388    <br>   POND_NO   ST072    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106458    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106459    <br>   PHOTO   106460    <br>   LAST_UPDAT   5/7/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   9436    <br>   CAL_POND_A   11056    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   18    <br>   SHAPE_Leng   479.465447    <br>   SHAPE_Area   11055.883524              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">388</SimpleData>
@@ -12346,7 +12270,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000CB">
 			<name>ST220</name>
 			<description><![CDATA[description:               <br>   ST220    <br>       <br>   FID   389    <br>   POND_NO   ST220    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   112705    <br>   PLAN_PROJE       <br>   PLAN_REPOR   112706    <br>   PHOTO   112707    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   5392    <br>   CAL_POND_A   4729    <br>   AFFS       <br>   LANDUSAGE   9    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   323.229688    <br>   SHAPE_Area   4729.439306              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">389</SimpleData>
@@ -12405,7 +12329,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000CC">
 			<name>ST221</name>
 			<description><![CDATA[description:               <br>   ST221    <br>       <br>   FID   390    <br>   POND_NO   ST221    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   112708    <br>   PLAN_PROJE       <br>   PLAN_REPOR   112709    <br>   PHOTO   112710    <br>   LAST_UPDAT   6/10/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   1011    <br>   CAL_POND_A   969    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   54    <br>   SHAPE_Leng   137.041213    <br>   SHAPE_Area   968.659012              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">390</SimpleData>
@@ -12464,7 +12388,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000CD">
 			<name>ST218</name>
 			<description><![CDATA[description:               <br>   ST218    <br>       <br>   FID   391    <br>   POND_NO   ST218    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   112875    <br>   PLAN_PROJE       <br>   PLAN_REPOR   112876    <br>   PHOTO   112877    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   2022    <br>   CAL_POND_A   2384    <br>   AFFS       <br>   LANDUSAGE   9    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   215.074537    <br>   SHAPE_Area   2384.289018              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">391</SimpleData>
@@ -12523,7 +12447,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000CE">
 			<name>ST219b</name>
 			<description><![CDATA[description:               <br>   ST219b    <br>       <br>   FID   392    <br>   POND_NO   ST219b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   114412    <br>   PLAN_PROJE       <br>   PLAN_REPOR   114413    <br>   PHOTO   114414    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   674    <br>   CAL_POND_A   393    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   81.809425    <br>   SHAPE_Area   393.352439              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">392</SimpleData>
@@ -12582,7 +12506,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000CF">
 			<name>MP069a</name>
 			<description><![CDATA[description:               <br>   MP069a    <br>       <br>   FID   395    <br>   POND_NO   MP069a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105402    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105403    <br>   PHOTO   105404    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   6740    <br>   CAL_POND_A   5276    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   0    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   336.585181    <br>   SHAPE_Area   5275.552591              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">395</SimpleData>
@@ -12641,7 +12565,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000D0">
 			<name>MP069b</name>
 			<description><![CDATA[description:               <br>   MP069b    <br>       <br>   FID   396    <br>   POND_NO   MP069b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105405    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105406    <br>   PHOTO   105407    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   2022    <br>   CAL_POND_A   2568    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   0    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   195.504147    <br>   SHAPE_Area   2568.422785              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">396</SimpleData>
@@ -12700,7 +12624,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000D1">
 			<name>ST102</name>
 			<description><![CDATA[description:               <br>   ST102    <br>       <br>   FID   398    <br>   POND_NO   ST102    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101293    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101294    <br>   PHOTO   101295    <br>   LAST_UPDAT   4/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   3370    <br>   CAL_POND_A   3926    <br>   AFFS   Y    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   672551    <br>   SHAPE_Leng   258.58447    <br>   SHAPE_Area   3926.454857              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">398</SimpleData>
@@ -12759,7 +12683,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000D2">
 			<name>MP069c</name>
 			<description><![CDATA[description:               <br>   MP069c    <br>       <br>   FID   400    <br>   POND_NO   MP069c    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105408    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105409    <br>   PHOTO   105410    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   8088    <br>   CAL_POND_A   7018    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   0    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   385.14479    <br>   SHAPE_Area   7018.231087              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">400</SimpleData>
@@ -12818,7 +12742,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000D3">
 			<name>MP070</name>
 			<description><![CDATA[description:               <br>   MP070    <br>       <br>   FID   401    <br>   POND_NO   MP070    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105411    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105412    <br>   PHOTO   105413    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   13480    <br>   CAL_POND_A   13403    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   520.592484    <br>   SHAPE_Area   13402.775013              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">401</SimpleData>
@@ -12877,7 +12801,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000D4">
 			<name>ST011</name>
 			<description><![CDATA[description:               <br>   ST011    <br>       <br>   FID   402    <br>   POND_NO   ST011    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104038    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104039    <br>   PHOTO   104040    <br>   LAST_UPDAT   1/2/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   2100    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   41    <br>   SHAPE_Leng   198.026257    <br>   SHAPE_Area   2105.882315              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">402</SimpleData>
@@ -12936,7 +12860,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000D5">
 			<name>MP133a</name>
 			<description><![CDATA[description:               <br>   MP133a    <br>       <br>   FID   403    <br>   POND_NO   MP133a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105648    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105649    <br>   PHOTO   105650    <br>   LAST_UPDAT   11/24/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8088    <br>   CAL_POND_A   5256    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   202    <br>   SHAPE_Leng   303.079248    <br>   SHAPE_Area   5256.251684              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">403</SimpleData>
@@ -12995,7 +12919,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000D6">
 			<name>MP136b</name>
 			<description><![CDATA[description:               <br>   MP136b    <br>       <br>   FID   404    <br>   POND_NO   MP136b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106255    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106256    <br>   PHOTO   106257    <br>   LAST_UPDAT   11/24/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   8762    <br>   CAL_POND_A   4628    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   202    <br>   SHAPE_Leng   273.884869    <br>   SHAPE_Area   4627.737633              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">404</SimpleData>
@@ -13054,7 +12978,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000D7">
 			<name>MP136a</name>
 			<description><![CDATA[description:               <br>   MP136a    <br>       <br>   FID   405    <br>   POND_NO   MP136a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104256    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104257    <br>   PHOTO   104258    <br>   LAST_UPDAT   11/24/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8762    <br>   CAL_POND_A   4066    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   202    <br>   SHAPE_Leng   255.267941    <br>   SHAPE_Area   4065.821285              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">405</SimpleData>
@@ -13113,7 +13037,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000D8">
 			<name>ST177</name>
 			<description><![CDATA[description:               <br>   ST177    <br>       <br>   FID   412    <br>   POND_NO   ST177    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106122    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106123    <br>   PHOTO   106124    <br>   LAST_UPDAT   7/31/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   2487    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   65    <br>   SHAPE_Leng   203.795371    <br>   SHAPE_Area   2487.216915              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">412</SimpleData>
@@ -13172,7 +13096,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000D9">
 			<name>MP148b</name>
 			<description><![CDATA[description:               <br>   MP148b    <br>       <br>   FID   414    <br>   POND_NO   MP148b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110805    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110806    <br>   PHOTO   110807    <br>   LAST_UPDAT   8/27/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   2680    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   700369    <br>   SHAPE_Leng   220.644705    <br>   SHAPE_Area   2680.03212              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">414</SimpleData>
@@ -13231,7 +13155,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000DA">
 			<name>MP148a</name>
 			<description><![CDATA[description:               <br>   MP148a    <br>       <br>   FID   415    <br>   POND_NO   MP148a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105684    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105685    <br>   PHOTO   105686    <br>   LAST_UPDAT   8/27/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   3119    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   700369    <br>   SHAPE_Leng   236.891654    <br>   SHAPE_Area   3119.339039              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">415</SimpleData>
@@ -13290,7 +13214,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000DB">
 			<name>ST125a</name>
 			<description><![CDATA[description:               <br>   ST125a    <br>       <br>   FID   419    <br>   POND_NO   ST125a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101511    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101512    <br>   PHOTO   101513    <br>   LAST_UPDAT   2/13/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   8891    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   44    <br>   SHAPE_Leng   435.584384    <br>   SHAPE_Area   8891.455801              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">419</SimpleData>
@@ -13349,7 +13273,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000DC">
 			<name>MP144</name>
 			<description><![CDATA[description:               <br>   MP144    <br>       <br>   FID   425    <br>   POND_NO   MP144    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105675    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105676    <br>   PHOTO   105677    <br>   LAST_UPDAT   8/27/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   21568    <br>   CAL_POND_A   24103    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   700369    <br>   SHAPE_Leng   648.174388    <br>   SHAPE_Area   24103.433921              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">424</SimpleData>
@@ -13408,7 +13332,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000DD">
 			<name>ST133</name>
 			<description><![CDATA[description:               <br>   ST133    <br>       <br>   FID   426    <br>   POND_NO   ST133    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   109485    <br>   PLAN_PROJE       <br>   PLAN_REPOR   109486    <br>   PHOTO   109487    <br>   LAST_UPDAT   5/2/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   2022    <br>   CAL_POND_A   3234    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   7    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   92    <br>   SHAPE_Leng   260.410285    <br>   SHAPE_Area   3233.961189              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">425</SimpleData>
@@ -13467,7 +13391,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000DE">
 			<name>ST059b</name>
 			<description><![CDATA[description:               <br>   ST059b    <br>       <br>   FID   428    <br>   POND_NO   ST059b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103502    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103503    <br>   PHOTO   103504    <br>   LAST_UPDAT   3/14/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   9436    <br>   CAL_POND_A   9486    <br>   AFFS   N    <br>   LANDUSAGE   24    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   28    <br>   SHAPE_Leng   465.64749    <br>   SHAPE_Area   9486.358487              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">427</SimpleData>
@@ -13526,7 +13450,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000DF">
 			<name>ST229</name>
 			<description><![CDATA[description:               <br>   ST229    <br>       <br>   FID   430    <br>   POND_NO   ST229    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   112486    <br>   PLAN_PROJE       <br>   PLAN_REPOR   112487    <br>   PHOTO   112488    <br>   LAST_UPDAT   5/27/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   29    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   13480    <br>   CAL_POND_A   11843    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET       <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   734149    <br>   SHAPE_Leng   483.044979    <br>   SHAPE_Area   11843.469778              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">429</SimpleData>
@@ -13582,69 +13506,10 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark id="5BD06B9F0E0000E0">
-			<name>ST066</name>
-			<description><![CDATA[description:               <br>   ST066    <br>       <br>   FID   431    <br>   POND_NO   ST066    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   102816    <br>   PLAN_PROJE       <br>   PLAN_REPOR   102817    <br>   PHOTO   102818    <br>   LAST_UPDAT   5/7/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   16176    <br>   CAL_POND_A   17814    <br>   AFFS   Y    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   34    <br>   SHAPE_Leng   636.361768    <br>   SHAPE_Area   17814.301409              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="COL5BD06BA3221432FA">430</SimpleData>
-					<SimpleData name="COL5BD06BA322B4AA40">5BCCAAA42700031B</SimpleData>
-					<SimpleData name="COL5BD06BA3221712EE">-1</SimpleData>
-					<SimpleData name="COL5BD06BA32284C59C">0</SimpleData>
-					<SimpleData name="COL5BD06BA322345B1E">-1</SimpleData>
-					<SimpleData name="COL5BD06BA3224393F5">
-   ST066    
-       
-   FID   431    
-   POND_NO   ST066    
-   GRADING   good    
-   ERF_REF       
-   DAMAGE_REF       
-   DAMAGE_REP   102816    
-   PLAN_PROJE       
-   PLAN_REPOR   102817    
-   PHOTO   102818    
-   LAST_UPDAT   5/7/2014    
-   LAST_UPD_1   kltam    
-   PFCZ   28    
-   PFCZ_SYS_D   Y    
-   CULTURE_ME   1    
-   EST_POND_A   16176    
-   CAL_POND_A   17814    
-   AFFS   Y    
-   LANDUSAGE   14    
-   LU_SYS_DET   Y    
-   LANDSTATUS   6    
-   LS_SYS_DET   Y    
-   POND_STATU   1    
-   REMARK       
-   SALES_CHAN   Wholesale    
-   FARM_ID   34    
-   SHAPE_Leng   636.361768    
-   SHAPE_Area   17814.301409</SimpleData>
-					<SimpleData name="COL5BD06BA322FD7493">-1</SimpleData>
-					<SimpleData name="COL5BD06BA322DFB108">0</SimpleData>
-					<SimpleData name="COL5BD06BA3223A2916">0</SimpleData>
-					<SimpleData name="COL5BD06BA32296489A"></SimpleData>
-					<SimpleData name="COL5BD06BA32249FF5F">MA — fishpond_maori__fishpond_outside_ramsar</SimpleData>
-					<SimpleData name="COL5BD06BA3225D33AC">C:\Users\User\Desktop\MA.gpkg|layername=fishpond_maori__fishpond_outside_ramsar</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							114.068632,22.504973,0 114.068624,22.504975,0 114.068604,22.504976,0 114.068596,22.504976,0 114.068578,22.504974,0 114.068551,22.504966,0 114.068544,22.504963,0 114.068531,22.504955,0 114.06852,22.504947,0 114.068434,22.504874,0 114.068352,22.504808,0 114.067935,22.504505,0 114.067874,22.504455,0 114.067859,22.50444,0 114.067853,22.504434,0 114.067845,22.50442,0 114.067842,22.504414,0 114.067841,22.504407,0 114.06784,22.504401,0 114.067841,22.504395,0 114.067844,22.504386,0 114.067846,22.504383,0 114.067851,22.504377,0 114.067864,22.504356,0 114.067885,22.504337,0 114.067917,22.504311,0 114.067945,22.504291,0 114.067978,22.50427000000001,0 114.068014,22.50425,0 114.068057,22.50423,0 114.068087,22.50421,0 114.068118,22.504191,0 114.068124,22.504187,0 114.06816,22.504167,0 114.068199,22.504145,0 114.068228,22.504128,0 114.068266,22.504106,0 114.068285,22.504095,0 114.068324,22.504075,0 114.068365,22.504056,0 114.068398,22.504037,0 114.068431,22.50402,0 114.068468,22.504002,0 114.068502,22.503984,0 114.068537,22.503967,0 114.068576,22.503949,0 114.068618,22.503926,0 114.068657,22.503908,0 114.068699,22.503893,0 114.068734,22.503873,0 114.068769,22.50385,0 114.068811,22.503829,0 114.06885,22.503804,0 114.068883,22.503787,0 114.068918,22.503768,0 114.068961,22.503749,0 114.068995,22.503726,0 114.069031,22.503707,0 114.069078,22.503687,0 114.069115,22.503664,0 114.069153,22.503641,0 114.069192,22.503618,0 114.069232,22.503594,0 114.069265,22.503569,0 114.069293,22.50355,0 114.069324,22.503535,0 114.069357,22.503522,0 114.069372,22.503515,0 114.069405,22.503504,0 114.069446,22.503492,0 114.069486,22.503479,0 114.069517,22.503463,0 114.069553,22.50344399999999,0 114.069589,22.503428,0 114.069616,22.503413,0 114.069639,22.503402,0 114.069646,22.503398,0 114.069657,22.503397,0 114.069676,22.503395,0 114.069717,22.503404,0 114.069745,22.50342,0 114.069771,22.503445,0 114.069848,22.503544,0 114.069882,22.503598,0 114.069924,22.503658,0 114.069933,22.50367,0 114.069957,22.503695,0 114.069994,22.503742,0 114.069999,22.50375,0 114.070013,22.503773,0 114.070018,22.503783,0 114.070024,22.503802,0 114.070026,22.503809,0 114.070027,22.50382,0 114.070028,22.503822,0 114.069978,22.50377,0 114.069964,22.50378,0 114.069956,22.503773,0 114.069877,22.503839,0 114.069889,22.503852,0 114.06983,22.503899,0 114.069872,22.503945,0 114.069961,22.503873,0 114.069982,22.503895,0 114.070023,22.503863,0 114.070016,22.503874,0 114.07001,22.503883,0 114.06999,22.503902,0 114.069948,22.503932,0 114.069829,22.504033,0 114.069706,22.504133,0 114.069692,22.504144,0 114.069633,22.504184,0 114.069566,22.504235,0 114.069553,22.504245,0 114.069514,22.504277,0 114.069421,22.504356,0 114.06941,22.504364,0 114.069278,22.504463,0 114.069207,22.504514,0 114.06901,22.50466,0 114.068939,22.504716,0 114.06885,22.504783,0 114.068758,22.50486,0 114.068656,22.504957,0 114.068643,22.504967,0 114.068632,22.504973,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
 		<Placemark id="5BD06B9F0E0000E1">
 			<name>ST073</name>
 			<description><![CDATA[description:               <br>   ST073    <br>       <br>   FID   432    <br>   POND_NO   ST073    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101287    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101288    <br>   PHOTO   101289    <br>   LAST_UPDAT   4/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   14154    <br>   CAL_POND_A   15800    <br>   AFFS   Y    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   672551    <br>   SHAPE_Leng   494.026077    <br>   SHAPE_Area   15800.313166              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">431</SimpleData>
@@ -13703,7 +13568,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000E2">
 			<name>MP141</name>
 			<description><![CDATA[description:               <br>   MP141    <br>       <br>   FID   435    <br>   POND_NO   MP141    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101549    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101550    <br>   PHOTO   101551    <br>   LAST_UPDAT   8/27/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   13480    <br>   CAL_POND_A   13903    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   700369    <br>   SHAPE_Leng   472.814692    <br>   SHAPE_Area   13902.946426              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">434</SimpleData>
@@ -13762,7 +13627,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000E3">
 			<name>ST086</name>
 			<description><![CDATA[description:               <br>   ST086    <br>       <br>   FID   436    <br>   POND_NO   ST086    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101284    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101285    <br>   PHOTO   101286    <br>   LAST_UPDAT   4/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   3033    <br>   CAL_POND_A   2750    <br>   AFFS   Y    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   672551    <br>   SHAPE_Leng   222.174311    <br>   SHAPE_Area   2750.191274              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">435</SimpleData>
@@ -13821,7 +13686,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000E4">
 			<name>MP135</name>
 			<description><![CDATA[description:               <br>   MP135    <br>       <br>   FID   438    <br>   POND_NO   MP135    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105654    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105655    <br>   PHOTO   105656    <br>   LAST_UPDAT   5/21/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8762    <br>   CAL_POND_A   9298    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Self-retail    <br>   FARM_ID   17    <br>   SHAPE_Leng   502.792438    <br>   SHAPE_Area   9297.941399              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">437</SimpleData>
@@ -13880,7 +13745,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000E5">
 			<name>MP142</name>
 			<description><![CDATA[description:               <br>   MP142    <br>       <br>   FID   439    <br>   POND_NO   MP142    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105669    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105670    <br>   PHOTO   105671    <br>   LAST_UPDAT   8/27/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   19546    <br>   CAL_POND_A   19352    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   700369    <br>   SHAPE_Leng   544.897453    <br>   SHAPE_Area   19352.373418              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">438</SimpleData>
@@ -13939,7 +13804,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000E6">
 			<name>MP137a</name>
 			<description><![CDATA[description:               <br>   MP137a    <br>       <br>   FID   441    <br>   POND_NO   MP137a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108202    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108203    <br>   PHOTO   108204    <br>   LAST_UPDAT   11/24/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   9436    <br>   CAL_POND_A   4421    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   202    <br>   SHAPE_Leng   304.821477    <br>   SHAPE_Area   4421.20334              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">440</SimpleData>
@@ -13998,7 +13863,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000E7">
 			<name>ST228</name>
 			<description><![CDATA[description:               <br>   ST228    <br>       <br>   FID   442    <br>   POND_NO   ST228    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106203    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106204    <br>   PHOTO   106205    <br>   LAST_UPDAT   5/27/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   11458    <br>   CAL_POND_A   13099    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   734147    <br>   SHAPE_Leng   541.749006    <br>   SHAPE_Area   13098.596601              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">441</SimpleData>
@@ -14057,7 +13922,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000E8">
 			<name>ST113</name>
 			<description><![CDATA[description:               <br>   ST113    <br>       <br>   FID   450    <br>   POND_NO   ST113    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106461    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106462    <br>   PHOTO   106463    <br>   LAST_UPDAT   1/2/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8088    <br>   CAL_POND_A   9117    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   770586    <br>   SHAPE_Leng   377.216048    <br>   SHAPE_Area   9116.600766              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">449</SimpleData>
@@ -14116,7 +13981,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000E9">
 			<name>ST101a</name>
 			<description><![CDATA[description:               <br>   ST101a    <br>       <br>   FID   453    <br>   POND_NO   ST101a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   100886    <br>   PLAN_PROJE       <br>   PLAN_REPOR   100887    <br>   PHOTO   100888    <br>   LAST_UPDAT   4/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   16850    <br>   CAL_POND_A   14627    <br>   AFFS   Y    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   672551    <br>   SHAPE_Leng   497.106687    <br>   SHAPE_Area   14627.46089              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">451</SimpleData>
@@ -14175,7 +14040,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000EA">
 			<name>ST208</name>
 			<description><![CDATA[description:               <br>   ST208    <br>       <br>   FID   455    <br>   POND_NO   ST208    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106194    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106195    <br>   PHOTO   106196    <br>   LAST_UPDAT   5/27/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   18872    <br>   CAL_POND_A   19562    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   673609    <br>   SHAPE_Leng   613.417358    <br>   SHAPE_Area   19562.495885              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">453</SimpleData>
@@ -14234,7 +14099,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000EB">
 			<name>ST248</name>
 			<description><![CDATA[description:               <br>   ST248    <br>       <br>   FID   457    <br>   POND_NO   ST248    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110931    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110932    <br>   PHOTO   110933    <br>   LAST_UPDAT   5/27/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   2066    <br>   AFFS   N    <br>   LANDUSAGE   23    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   685967    <br>   SHAPE_Leng   178.897527    <br>   SHAPE_Area   2066.142673              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">455</SimpleData>
@@ -14293,7 +14158,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000EC">
 			<name>ST063</name>
 			<description><![CDATA[description:               <br>   ST063    <br>       <br>   FID   462    <br>   POND_NO   ST063    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104150    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104151    <br>   PHOTO   104152    <br>   LAST_UPDAT   5/7/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   15502    <br>   CAL_POND_A   15010    <br>   AFFS   Y    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   34    <br>   SHAPE_Leng   539.146855    <br>   SHAPE_Area   15009.984764              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">460</SimpleData>
@@ -14352,7 +14217,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000ED">
 			<name>MP096</name>
 			<description><![CDATA[description:               <br>   MP096    <br>       <br>   FID   468    <br>   POND_NO   MP096    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105489    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105490    <br>   PHOTO   105491    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   10784    <br>   CAL_POND_A   11771    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   533.488331    <br>   SHAPE_Area   11770.692461              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">465</SimpleData>
@@ -14411,7 +14276,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000EE">
 			<name>ST032a</name>
 			<description><![CDATA[description:               <br>   ST032a    <br>       <br>   FID   469    <br>   POND_NO   ST032a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101400    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101401    <br>   PHOTO   101402    <br>   LAST_UPDAT   2/13/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   3274    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   701407    <br>   SHAPE_Leng   262.112487    <br>   SHAPE_Area   3274.329224              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">466</SimpleData>
@@ -14470,7 +14335,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000EF">
 			<name>ST032b</name>
 			<description><![CDATA[description:               <br>   ST032b    <br>       <br>   FID   470    <br>   POND_NO   ST032b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   111605    <br>   PLAN_PROJE       <br>   PLAN_REPOR   111606    <br>   PHOTO   111607    <br>   LAST_UPDAT   2/13/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   5983    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   701407    <br>   SHAPE_Leng   318.764714    <br>   SHAPE_Area   5982.543754              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">467</SimpleData>
@@ -14529,7 +14394,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000F0">
 			<name>ST025</name>
 			<description><![CDATA[description:               <br>   ST025    <br>       <br>   FID   471    <br>   POND_NO   ST025    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105987    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105988    <br>   PHOTO   105989    <br>   LAST_UPDAT   6/30/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   4659    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   56    <br>   SHAPE_Leng   372.335473    <br>   SHAPE_Area   4659.341791              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">468</SimpleData>
@@ -14588,7 +14453,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000F1">
 			<name>ST026</name>
 			<description><![CDATA[description:               <br>   ST026    <br>       <br>   FID   472    <br>   POND_NO   ST026    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108636    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108637    <br>   PHOTO   108638    <br>   LAST_UPDAT   6/30/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   8429    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   56    <br>   SHAPE_Leng   379.721122    <br>   SHAPE_Area   8428.940097              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">469</SimpleData>
@@ -14647,7 +14512,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000F2">
 			<name>MP172a</name>
 			<description><![CDATA[description:               <br>   MP172a    <br>       <br>   FID   475    <br>   POND_NO   MP172a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   100794    <br>   PLAN_PROJE       <br>   PLAN_REPOR   100795    <br>   PHOTO   100796    <br>   LAST_UPDAT   4/19/2011    <br>   LAST_UPD_1   kmng2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   12806    <br>   CAL_POND_A   11239    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   142    <br>   SHAPE_Leng   442.501414    <br>   SHAPE_Area   11238.683788              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">472</SimpleData>
@@ -14706,7 +14571,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000F3">
 			<name>ST174</name>
 			<description><![CDATA[description:               <br>   ST174    <br>       <br>   FID   476    <br>   POND_NO   ST174    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   113531    <br>   PLAN_PROJE       <br>   PLAN_REPOR   113532    <br>   PHOTO   113533    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   6740    <br>   CAL_POND_A   7483    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   428.93838    <br>   SHAPE_Area   7483.491066              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">473</SimpleData>
@@ -14772,7 +14637,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000F4">
 			<name>MP068b</name>
 			<description><![CDATA[description:               <br>   MP068b    <br>       <br>   FID   477    <br>   POND_NO   MP068b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105399    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105400    <br>   PHOTO   105401    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   3370    <br>   CAL_POND_A   3092    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   0    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   305.368055    <br>   SHAPE_Area   3091.921266              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">474</SimpleData>
@@ -14831,7 +14696,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000F5">
 			<name>ST059c</name>
 			<description><![CDATA[description:               <br>   ST059c    <br>       <br>   FID   479    <br>   POND_NO   ST059c    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110542    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110543    <br>   PHOTO   110544    <br>   LAST_UPDAT   3/14/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   3925    <br>   AFFS   N    <br>   LANDUSAGE   24    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   32    <br>   SHAPE_Leng   360.262081    <br>   SHAPE_Area   3925.297008              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">476</SimpleData>
@@ -14890,7 +14755,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000F6">
 			<name>ST059a</name>
 			<description><![CDATA[description:               <br>   ST059a    <br>       <br>   FID   482    <br>   POND_NO   ST059a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101546    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101547    <br>   PHOTO   101548    <br>   LAST_UPDAT   3/14/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   4613    <br>   AFFS   N    <br>   LANDUSAGE   24    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   32    <br>   SHAPE_Leng   277.281165    <br>   SHAPE_Area   4613.065609              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">479</SimpleData>
@@ -14949,7 +14814,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000F7">
 			<name>MP138a</name>
 			<description><![CDATA[description:               <br>   MP138a    <br>       <br>   FID   488    <br>   POND_NO   MP138a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105660    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105661    <br>   PHOTO   105662    <br>   LAST_UPDAT   11/24/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   8762    <br>   CAL_POND_A   6156    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   202    <br>   SHAPE_Leng   464.463172    <br>   SHAPE_Area   6156.248439              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">485</SimpleData>
@@ -15008,7 +14873,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000F8">
 			<name>MP170a</name>
 			<description><![CDATA[description:               <br>   MP170a    <br>       <br>   FID   489    <br>   POND_NO   MP170a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105702    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105703    <br>   PHOTO   105704    <br>   LAST_UPDAT   4/19/2011    <br>   LAST_UPD_1   kmng2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   16850    <br>   CAL_POND_A   13399    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   142    <br>   SHAPE_Leng   598.157185    <br>   SHAPE_Area   13398.703128              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">486</SimpleData>
@@ -15067,7 +14932,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000F9">
 			<name>MP170b</name>
 			<description><![CDATA[description:               <br>   MP170b    <br>       <br>   FID   490    <br>   POND_NO   MP170b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105705    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105706    <br>   PHOTO   105707    <br>   LAST_UPDAT   4/19/2011    <br>   LAST_UPD_1   kmng2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   16850    <br>   CAL_POND_A   2524    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   142    <br>   SHAPE_Leng   257.307213    <br>   SHAPE_Area   2524.144738              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">487</SimpleData>
@@ -15126,7 +14991,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000FA">
 			<name>ST132</name>
 			<description><![CDATA[description:               <br>   ST132    <br>       <br>   FID   491    <br>   POND_NO   ST132    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108023    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108024    <br>   PHOTO   108025    <br>   LAST_UPDAT   5/2/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   10784    <br>   CAL_POND_A   11249    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   43    <br>   SHAPE_Leng   467.018738    <br>   SHAPE_Area   11249.058186              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">488</SimpleData>
@@ -15185,7 +15050,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000FB">
 			<name>ST186</name>
 			<description><![CDATA[description:               <br>   ST186    <br>       <br>   FID   493    <br>   POND_NO   ST186    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   107325    <br>   PLAN_PROJE       <br>   PLAN_REPOR   107326    <br>   PHOTO   107327    <br>   LAST_UPDAT   9/18/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   N    <br>   CULTURE_ME   1    <br>   EST_POND_A   4381    <br>   CAL_POND_A   4003    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Self-consume    <br>   FARM_ID   172    <br>   SHAPE_Leng   252.259335    <br>   SHAPE_Area   4002.908981              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">490</SimpleData>
@@ -15244,7 +15109,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000FC">
 			<name>ST092</name>
 			<description><![CDATA[description:               <br>   ST092    <br>       <br>   FID   494    <br>   POND_NO   ST092    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   107288    <br>   PLAN_PROJE       <br>   PLAN_REPOR   107289    <br>   PHOTO   107290    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   N    <br>   CULTURE_ME   0    <br>   EST_POND_A   5392    <br>   CAL_POND_A   5529    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   0    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   382.350732    <br>   SHAPE_Area   5529.219488              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">491</SimpleData>
@@ -15303,7 +15168,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000FD">
 			<name>MP137b</name>
 			<description><![CDATA[description:               <br>   MP137b    <br>       <br>   FID   495    <br>   POND_NO   MP137b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105657    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105658    <br>   PHOTO   105659    <br>   LAST_UPDAT   11/24/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   9436    <br>   CAL_POND_A   4745    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   202    <br>   SHAPE_Leng   271.767236    <br>   SHAPE_Area   4745.362576              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">492</SimpleData>
@@ -15362,7 +15227,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000FE">
 			<name>ST145</name>
 			<description><![CDATA[description:               <br>   ST145    <br>       <br>   FID   500    <br>   POND_NO   ST145    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106059    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106060    <br>   PHOTO   106061    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   9242    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   380.838063    <br>   SHAPE_Area   9242.235832              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">497</SimpleData>
@@ -15421,7 +15286,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0000FF">
 			<name>ST114</name>
 			<description><![CDATA[description:               <br>   ST114    <br>       <br>   FID   508    <br>   POND_NO   ST114    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108420    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108421    <br>   PHOTO   108422    <br>   LAST_UPDAT   1/2/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   13480    <br>   CAL_POND_A   14152    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   770586    <br>   SHAPE_Leng   544.7422    <br>   SHAPE_Area   14151.855509              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">505</SimpleData>
@@ -15487,7 +15352,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000100">
 			<name>ST094</name>
 			<description><![CDATA[description:               <br>   ST094    <br>       <br>   FID   513    <br>   POND_NO   ST094    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   107291    <br>   PLAN_PROJE       <br>   PLAN_REPOR   107292    <br>   PHOTO   107293    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   N    <br>   CULTURE_ME   0    <br>   EST_POND_A   26960    <br>   CAL_POND_A   26908    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   0    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   715.01986    <br>   SHAPE_Area   26907.899129              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">510</SimpleData>
@@ -15546,7 +15411,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000101">
 			<name>MP084</name>
 			<description><![CDATA[description:               <br>   MP084    <br>       <br>   FID   514    <br>   POND_NO   MP084    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105450    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105451    <br>   PHOTO   105452    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   4718    <br>   CAL_POND_A   4917    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   378.375093    <br>   SHAPE_Area   4917.464522              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">511</SimpleData>
@@ -15612,7 +15477,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000102">
 			<name>ST075</name>
 			<description><![CDATA[description:               <br>   ST075    <br>       <br>   FID   516    <br>   POND_NO   ST075    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101272    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101273    <br>   PHOTO   101274    <br>   LAST_UPDAT   1/2/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   16176    <br>   CAL_POND_A   13583    <br>   AFFS   N    <br>   LANDUSAGE   24    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   770586    <br>   SHAPE_Leng   493.761362    <br>   SHAPE_Area   13582.858079              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">513</SimpleData>
@@ -15678,7 +15543,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000103">
 			<name>MP146a</name>
 			<description><![CDATA[description:               <br>   MP146a    <br>       <br>   FID   518    <br>   POND_NO   MP146a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101555    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101556    <br>   PHOTO   101557    <br>   LAST_UPDAT   8/27/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   18198    <br>   CAL_POND_A   12758    <br>   AFFS   N    <br>   LANDUSAGE   24    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   766566    <br>   SHAPE_Leng   458.011214    <br>   SHAPE_Area   12757.639529              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">515</SimpleData>
@@ -15737,7 +15602,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000104">
 			<name>ST104</name>
 			<description><![CDATA[description:               <br>   ST104    <br>       <br>   FID   519    <br>   POND_NO   ST104    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101299    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101300    <br>   PHOTO   101301    <br>   LAST_UPDAT   1/2/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   13480    <br>   CAL_POND_A   15232    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   770586    <br>   SHAPE_Leng   553.655918    <br>   SHAPE_Area   15231.514431              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">516</SimpleData>
@@ -15803,7 +15668,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000105">
 			<name>ST105</name>
 			<description><![CDATA[description:               <br>   ST105    <br>       <br>   FID   520    <br>   POND_NO   ST105    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101302    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101303    <br>   PHOTO   101304    <br>   LAST_UPDAT   1/2/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   26960    <br>   CAL_POND_A   27615    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   770586    <br>   SHAPE_Leng   763.710899    <br>   SHAPE_Area   27615.473828              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">517</SimpleData>
@@ -15869,7 +15734,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000106">
 			<name>ST071</name>
 			<description><![CDATA[description:               <br>   ST071    <br>       <br>   FID   523    <br>   POND_NO   ST071    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101434    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101435    <br>   PHOTO   101436    <br>   LAST_UPDAT   5/7/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   4044    <br>   CAL_POND_A   2993    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   18    <br>   SHAPE_Leng   211.593671    <br>   SHAPE_Area   2993.394979              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">520</SimpleData>
@@ -15928,7 +15793,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000107">
 			<name>ST107c</name>
 			<description><![CDATA[description:               <br>   ST107c    <br>       <br>   FID   525    <br>   POND_NO   ST107c    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108733    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108734    <br>   PHOTO   108735    <br>   LAST_UPDAT   4/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   3468    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   672551    <br>   SHAPE_Leng   247.488806    <br>   SHAPE_Area   3468.139196              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">522</SimpleData>
@@ -15987,7 +15852,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000108">
 			<name>ST079</name>
 			<description><![CDATA[description:               <br>   ST079    <br>       <br>   FID   526    <br>   POND_NO   ST079    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   102819    <br>   PLAN_PROJE       <br>   PLAN_REPOR   102820    <br>   PHOTO   102821    <br>   LAST_UPDAT   1/2/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   21568    <br>   CAL_POND_A   22731    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   770586    <br>   SHAPE_Leng   697.479007    <br>   SHAPE_Area   22730.548453              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">523</SimpleData>
@@ -16053,7 +15918,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000109">
 			<name>ST074a</name>
 			<description><![CDATA[description:               <br>   ST074a    <br>       <br>   FID   532    <br>   POND_NO   ST074a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101269    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101270    <br>   PHOTO   101271    <br>   LAST_UPDAT   4/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   12323    <br>   AFFS   Y    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   672551    <br>   SHAPE_Leng   436.169226    <br>   SHAPE_Area   12322.822449              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">529</SimpleData>
@@ -16112,7 +15977,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00010A">
 			<name>ST225</name>
 			<description><![CDATA[description:               <br>   ST225    <br>       <br>   FID   534    <br>   POND_NO   ST225    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110934    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110935    <br>   PHOTO   110936    <br>   LAST_UPDAT   5/27/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   3370    <br>   CAL_POND_A   3279    <br>   AFFS   N    <br>   LANDUSAGE   9    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   685967    <br>   SHAPE_Leng   256.126098    <br>   SHAPE_Area   3278.801547              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">531</SimpleData>
@@ -16178,7 +16043,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00010B">
 			<name>ST107b</name>
 			<description><![CDATA[description:               <br>   ST107b    <br>       <br>   FID   536    <br>   POND_NO   ST107b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108730    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108731    <br>   PHOTO   108732    <br>   LAST_UPDAT   4/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   5033    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   672551    <br>   SHAPE_Leng   338.411598    <br>   SHAPE_Area   5032.988618              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">533</SimpleData>
@@ -16237,7 +16102,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00010C">
 			<name>ST107a</name>
 			<description><![CDATA[description:               <br>   ST107a    <br>       <br>   FID   537    <br>   POND_NO   ST107a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101305    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101306    <br>   PHOTO   101307    <br>   LAST_UPDAT   4/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   8444    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   672551    <br>   SHAPE_Leng   372.170879    <br>   SHAPE_Area   8443.666608              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">534</SimpleData>
@@ -16296,7 +16161,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00010D">
 			<name>ST074b</name>
 			<description><![CDATA[description:               <br>   ST074b    <br>       <br>   FID   538    <br>   POND_NO   ST074b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110009    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110010    <br>   PHOTO   110011    <br>   LAST_UPDAT   4/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   3402    <br>   AFFS   Y    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   672551    <br>   SHAPE_Leng   292.595693    <br>   SHAPE_Area   3401.650237              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">535</SimpleData>
@@ -16355,7 +16220,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00010E">
 			<name>ST170</name>
 			<description><![CDATA[description:               <br>   ST170    <br>       <br>   FID   539    <br>   POND_NO   ST170    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   113585    <br>   PLAN_PROJE       <br>   PLAN_REPOR   113586    <br>   PHOTO   113587    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   6110    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   314.366019    <br>   SHAPE_Area   6109.961405              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">536</SimpleData>
@@ -16414,7 +16279,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00010F">
 			<name>MP138b</name>
 			<description><![CDATA[description:               <br>   MP138b    <br>       <br>   FID   540    <br>   POND_NO   MP138b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105663    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105664    <br>   PHOTO   105665    <br>   LAST_UPDAT   11/24/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   8762    <br>   CAL_POND_A   5192    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   202    <br>   SHAPE_Leng   445.757137    <br>   SHAPE_Area   5192.207927              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">537</SimpleData>
@@ -16484,7 +16349,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000110">
 			<name>ST023</name>
 			<description><![CDATA[description:               <br>   ST023    <br>       <br>   FID   544    <br>   POND_NO   ST023    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103623    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103624    <br>   PHOTO   103625    <br>   LAST_UPDAT   10/3/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   4044    <br>   CAL_POND_A   4823    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   685975    <br>   SHAPE_Leng   304.61258    <br>   SHAPE_Area   4822.841977              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">541</SimpleData>
@@ -16550,7 +16415,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000111">
 			<name>MP139b</name>
 			<description><![CDATA[description:               <br>   MP139b    <br>       <br>   FID   548    <br>   POND_NO   MP139b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108962    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108963    <br>   PHOTO   108964    <br>   LAST_UPDAT   1/9/2015    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   N    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   6807    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   763346    <br>   SHAPE_Leng   324.992684    <br>   SHAPE_Area   6807.371921              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">545</SimpleData>
@@ -16609,7 +16474,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000112">
 			<name>ST064b</name>
 			<description><![CDATA[description:               <br>   ST064b    <br>       <br>   FID   551    <br>   POND_NO   ST064b    <br>   GRADING       <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103757    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103758    <br>   PHOTO   103759    <br>   LAST_UPDAT   3/14/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   1693    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   28    <br>   SHAPE_Leng   159.557273    <br>   SHAPE_Area   1693.187994              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">547</SimpleData>
@@ -16668,7 +16533,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000113">
 			<name>ST191</name>
 			<description><![CDATA[description:               <br>   ST191    <br>       <br>   FID   554    <br>   POND_NO   ST191    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106137    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106138    <br>   PHOTO   106139    <br>   LAST_UPDAT   9/18/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   N    <br>   CULTURE_ME   1    <br>   EST_POND_A   3370    <br>   CAL_POND_A   2672    <br>   AFFS   N    <br>   LANDUSAGE   23    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Self-consume    <br>   FARM_ID   171    <br>   SHAPE_Leng   273.097964    <br>   SHAPE_Area   2671.851022              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">550</SimpleData>
@@ -16727,7 +16592,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000114">
 			<name>ST122b</name>
 			<description><![CDATA[description:               <br>   ST122b    <br>       <br>   FID   556    <br>   POND_NO   ST122b    <br>   GRADING       <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106455    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106456    <br>   PHOTO   106457    <br>   LAST_UPDAT   10/8/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   1411    <br>   AFFS   Y    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   36    <br>   SHAPE_Leng   156.987557    <br>   SHAPE_Area   1411.459901              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">552</SimpleData>
@@ -16797,7 +16662,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000115">
 			<name>ST226</name>
 			<description><![CDATA[description:               <br>   ST226    <br>       <br>   FID   558    <br>   POND_NO   ST226    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110937    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110938    <br>   PHOTO   110939    <br>   LAST_UPDAT   5/27/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   9436    <br>   CAL_POND_A   8952    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   685967    <br>   SHAPE_Leng   398.241687    <br>   SHAPE_Area   8952.324523              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">554</SimpleData>
@@ -16856,7 +16721,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000116">
 			<name>ST149</name>
 			<description><![CDATA[description:               <br>   ST149    <br>       <br>   FID   560    <br>   POND_NO   ST149    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106068    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106069    <br>   PHOTO   106070    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   5394    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   340.416131    <br>   SHAPE_Area   5394.006628              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">556</SimpleData>
@@ -16915,7 +16780,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000117">
 			<name>ST085</name>
 			<description><![CDATA[description:               <br>   ST085    <br>       <br>   FID   563    <br>   POND_NO   ST085    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101281    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101282    <br>   PHOTO   101283    <br>   LAST_UPDAT   4/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   4044    <br>   CAL_POND_A   4651    <br>   AFFS   Y    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   672551    <br>   SHAPE_Leng   272.400817    <br>   SHAPE_Area   4650.957508              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">559</SimpleData>
@@ -16974,7 +16839,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000118">
 			<name>MP097</name>
 			<description><![CDATA[description:               <br>   MP097    <br>       <br>   FID   564    <br>   POND_NO   MP097    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105492    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105493    <br>   PHOTO   105494    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   13480    <br>   CAL_POND_A   13345    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   577.943936    <br>   SHAPE_Area   13345.30413              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">560</SimpleData>
@@ -17040,7 +16905,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000119">
 			<name>MP085</name>
 			<description><![CDATA[description:               <br>   MP085    <br>       <br>   FID   568    <br>   POND_NO   MP085    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105453    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105454    <br>   PHOTO   105455    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   4718    <br>   CAL_POND_A   5274    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   360.371208    <br>   SHAPE_Area   5274.239414              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">564</SimpleData>
@@ -17106,7 +16971,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00011A">
 			<name>ST171</name>
 			<description><![CDATA[description:               <br>   ST171    <br>       <br>   FID   570    <br>   POND_NO   ST171    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   114394    <br>   PLAN_PROJE       <br>   PLAN_REPOR   114395    <br>   PHOTO   114396    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   10018    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   399.026772    <br>   SHAPE_Area   10018.378994              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">566</SimpleData>
@@ -17165,7 +17030,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00011B">
 			<name>ST088</name>
 			<description><![CDATA[description:               <br>   ST088    <br>       <br>   FID   572    <br>   POND_NO   ST088    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106023    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106024    <br>   PHOTO   106025    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   4381    <br>   CAL_POND_A   4298    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   380.77    <br>   SHAPE_Area   4297.81525              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">568</SimpleData>
@@ -17224,7 +17089,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00011C">
 			<name>ST116</name>
 			<description><![CDATA[description:               <br>   ST116    <br>       <br>   FID   578    <br>   POND_NO   ST116    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108426    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108427    <br>   PHOTO   108428    <br>   LAST_UPDAT   1/2/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   15502    <br>   CAL_POND_A   14586    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   770586    <br>   SHAPE_Leng   534.489693    <br>   SHAPE_Area   14586.379683              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">574</SimpleData>
@@ -17283,7 +17148,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00011D">
 			<name>ST118</name>
 			<description><![CDATA[description:               <br>   ST118    <br>       <br>   FID   579    <br>   POND_NO   ST118    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108429    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108430    <br>   PHOTO   108431    <br>   LAST_UPDAT   1/2/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8762    <br>   CAL_POND_A   9577    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   770586    <br>   SHAPE_Leng   386.551967    <br>   SHAPE_Area   9577.317721              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">575</SimpleData>
@@ -17342,7 +17207,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00011E">
 			<name>ST119</name>
 			<description><![CDATA[description:               <br>   ST119    <br>       <br>   FID   580    <br>   POND_NO   ST119    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101517    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101518    <br>   PHOTO   101519    <br>   LAST_UPDAT   1/2/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   6740    <br>   CAL_POND_A   7490    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   770586    <br>   SHAPE_Leng   334.711097    <br>   SHAPE_Area   7489.916519              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">576</SimpleData>
@@ -17401,7 +17266,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00011F">
 			<name>ST203</name>
 			<description><![CDATA[description:               <br>   ST203    <br>       <br>   FID   581    <br>   POND_NO   ST203    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106179    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106180    <br>   PHOTO   106181    <br>   LAST_UPDAT   2/11/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   3707    <br>   CAL_POND_A   4752    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Self-consume    <br>   FARM_ID   663189    <br>   SHAPE_Leng   293.577252    <br>   SHAPE_Area   4751.785061              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">577</SimpleData>
@@ -17460,7 +17325,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000120">
 			<name>ST173</name>
 			<description><![CDATA[description:               <br>   ST173    <br>       <br>   FID   583    <br>   POND_NO   ST173    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106119    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106120    <br>   PHOTO   106121    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   8088    <br>   CAL_POND_A   8047    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   481.829673    <br>   SHAPE_Area   8046.743401              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">579</SimpleData>
@@ -17519,7 +17384,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000121">
 			<name>ST064a</name>
 			<description><![CDATA[description:               <br>   ST064a    <br>       <br>   FID   586    <br>   POND_NO   ST064a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103754    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103755    <br>   PHOTO   103756    <br>   LAST_UPDAT   3/14/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   14154    <br>   CAL_POND_A   12615    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   28    <br>   SHAPE_Leng   539.975206    <br>   SHAPE_Area   12614.691008              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">582</SimpleData>
@@ -17585,7 +17450,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000122">
 			<name>ST103</name>
 			<description><![CDATA[description:               <br>   ST103    <br>       <br>   FID   587    <br>   POND_NO   ST103    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101296    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101297    <br>   PHOTO   101298    <br>   LAST_UPDAT   4/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   3370    <br>   CAL_POND_A   3527    <br>   AFFS   Y    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   672551    <br>   SHAPE_Leng   234.627334    <br>   SHAPE_Area   3527.429059              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">583</SimpleData>
@@ -17644,7 +17509,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000123">
 			<name>ST109</name>
 			<description><![CDATA[description:               <br>   ST109    <br>       <br>   FID   588    <br>   POND_NO   ST109    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103942    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103943    <br>   PHOTO   103944    <br>   LAST_UPDAT   1/2/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   15502    <br>   CAL_POND_A   18482    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   770586    <br>   SHAPE_Leng   618.233083    <br>   SHAPE_Area   18482.194762              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">584</SimpleData>
@@ -17710,7 +17575,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000124">
 			<name>ST108</name>
 			<description><![CDATA[description:               <br>   ST108    <br>       <br>   FID   589    <br>   POND_NO   ST108    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108417    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108418    <br>   PHOTO   108419    <br>   LAST_UPDAT   1/2/2015    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   18872    <br>   CAL_POND_A   20400    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   770586    <br>   SHAPE_Leng   634.46317    <br>   SHAPE_Area   20400.034297              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">585</SimpleData>
@@ -17776,7 +17641,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000125">
 			<name>ST179</name>
 			<description><![CDATA[description:               <br>   ST179    <br>       <br>   FID   590    <br>   POND_NO   ST179    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106125    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106126    <br>   PHOTO   106127    <br>   LAST_UPDAT   8/13/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   1348    <br>   CAL_POND_A   2357    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   187    <br>   SHAPE_Leng   190.184513    <br>   SHAPE_Area   2356.608403              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">586</SimpleData>
@@ -17835,7 +17700,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000126">
 			<name>ST180</name>
 			<description><![CDATA[description:               <br>   ST180    <br>       <br>   FID   591    <br>   POND_NO   ST180    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108639    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108640    <br>   PHOTO   108641    <br>   LAST_UPDAT   7/31/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   4718    <br>   CAL_POND_A   5117    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   1    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   187    <br>   SHAPE_Leng   441.690806    <br>   SHAPE_Area   5116.887399              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">587</SimpleData>
@@ -17894,7 +17759,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000127">
 			<name>ST060</name>
 			<description><![CDATA[description:               <br>   ST060    <br>       <br>   FID   593    <br>   POND_NO   ST060    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104144    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104145    <br>   PHOTO   104146    <br>   LAST_UPDAT   5/7/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   15502    <br>   CAL_POND_A   14103    <br>   AFFS   Y    <br>   LANDUSAGE   24    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   34    <br>   SHAPE_Leng   502.122442    <br>   SHAPE_Area   14103.36932              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">589</SimpleData>
@@ -17953,7 +17818,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000128">
 			<name>ST061</name>
 			<description><![CDATA[description:               <br>   ST061    <br>       <br>   FID   594    <br>   POND_NO   ST061    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104147    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104148    <br>   PHOTO   104149    <br>   LAST_UPDAT   5/7/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   14828    <br>   CAL_POND_A   15451    <br>   AFFS   Y    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   34    <br>   SHAPE_Leng   529.305673    <br>   SHAPE_Area   15451.117511              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">590</SimpleData>
@@ -18012,7 +17877,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000129">
 			<name>ST070</name>
 			<description><![CDATA[description:               <br>   ST070    <br>       <br>   FID   595    <br>   POND_NO   ST070    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101531    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101532    <br>   PHOTO   101533    <br>   LAST_UPDAT   5/7/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   7240    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   18    <br>   SHAPE_Leng   361.645594    <br>   SHAPE_Area   7240.323178              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">591</SimpleData>
@@ -18078,7 +17943,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00012A">
 			<name>MP073</name>
 			<description><![CDATA[description:               <br>   MP073    <br>       <br>   FID   596    <br>   POND_NO   MP073    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105417    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105418    <br>   PHOTO   105419    <br>   LAST_UPDAT   3/3/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   3370    <br>   CAL_POND_A   3067    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   121511    <br>   SHAPE_Leng   286.430909    <br>   SHAPE_Area   3067.155372              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">592</SimpleData>
@@ -18143,7 +18008,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		</Placemark>
 		<Placemark id="5BD06B9F0E00012B">
 			<name>ST238</name>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">597</SimpleData>
@@ -18167,7 +18032,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		</Placemark>
 		<Placemark id="5BD06B9F0E00012C">
 			<name>ST239</name>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">598</SimpleData>
@@ -18191,7 +18056,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		</Placemark>
 		<Placemark id="5BD06B9F0E00012D">
 			<name>ST242</name>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">599</SimpleData>
@@ -18215,7 +18080,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		</Placemark>
 		<Placemark id="5BD06B9F0E00012E">
 			<name>ST241</name>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">600</SimpleData>
@@ -18239,7 +18104,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		</Placemark>
 		<Placemark id="5BD06B9F0E00012F">
 			<name>ST240</name>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">601</SimpleData>
@@ -18263,7 +18128,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		</Placemark>
 		<Placemark id="5BD06B9F0E000130">
 			<name>ST236</name>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">602</SimpleData>
@@ -18287,7 +18152,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		</Placemark>
 		<Placemark id="5BD06B9F0E000131">
 			<name>ST251</name>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">603</SimpleData>
@@ -18311,7 +18176,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		</Placemark>
 		<Placemark id="5BD06B9F0E000132">
 			<name>ST234</name>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">604</SimpleData>
@@ -18335,7 +18200,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		</Placemark>
 		<Placemark id="5BD06B9F0E000133">
 			<name>ST235</name>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">605</SimpleData>
@@ -18360,7 +18225,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000134">
 			<name>MP102a</name>
 			<description><![CDATA[description:               <br>   MP102a    <br>       <br>   FID   8    <br>   POND_NO   MP102a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105330    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105331    <br>   PHOTO   105512    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   2359    <br>   CAL_POND_A   2563    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   204.220935    <br>   SHAPE_Area   2563.494417              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">9</SimpleData>
@@ -18419,7 +18284,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000135">
 			<name>MP102b</name>
 			<description><![CDATA[description:               <br>   MP102b    <br>       <br>   FID   9    <br>   POND_NO   MP102b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105513    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105514    <br>   PHOTO   105515    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   1685    <br>   CAL_POND_A   1677    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   162.013149    <br>   SHAPE_Area   1676.985668              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">10</SimpleData>
@@ -18478,7 +18343,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000136">
 			<name>MP101a</name>
 			<description><![CDATA[description:               <br>   MP101a    <br>       <br>   FID   11    <br>   POND_NO   MP101a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   100883    <br>   PLAN_PROJE       <br>   PLAN_REPOR   100884    <br>   PHOTO   100885    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   3370    <br>   CAL_POND_A   3725    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   350.855064    <br>   SHAPE_Area   3725.185353              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">12</SimpleData>
@@ -18537,7 +18402,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000137">
 			<name>ST003</name>
 			<description><![CDATA[description:               <br>   ST003    <br>       <br>   FID   12    <br>   POND_NO   ST003    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   106982    <br>   PLAN_PROJE       <br>   PLAN_REPOR   106983    <br>   PHOTO   106984    <br>   LAST_UPDAT   6/24/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   14828    <br>   CAL_POND_A   14579    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   87    <br>   SHAPE_Leng   614.580683    <br>   SHAPE_Area   14578.643672              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">13</SimpleData>
@@ -18596,7 +18461,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000138">
 			<name>MP006</name>
 			<description><![CDATA[description:               <br>   MP006    <br>       <br>   FID   13    <br>   POND_NO   MP006    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105306    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105307    <br>   PHOTO   105308    <br>   LAST_UPDAT   9/17/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   4718    <br>   CAL_POND_A   5762    <br>   AFFS   N    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   136    <br>   SHAPE_Leng   316.788283    <br>   SHAPE_Area   5762.463485              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">14</SimpleData>
@@ -18655,7 +18520,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000139">
 			<name>MP003</name>
 			<description><![CDATA[description:               <br>   MP003    <br>       <br>   FID   14    <br>   POND_NO   MP003    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103472    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103473    <br>   PHOTO   103474    <br>   LAST_UPDAT   10/10/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8088    <br>   CAL_POND_A   8756    <br>   AFFS   N    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   698299    <br>   SHAPE_Leng   464.873231    <br>   SHAPE_Area   8755.539578              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">15</SimpleData>
@@ -18721,7 +18586,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00013A">
 			<name>MP022</name>
 			<description><![CDATA[description:               <br>   MP022    <br>       <br>   FID   15    <br>   POND_NO   MP022    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104314    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104315    <br>   PHOTO   104316    <br>   LAST_UPDAT   7/9/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   12132    <br>   CAL_POND_A   14223    <br>   AFFS   N    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   129    <br>   SHAPE_Leng   463.382055    <br>   SHAPE_Area   14222.700817              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">16</SimpleData>
@@ -18780,7 +18645,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00013B">
 			<name>MP023</name>
 			<description><![CDATA[description:               <br>   MP023    <br>       <br>   FID   16    <br>   POND_NO   MP023    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104317    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104318    <br>   PHOTO   104319    <br>   LAST_UPDAT   7/9/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   7414    <br>   CAL_POND_A   7313    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   129    <br>   SHAPE_Leng   362.322103    <br>   SHAPE_Area   7312.528902              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">17</SimpleData>
@@ -18839,7 +18704,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00013C">
 			<name>MP165</name>
 			<description><![CDATA[description:               <br>   MP165    <br>       <br>   FID   17    <br>   POND_NO   MP165    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104103    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104104    <br>   PHOTO   104105    <br>   LAST_UPDAT   8/7/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   9436    <br>   CAL_POND_A   5970    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   763406    <br>   SHAPE_Leng   321.741399    <br>   SHAPE_Area   5969.567712              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">18</SimpleData>
@@ -18898,7 +18763,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00013D">
 			<name>MP185</name>
 			<description><![CDATA[description:               <br>   MP185    <br>       <br>   FID   18    <br>   POND_NO   MP185    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   102902    <br>   PLAN_PROJE       <br>   PLAN_REPOR   102903    <br>   PHOTO   102904    <br>   LAST_UPDAT   3/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   24259    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   2    <br>   SHAPE_Leng   614.634931    <br>   SHAPE_Area   24258.734484              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">19</SimpleData>
@@ -18957,7 +18822,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00013E">
 			<name>MP056a</name>
 			<description><![CDATA[description:               <br>   MP056a    <br>       <br>   FID   20    <br>   POND_NO   MP056a    <br>   GRADING       <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105372    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105373    <br>   PHOTO   105374    <br>   LAST_UPDAT   8/25/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   6745    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   8    <br>   SHAPE_Leng   343.027166    <br>   SHAPE_Area   6745.398507              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">21</SimpleData>
@@ -19016,7 +18881,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00013F">
 			<name>MP193a</name>
 			<description><![CDATA[description:               <br>   MP193a    <br>       <br>   FID   23    <br>   POND_NO   MP193a    <br>   GRADING       <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105728    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105729    <br>   PHOTO   105730    <br>   LAST_UPDAT   5/21/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   7564    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   23    <br>   SHAPE_Leng   338.443275    <br>   SHAPE_Area   7564.010562              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">24</SimpleData>
@@ -19075,7 +18940,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000140">
 			<name>MP057</name>
 			<description><![CDATA[description:               <br>   MP057    <br>       <br>   FID   25    <br>   POND_NO   MP057    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103178    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103179    <br>   PHOTO   103180    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   12132    <br>   CAL_POND_A   12384    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   10    <br>   SHAPE_Leng   456.990606    <br>   SHAPE_Area   12384.168629              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">26</SimpleData>
@@ -19134,7 +18999,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000141">
 			<name>MP168</name>
 			<description><![CDATA[description:               <br>   MP168    <br>       <br>   FID   26    <br>   POND_NO   MP168    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   102772    <br>   PLAN_PROJE       <br>   PLAN_REPOR   102773    <br>   PHOTO   102774    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   4044    <br>   CAL_POND_A   4349    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   202    <br>   SHAPE_Leng   297.777132    <br>   SHAPE_Area   4349.394067              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">27</SimpleData>
@@ -19193,7 +19058,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000142">
 			<name>MP050b</name>
 			<description><![CDATA[description:               <br>   MP050b    <br>       <br>   FID   27    <br>   POND_NO   MP050b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105357    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105358    <br>   PHOTO   105359    <br>   LAST_UPDAT   6/11/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   13480    <br>   CAL_POND_A   14784    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   47    <br>   SHAPE_Leng   475.996995    <br>   SHAPE_Area   14784.313446              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">28</SimpleData>
@@ -19252,7 +19117,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000143">
 			<name>MP157</name>
 			<description><![CDATA[description:               <br>   MP157    <br>       <br>   FID   30    <br>   POND_NO   MP157    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105693    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105694    <br>   PHOTO   105695    <br>   LAST_UPDAT   9/23/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   14828    <br>   CAL_POND_A   16439    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   123    <br>   SHAPE_Leng   494.438594    <br>   SHAPE_Area   16438.737639              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">31</SimpleData>
@@ -19311,7 +19176,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000144">
 			<name>MP060</name>
 			<description><![CDATA[description:               <br>   MP060    <br>       <br>   FID   31    <br>   POND_NO   MP060    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103916    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103917    <br>   PHOTO   103918    <br>   LAST_UPDAT   7/9/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   6066    <br>   CAL_POND_A   8402    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   4    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   592811    <br>   SHAPE_Leng   427.671127    <br>   SHAPE_Area   8402.095156              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">32</SimpleData>
@@ -19370,7 +19235,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000145">
 			<name>MP050a</name>
 			<description><![CDATA[description:               <br>   MP050a    <br>       <br>   FID   33    <br>   POND_NO   MP050a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103306    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103307    <br>   PHOTO   103308    <br>   LAST_UPDAT   6/11/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   13480    <br>   CAL_POND_A   12641    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   47    <br>   SHAPE_Leng   447.547884    <br>   SHAPE_Area   12640.726966              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">34</SimpleData>
@@ -19429,7 +19294,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000146">
 			<name>ST004</name>
 			<description><![CDATA[description:               <br>   ST004    <br>       <br>   FID   34    <br>   POND_NO   ST004    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105969    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105970    <br>   PHOTO   105971    <br>   LAST_UPDAT   6/24/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   6740    <br>   CAL_POND_A   6185    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   87    <br>   SHAPE_Leng   362.026009    <br>   SHAPE_Area   6185.327388              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">35</SimpleData>
@@ -19488,7 +19353,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000147">
 			<name>MP112e</name>
 			<description><![CDATA[description:               <br>   MP112e    <br>       <br>   FID   37    <br>   POND_NO   MP112e    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105579    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105580    <br>   PHOTO   105581    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   4110    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   266.415774    <br>   SHAPE_Area   4110.305792              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">38</SimpleData>
@@ -19547,7 +19412,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000148">
 			<name>MP112b</name>
 			<description><![CDATA[description:               <br>   MP112b    <br>       <br>   FID   38    <br>   POND_NO   MP112b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   109142    <br>   PLAN_PROJE       <br>   PLAN_REPOR   109143    <br>   PHOTO   109144    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   N    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   4288    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   270.210954    <br>   SHAPE_Area   4288.054977              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">39</SimpleData>
@@ -19606,7 +19471,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000149">
 			<name>MP107</name>
 			<description><![CDATA[description:               <br>   MP107    <br>       <br>   FID   40    <br>   POND_NO   MP107    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105549    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105550    <br>   PHOTO   105551    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   3766    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   267.726647    <br>   SHAPE_Area   3765.818109              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">41</SimpleData>
@@ -19665,7 +19530,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00014A">
 			<name>MP105h</name>
 			<description><![CDATA[description:               <br>   MP105h    <br>       <br>   FID   41    <br>   POND_NO   MP105h    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   109175    <br>   PLAN_PROJE       <br>   PLAN_REPOR   109176    <br>   PHOTO   109177    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   5850    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   303.886208    <br>   SHAPE_Area   5850.03728              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">42</SimpleData>
@@ -19724,7 +19589,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00014B">
 			<name>MP011</name>
 			<description><![CDATA[description:               <br>   MP011    <br>       <br>   FID   42    <br>   POND_NO   MP011    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105312    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105313    <br>   PHOTO   105314    <br>   LAST_UPDAT   10/10/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   3370    <br>   CAL_POND_A   5152    <br>   AFFS   N    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   85    <br>   SHAPE_Leng   312.745797    <br>   SHAPE_Area   5152.321443              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">43</SimpleData>
@@ -19783,7 +19648,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00014C">
 			<name>MP163a</name>
 			<description><![CDATA[description:               <br>   MP163a    <br>       <br>   FID   43    <br>   POND_NO   MP163a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101561    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101562    <br>   PHOTO   101563    <br>   LAST_UPDAT   11/24/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   9856    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   202    <br>   SHAPE_Leng   459.135911    <br>   SHAPE_Area   9855.850014              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">44</SimpleData>
@@ -19842,7 +19707,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00014D">
 			<name>MP103a</name>
 			<description><![CDATA[description:               <br>   MP103a    <br>       <br>   FID   44    <br>   POND_NO   MP103a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105516    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105517    <br>   PHOTO   105518    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   2787    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   219.85264    <br>   SHAPE_Area   2787.316817              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">45</SimpleData>
@@ -19901,7 +19766,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00014E">
 			<name>MP103c</name>
 			<description><![CDATA[description:               <br>   MP103c    <br>       <br>   FID   45    <br>   POND_NO   MP103c    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105522    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105523    <br>   PHOTO   105524    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   2015    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   183.154655    <br>   SHAPE_Area   2014.981797              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">46</SimpleData>
@@ -19960,7 +19825,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00014F">
 			<name>MP163b</name>
 			<description><![CDATA[description:               <br>   MP163b    <br>       <br>   FID   46    <br>   POND_NO   MP163b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   112826    <br>   PLAN_PROJE       <br>   PLAN_REPOR   112827    <br>   PHOTO   112828    <br>   LAST_UPDAT   11/24/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   7317    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   202    <br>   SHAPE_Leng   336.89405    <br>   SHAPE_Area   7317.018065              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">47</SimpleData>
@@ -20019,7 +19884,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000150">
 			<name>MP030</name>
 			<description><![CDATA[description:               <br>   MP030    <br>       <br>   FID   47    <br>   POND_NO   MP030    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103821    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103822    <br>   PHOTO   103823    <br>   LAST_UPDAT   10/10/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   14828    <br>   CAL_POND_A   13731    <br>   AFFS   N    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   89    <br>   SHAPE_Leng   501.587814    <br>   SHAPE_Area   13731.16869              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">48</SimpleData>
@@ -20085,7 +19950,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000151">
 			<name>MP154</name>
 			<description><![CDATA[description:               <br>   MP154    <br>       <br>   FID   48    <br>   POND_NO   MP154    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105687    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105688    <br>   PHOTO   105689    <br>   LAST_UPDAT   9/23/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   12806    <br>   CAL_POND_A   11986    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   123    <br>   SHAPE_Leng   454.248644    <br>   SHAPE_Area   11985.943443              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">49</SimpleData>
@@ -20144,7 +20009,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000152">
 			<name>MP155</name>
 			<description><![CDATA[description:               <br>   MP155    <br>       <br>   FID   49    <br>   POND_NO   MP155    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105690    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105691    <br>   PHOTO   105692    <br>   LAST_UPDAT   9/23/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   13480    <br>   CAL_POND_A   14334    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   1    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   123    <br>   SHAPE_Leng   510.442227    <br>   SHAPE_Area   14333.969811              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">50</SimpleData>
@@ -20203,7 +20068,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000153">
 			<name>MP103e</name>
 			<description><![CDATA[description:               <br>   MP103e    <br>       <br>   FID   50    <br>   POND_NO   MP103e    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105528    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105529    <br>   PHOTO   105530    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   3707    <br>   CAL_POND_A   2983    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   221.394622    <br>   SHAPE_Area   2983.189839              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">51</SimpleData>
@@ -20262,7 +20127,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000154">
 			<name>MP103d</name>
 			<description><![CDATA[description:               <br>   MP103d    <br>       <br>   FID   51    <br>   POND_NO   MP103d    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105525    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105526    <br>   PHOTO   105527    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   2696    <br>   CAL_POND_A   3223    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   221.611877    <br>   SHAPE_Area   3222.933999              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">52</SimpleData>
@@ -20321,7 +20186,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000155">
 			<name>MP009a</name>
 			<description><![CDATA[description:               <br>   MP009a    <br>       <br>   FID   52    <br>   POND_NO   MP009a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103187    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103188    <br>   PHOTO   103189    <br>   LAST_UPDAT   10/10/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   5243    <br>   AFFS   N    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   85    <br>   SHAPE_Leng   330.906781    <br>   SHAPE_Area   5242.737919              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">53</SimpleData>
@@ -20380,7 +20245,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000156">
 			<name>MP009b</name>
 			<description><![CDATA[description:               <br>   MP009b    <br>       <br>   FID   54    <br>   POND_NO   MP009b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   109048    <br>   PLAN_PROJE       <br>   PLAN_REPOR   109049    <br>   PHOTO   109050    <br>   LAST_UPDAT   10/10/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   8736    <br>   AFFS   N    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   85    <br>   SHAPE_Leng   382.010268    <br>   SHAPE_Area   8735.529704              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">55</SimpleData>
@@ -20439,7 +20304,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000157">
 			<name>MP112a</name>
 			<description><![CDATA[description:               <br>   MP112a    <br>       <br>   FID   55    <br>   POND_NO   MP112a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105576    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105577    <br>   PHOTO   105578    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   N    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   4766    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   284.74148    <br>   SHAPE_Area   4766.408237              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">56</SimpleData>
@@ -20498,7 +20363,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000158">
 			<name>MP112f</name>
 			<description><![CDATA[description:               <br>   MP112f    <br>       <br>   FID   56    <br>   POND_NO   MP112f    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   109148    <br>   PLAN_PROJE       <br>   PLAN_REPOR   109149    <br>   PHOTO   109150    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   3987    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   261.295092    <br>   SHAPE_Area   3986.913225              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">57</SimpleData>
@@ -20557,7 +20422,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000159">
 			<name>MP106</name>
 			<description><![CDATA[description:               <br>   MP106    <br>       <br>   FID   57    <br>   POND_NO   MP106    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101142    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101143    <br>   PHOTO   101144    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   3370    <br>   CAL_POND_A   2924    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   214.235096    <br>   SHAPE_Area   2923.971836              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">58</SimpleData>
@@ -20616,7 +20481,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00015A">
 			<name>MP103h</name>
 			<description><![CDATA[description:               <br>   MP103h    <br>       <br>   FID   59    <br>   POND_NO   MP103h    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   112820    <br>   PLAN_PROJE       <br>   PLAN_REPOR   112821    <br>   PHOTO   112822    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   1976    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   182.444493    <br>   SHAPE_Area   1976.375476              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">60</SimpleData>
@@ -20675,7 +20540,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00015B">
 			<name>MP167a</name>
 			<description><![CDATA[description:               <br>   MP167a    <br>       <br>   FID   60    <br>   POND_NO   MP167a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103706    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103707    <br>   PHOTO   103708    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   10121    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   202    <br>   SHAPE_Leng   476.658363    <br>   SHAPE_Area   10120.918358              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">61</SimpleData>
@@ -20734,7 +20599,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00015C">
 			<name>MP173d</name>
 			<description><![CDATA[description:               <br>   MP173d    <br>       <br>   FID   61    <br>   POND_NO   MP173d    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   112808    <br>   PLAN_PROJE       <br>   PLAN_REPOR   112809    <br>   PHOTO   112810    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   6153    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   202    <br>   SHAPE_Leng   323.98011    <br>   SHAPE_Area   6153.41466              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">62</SimpleData>
@@ -20793,7 +20658,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00015D">
 			<name>MP108b</name>
 			<description><![CDATA[description:               <br>   MP108b    <br>       <br>   FID   62    <br>   POND_NO   MP108b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101092    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101093    <br>   PHOTO   101094    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   N    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   3445    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   227.139788    <br>   SHAPE_Area   3444.847358              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">63</SimpleData>
@@ -20852,7 +20717,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00015E">
 			<name>MP108a</name>
 			<description><![CDATA[description:               <br>   MP108a    <br>       <br>   FID   63    <br>   POND_NO   MP108a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103812    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103813    <br>   PHOTO   103814    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   4996    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   288.952461    <br>   SHAPE_Area   4996.0803              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">64</SimpleData>
@@ -20911,7 +20776,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00015F">
 			<name>MP104b</name>
 			<description><![CDATA[description:               <br>   MP104b    <br>       <br>   FID   64    <br>   POND_NO   MP104b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105534    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105535    <br>   PHOTO   105536    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   1910    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   180.624176    <br>   SHAPE_Area   1935.875788              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">65</SimpleData>
@@ -20970,7 +20835,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000160">
 			<name>MP105d</name>
 			<description><![CDATA[description:               <br>   MP105d    <br>       <br>   FID   65    <br>   POND_NO   MP105d    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105546    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105547    <br>   PHOTO   105548    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   1895    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   173.25075    <br>   SHAPE_Area   1895.078538              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">66</SimpleData>
@@ -21029,7 +20894,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000161">
 			<name>MP055</name>
 			<description><![CDATA[description:               <br>   MP055    <br>       <br>   FID   67    <br>   POND_NO   MP055    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104235    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104236    <br>   PHOTO   104237    <br>   LAST_UPDAT   8/25/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   15502    <br>   CAL_POND_A   14773    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   8    <br>   SHAPE_Leng   628.488122    <br>   SHAPE_Area   14773.017944              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">67</SimpleData>
@@ -21088,7 +20953,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000162">
 			<name>MP173c</name>
 			<description><![CDATA[description:               <br>   MP173c    <br>       <br>   FID   68    <br>   POND_NO   MP173c    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   112805    <br>   PLAN_PROJE       <br>   PLAN_REPOR   112806    <br>   PHOTO   112807    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   3330    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   202    <br>   SHAPE_Leng   236.123391    <br>   SHAPE_Area   3329.774903              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">68</SimpleData>
@@ -21147,7 +21012,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000163">
 			<name>MP002</name>
 			<description><![CDATA[description:               <br>   MP002    <br>       <br>   FID   69    <br>   POND_NO   MP002    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105303    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105304    <br>   PHOTO   105305    <br>   LAST_UPDAT   10/10/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   6740    <br>   CAL_POND_A   9354    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   131    <br>   SHAPE_Leng   410.119959    <br>   SHAPE_Area   9354.223743              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">69</SimpleData>
@@ -21206,7 +21071,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000164">
 			<name>MP053</name>
 			<description><![CDATA[description:               <br>   MP053    <br>       <br>   FID   70    <br>   POND_NO   MP053    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105366    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105367    <br>   PHOTO   105368    <br>   LAST_UPDAT   6/11/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   19546    <br>   CAL_POND_A   18476    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   47    <br>   SHAPE_Leng   539.271152    <br>   SHAPE_Area   18475.866803              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">70</SimpleData>
@@ -21265,7 +21130,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000165">
 			<name>MP056b</name>
 			<description><![CDATA[description:               <br>   MP056b    <br>       <br>   FID   71    <br>   POND_NO   MP056b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105375    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105376    <br>   PHOTO   105377    <br>   LAST_UPDAT   8/25/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   19209    <br>   CAL_POND_A   9443    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   8    <br>   SHAPE_Leng   420.684987    <br>   SHAPE_Area   9443.436326              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">71</SimpleData>
@@ -21324,7 +21189,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000166">
 			<name>MP173b</name>
 			<description><![CDATA[description:               <br>   MP173b    <br>       <br>   FID   72    <br>   POND_NO   MP173b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105495    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105496    <br>   PHOTO   105497    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   3609    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   202    <br>   SHAPE_Leng   244.196632    <br>   SHAPE_Area   3608.56791              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">72</SimpleData>
@@ -21383,7 +21248,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000167">
 			<name>MP173a</name>
 			<description><![CDATA[description:               <br>   MP173a    <br>       <br>   FID   73    <br>   POND_NO   MP173a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104253    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104254    <br>   PHOTO   104255    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   3415    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   202    <br>   SHAPE_Leng   241.462177    <br>   SHAPE_Area   3415.32503              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">73</SimpleData>
@@ -21442,7 +21307,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000168">
 			<name>MP017</name>
 			<description><![CDATA[description:               <br>   MP017    <br>       <br>   FID   74    <br>   POND_NO   MP017    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101591    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101592    <br>   PHOTO   101593    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   9436    <br>   CAL_POND_A   10978    <br>   AFFS   Y    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   86    <br>   SHAPE_Leng   405.358831    <br>   SHAPE_Area   10977.554266              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">74</SimpleData>
@@ -21501,7 +21366,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000169">
 			<name>MP119b</name>
 			<description><![CDATA[description:               <br>   MP119b    <br>       <br>   FID   75    <br>   POND_NO   MP119b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   102910    <br>   PLAN_PROJE       <br>   PLAN_REPOR   102911    <br>   PHOTO   102912    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   7414    <br>   CAL_POND_A   6444    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   369.027146    <br>   SHAPE_Area   6443.642761              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">75</SimpleData>
@@ -21560,7 +21425,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00016A">
 			<name>MP120</name>
 			<description><![CDATA[description:               <br>   MP120    <br>       <br>   FID   76    <br>   POND_NO   MP120    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   100751    <br>   PLAN_PROJE       <br>   PLAN_REPOR   100752    <br>   PHOTO   100753    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   2022    <br>   CAL_POND_A   2004    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   198.388617    <br>   SHAPE_Area   2003.543821              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">76</SimpleData>
@@ -21619,7 +21484,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00016B">
 			<name>MP121</name>
 			<description><![CDATA[description:               <br>   MP121    <br>       <br>   FID   77    <br>   POND_NO   MP121    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   100913    <br>   PLAN_PROJE       <br>   PLAN_REPOR   100914    <br>   PHOTO   100915    <br>   LAST_UPDAT   10/7/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   2022    <br>   CAL_POND_A   2023    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   22    <br>   SHAPE_Leng   183.279395    <br>   SHAPE_Area   2023.280317              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">77</SimpleData>
@@ -21678,7 +21543,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00016C">
 			<name>MP020</name>
 			<description><![CDATA[description:               <br>   MP020    <br>       <br>   FID   78    <br>   POND_NO   MP020    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104208    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104209    <br>   PHOTO   104210    <br>   LAST_UPDAT   7/9/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   14154    <br>   CAL_POND_A   12114    <br>   AFFS   Y    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   129    <br>   SHAPE_Leng   426.201654    <br>   SHAPE_Area   12114.21203              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">78</SimpleData>
@@ -21737,7 +21602,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00016D">
 			<name>MP064</name>
 			<description><![CDATA[description:               <br>   MP064    <br>       <br>   FID   79    <br>   POND_NO   MP064    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103614    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103615    <br>   PHOTO   103616    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   9436    <br>   CAL_POND_A   10611    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   698304    <br>   SHAPE_Leng   507.145009    <br>   SHAPE_Area   10611.149624              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">79</SimpleData>
@@ -21803,7 +21668,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00016E">
 			<name>MP101b</name>
 			<description><![CDATA[description:               <br>   MP101b    <br>       <br>   FID   80    <br>   POND_NO   MP101b    <br>   GRADING       <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   100867    <br>   PLAN_PROJE       <br>   PLAN_REPOR   100868    <br>   PHOTO   100869    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   1011    <br>   CAL_POND_A   1008    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   137.719131    <br>   SHAPE_Area   1008.237755              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">80</SimpleData>
@@ -21862,7 +21727,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00016F">
 			<name>MP119a</name>
 			<description><![CDATA[description:               <br>   MP119a    <br>       <br>   FID   82    <br>   POND_NO   MP119a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   100896    <br>   PLAN_PROJE       <br>   PLAN_REPOR   100897    <br>   PHOTO   100898    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   3370    <br>   CAL_POND_A   3142    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   258.400841    <br>   SHAPE_Area   3141.693814              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">82</SimpleData>
@@ -21921,7 +21786,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000170">
 			<name>MP167b</name>
 			<description><![CDATA[description:               <br>   MP167b    <br>       <br>   FID   85    <br>   POND_NO   MP167b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   112811    <br>   PLAN_PROJE       <br>   PLAN_REPOR   112812    <br>   PHOTO   112813    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   9030    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   202    <br>   SHAPE_Leng   377.867218    <br>   SHAPE_Area   9030.0026              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">85</SimpleData>
@@ -21980,7 +21845,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000171">
 			<name>MP103b</name>
 			<description><![CDATA[description:               <br>   MP103b    <br>       <br>   FID   86    <br>   POND_NO   MP103b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105519    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105520    <br>   PHOTO   105521    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   1916    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   179.522592    <br>   SHAPE_Area   1916.15101              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">86</SimpleData>
@@ -22039,7 +21904,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000172">
 			<name>MP103g</name>
 			<description><![CDATA[description:               <br>   MP103g    <br>       <br>   FID   87    <br>   POND_NO   MP103g    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   112817    <br>   PLAN_PROJE       <br>   PLAN_REPOR   112818    <br>   PHOTO   112819    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   2077    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   183.988045    <br>   SHAPE_Area   2076.645746              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">87</SimpleData>
@@ -22098,7 +21963,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000173">
 			<name>MP103f</name>
 			<description><![CDATA[description:               <br>   MP103f    <br>       <br>   FID   88    <br>   POND_NO   MP103f    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   112814    <br>   PLAN_PROJE       <br>   PLAN_REPOR   112815    <br>   PHOTO   112816    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   1895    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   180.813243    <br>   SHAPE_Area   1894.508881              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">88</SimpleData>
@@ -22157,7 +22022,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000174">
 			<name>MP126</name>
 			<description><![CDATA[description:               <br>   MP126    <br>       <br>   FID   92    <br>   POND_NO   MP126    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105636    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105637    <br>   PHOTO   105638    <br>   LAST_UPDAT   10/7/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   1348    <br>   CAL_POND_A   1745    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   22    <br>   SHAPE_Leng   165.703653    <br>   SHAPE_Area   1744.959988              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">92</SimpleData>
@@ -22216,7 +22081,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000175">
 			<name>MP036</name>
 			<description><![CDATA[description:               <br>   MP036    <br>       <br>   FID   93    <br>   POND_NO   MP036    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104238    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104239    <br>   PHOTO   104240    <br>   LAST_UPDAT   7/16/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8088    <br>   CAL_POND_A   9141    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   4    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   595009    <br>   SHAPE_Leng   419.309638    <br>   SHAPE_Area   9141.213101              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">93</SimpleData>
@@ -22275,7 +22140,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000176">
 			<name>MP016</name>
 			<description><![CDATA[description:               <br>   MP016    <br>       <br>   FID   95    <br>   POND_NO   MP016    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105324    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105325    <br>   PHOTO   105326    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8088    <br>   CAL_POND_A   9016    <br>   AFFS   Y    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   86    <br>   SHAPE_Leng   406.430474    <br>   SHAPE_Area   9015.786249              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">95</SimpleData>
@@ -22341,7 +22206,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000177">
 			<name>MP108e</name>
 			<description><![CDATA[description:               <br>   MP108e    <br>       <br>   FID   97    <br>   POND_NO   MP108e    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   109163    <br>   PLAN_PROJE       <br>   PLAN_REPOR   109164    <br>   PHOTO   109165    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   3407    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   231.286956    <br>   SHAPE_Area   3406.990375              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">97</SimpleData>
@@ -22400,7 +22265,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000178">
 			<name>MP109d</name>
 			<description><![CDATA[description:               <br>   MP109d    <br>       <br>   FID   98    <br>   POND_NO   MP109d    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101145    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101146    <br>   PHOTO   101147    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   1887    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   176.061803    <br>   SHAPE_Area   1896.272179              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">98</SimpleData>
@@ -22459,7 +22324,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000179">
 			<name>MP109e</name>
 			<description><![CDATA[description:               <br>   MP109e    <br>       <br>   FID   101    <br>   POND_NO   MP109e    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   109172    <br>   PLAN_PROJE       <br>   PLAN_REPOR   109173    <br>   PHOTO   109174    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   1893    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   175.554398    <br>   SHAPE_Area   1893.019949              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">101</SimpleData>
@@ -22518,7 +22383,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00017A">
 			<name>MP108d</name>
 			<description><![CDATA[description:               <br>   MP108d    <br>       <br>   FID   102    <br>   POND_NO   MP108d    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   109140    <br>   PLAN_PROJE       <br>   PLAN_REPOR   109141    <br>   PHOTO   109162    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   3240    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   222.187936    <br>   SHAPE_Area   3218.509087              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">102</SimpleData>
@@ -22577,7 +22442,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00017B">
 			<name>MP104c</name>
 			<description><![CDATA[description:               <br>   MP104c    <br>       <br>   FID   103    <br>   POND_NO   MP104c    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   109166    <br>   PLAN_PROJE       <br>   PLAN_REPOR   109167    <br>   PHOTO   109168    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   4890    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   299.942295    <br>   SHAPE_Area   4889.717675              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">103</SimpleData>
@@ -22636,7 +22501,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00017C">
 			<name>MP108c</name>
 			<description><![CDATA[description:               <br>   MP108c    <br>       <br>   FID   104    <br>   POND_NO   MP108c    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   109137    <br>   PLAN_PROJE       <br>   PLAN_REPOR   109138    <br>   PHOTO   109139    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   3053    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   239.105505    <br>   SHAPE_Area   3053.377887              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">104</SimpleData>
@@ -22695,7 +22560,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00017D">
 			<name>MP104d</name>
 			<description><![CDATA[description:               <br>   MP104d    <br>       <br>   FID   105    <br>   POND_NO   MP104d    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   109169    <br>   PLAN_PROJE       <br>   PLAN_REPOR   109170    <br>   PHOTO   109171    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   2901    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   213.322935    <br>   SHAPE_Area   2901.430134              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">105</SimpleData>
@@ -22754,7 +22619,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00017E">
 			<name>MP183</name>
 			<description><![CDATA[description:               <br>   MP183    <br>       <br>   FID   106    <br>   POND_NO   MP183    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103910    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103911    <br>   PHOTO   103912    <br>   LAST_UPDAT   2/10/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   14154    <br>   CAL_POND_A   6718    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Self-retail    <br>   FARM_ID   37    <br>   SHAPE_Leng   329.357151    <br>   SHAPE_Area   6718.447481              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">106</SimpleData>
@@ -22813,7 +22678,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00017F">
 			<name>MP184</name>
 			<description><![CDATA[description:               <br>   MP184    <br>       <br>   FID   107    <br>   POND_NO   MP184    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105510    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105511    <br>   PHOTO   105712    <br>   LAST_UPDAT   10/2/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   13480    <br>   CAL_POND_A   11382    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Self-consume    <br>   FARM_ID   593929    <br>   SHAPE_Leng   447.604695    <br>   SHAPE_Area   11381.942908              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">107</SimpleData>
@@ -22879,7 +22744,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000180">
 			<name>MP042</name>
 			<description><![CDATA[description:               <br>   MP042    <br>       <br>   FID   108    <br>   POND_NO   MP042    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103240    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103241    <br>   PHOTO   103242    <br>   LAST_UPDAT   6/11/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   22242    <br>   CAL_POND_A   22257    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   47    <br>   SHAPE_Leng   594.704289    <br>   SHAPE_Area   22256.71235              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">108</SimpleData>
@@ -22938,7 +22803,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000181">
 			<name>MP046</name>
 			<description><![CDATA[description:               <br>   MP046    <br>       <br>   FID   109    <br>   POND_NO   MP046    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105345    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105346    <br>   PHOTO   105347    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   6066    <br>   CAL_POND_A   6143    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Self-retail    <br>   FARM_ID   15    <br>   SHAPE_Leng   354.285786    <br>   SHAPE_Area   6142.714223              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">109</SimpleData>
@@ -23004,7 +22869,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000182">
 			<name>MP025</name>
 			<description><![CDATA[description:               <br>   MP025    <br>       <br>   FID   111    <br>   POND_NO   MP025    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103827    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103828    <br>   PHOTO   103829    <br>   LAST_UPDAT   10/10/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   10784    <br>   CAL_POND_A   10754    <br>   AFFS   N    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   89    <br>   SHAPE_Leng   402.868591    <br>   SHAPE_Area   10754.387972              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">111</SimpleData>
@@ -23063,7 +22928,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000183">
 			<name>MP191</name>
 			<description><![CDATA[description:               <br>   MP191    <br>       <br>   FID   113    <br>   POND_NO   MP191    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105722    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105723    <br>   PHOTO   105724    <br>   LAST_UPDAT   3/19/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   14828    <br>   CAL_POND_A   13310    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   24    <br>   SHAPE_Leng   466.602743    <br>   SHAPE_Area   13309.817605              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">113</SimpleData>
@@ -23122,7 +22987,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000184">
 			<name>MP021</name>
 			<description><![CDATA[description:               <br>   MP021    <br>       <br>   FID   114    <br>   POND_NO   MP021    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104211    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104312    <br>   PHOTO   104313    <br>   LAST_UPDAT   7/9/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   21568    <br>   CAL_POND_A   19370    <br>   AFFS   Y    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   129    <br>   SHAPE_Leng   611.902094    <br>   SHAPE_Area   19369.604589              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">114</SimpleData>
@@ -23188,7 +23053,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000185">
 			<name>MP111a</name>
 			<description><![CDATA[description:               <br>   MP111a    <br>       <br>   FID   115    <br>   POND_NO   MP111a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105561    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105562    <br>   PHOTO   105563    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   10110    <br>   CAL_POND_A   5260    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   291.876294    <br>   SHAPE_Area   5259.707623              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">115</SimpleData>
@@ -23247,7 +23112,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000186">
 			<name>MP111b</name>
 			<description><![CDATA[description:               <br>   MP111b    <br>       <br>   FID   116    <br>   POND_NO   MP111b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105564    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105565    <br>   PHOTO   105566    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   10110    <br>   CAL_POND_A   4837    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   283.118859    <br>   SHAPE_Area   4837.49187              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">116</SimpleData>
@@ -23306,7 +23171,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000187">
 			<name>MP111e</name>
 			<description><![CDATA[description:               <br>   MP111e    <br>       <br>   FID   117    <br>   POND_NO   MP111e    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105573    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105574    <br>   PHOTO   105575    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   10110    <br>   CAL_POND_A   4501    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   275.089515    <br>   SHAPE_Area   4501.124159              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">117</SimpleData>
@@ -23365,7 +23230,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000188">
 			<name>MP111d</name>
 			<description><![CDATA[description:               <br>   MP111d    <br>       <br>   FID   118    <br>   POND_NO   MP111d    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105570    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105571    <br>   PHOTO   105572    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   10110    <br>   CAL_POND_A   4776    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   274.957538    <br>   SHAPE_Area   4775.595306              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">118</SimpleData>
@@ -23424,7 +23289,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000189">
 			<name>MP111c</name>
 			<description><![CDATA[description:               <br>   MP111c    <br>       <br>   FID   121    <br>   POND_NO   MP111c    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105567    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105568    <br>   PHOTO   105569    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8762    <br>   CAL_POND_A   7275    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   351.972292    <br>   SHAPE_Area   7274.543771              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">121</SimpleData>
@@ -23483,7 +23348,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00018A">
 			<name>MP158</name>
 			<description><![CDATA[description:               <br>   MP158    <br>       <br>   FID   126    <br>   POND_NO   MP158    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105696    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105697    <br>   PHOTO   105698    <br>   LAST_UPDAT   9/23/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   13480    <br>   CAL_POND_A   14635    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   123    <br>   SHAPE_Leng   469.469464    <br>   SHAPE_Area   14635.121762              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">126</SimpleData>
@@ -23542,7 +23407,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00018B">
 			<name>MP159</name>
 			<description><![CDATA[description:               <br>   MP159    <br>       <br>   FID   127    <br>   POND_NO   MP159    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103237    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103238    <br>   PHOTO   103239    <br>   LAST_UPDAT   3/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   6066    <br>   CAL_POND_A   7071    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   2    <br>   SHAPE_Leng   376.867292    <br>   SHAPE_Area   7070.845128              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">127</SimpleData>
@@ -23601,7 +23466,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00018C">
 			<name>MP047</name>
 			<description><![CDATA[description:               <br>   MP047    <br>       <br>   FID   128    <br>   POND_NO   MP047    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105348    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105349    <br>   PHOTO   105350    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   11458    <br>   CAL_POND_A   10703    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Self-retail    <br>   FARM_ID   15    <br>   SHAPE_Leng   429.956874    <br>   SHAPE_Area   10702.965548              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">128</SimpleData>
@@ -23660,7 +23525,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00018D">
 			<name>MP048</name>
 			<description><![CDATA[description:               <br>   MP048    <br>       <br>   FID   129    <br>   POND_NO   MP048    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105351    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105352    <br>   PHOTO   105353    <br>   LAST_UPDAT   6/11/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   11458    <br>   CAL_POND_A   10826    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   47    <br>   SHAPE_Leng   428.17753    <br>   SHAPE_Area   10825.764458              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">129</SimpleData>
@@ -23719,7 +23584,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00018E">
 			<name>MP160</name>
 			<description><![CDATA[description:               <br>   MP160    <br>       <br>   FID   131    <br>   POND_NO   MP160    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101148    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101149    <br>   PHOTO   101150    <br>   LAST_UPDAT   3/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   674    <br>   CAL_POND_A   1152    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   2    <br>   SHAPE_Leng   154.793505    <br>   SHAPE_Area   1151.701308              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">131</SimpleData>
@@ -23778,7 +23643,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00018F">
 			<name>MP019</name>
 			<description><![CDATA[description:               <br>   MP019    <br>       <br>   FID   132    <br>   POND_NO   MP019    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104205    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104206    <br>   PHOTO   104207    <br>   LAST_UPDAT   7/9/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   12132    <br>   CAL_POND_A   11899    <br>   AFFS   Y    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   129    <br>   SHAPE_Leng   448.108709    <br>   SHAPE_Area   11899.369759              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">132</SimpleData>
@@ -23844,7 +23709,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000190">
 			<name>MP113b</name>
 			<description><![CDATA[description:               <br>   MP113b    <br>       <br>   FID   133    <br>   POND_NO   MP113b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101098    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101099    <br>   PHOTO   101100    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   5392    <br>   CAL_POND_A   4731    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   272.958712    <br>   SHAPE_Area   4730.898211              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">133</SimpleData>
@@ -23903,7 +23768,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000191">
 			<name>MP215</name>
 			<description><![CDATA[description:               <br>   MP215    <br>       <br>   FID   136    <br>   POND_NO   MP215    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110978    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110979    <br>   PHOTO   110980    <br>   LAST_UPDAT   11/14/2011    <br>   LAST_UPD_1   tffung    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   11762    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET       <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   685986    <br>   SHAPE_Leng   443.046952    <br>   SHAPE_Area   11762.037193              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">136</SimpleData>
@@ -23973,7 +23838,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000192">
 			<name>MP216</name>
 			<description><![CDATA[description:               <br>   MP216    <br>       <br>   FID   137    <br>   POND_NO   MP216    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110981    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110982    <br>   PHOTO   110983    <br>   LAST_UPDAT   11/14/2011    <br>   LAST_UPD_1   tffung    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   13981    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET       <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   685986    <br>   SHAPE_Leng   466.044889    <br>   SHAPE_Area   13980.650863              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">137</SimpleData>
@@ -24032,7 +23897,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000193">
 			<name>MP206</name>
 			<description><![CDATA[description:               <br>   MP206    <br>       <br>   FID   138    <br>   POND_NO   MP206    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110951    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110952    <br>   PHOTO   110953    <br>   LAST_UPDAT   11/14/2011    <br>   LAST_UPD_1   tffung    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   6122    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET       <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   685986    <br>   SHAPE_Leng   321.175406    <br>   SHAPE_Area   6122.247858              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">138</SimpleData>
@@ -24091,7 +23956,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000194">
 			<name>MP208</name>
 			<description><![CDATA[description:               <br>   MP208    <br>       <br>   FID   139    <br>   POND_NO   MP208    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110957    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110958    <br>   PHOTO   110959    <br>   LAST_UPDAT   11/14/2011    <br>   LAST_UPD_1   tffung    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   3576    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET       <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   685986    <br>   SHAPE_Leng   234.843968    <br>   SHAPE_Area   3575.940471              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">139</SimpleData>
@@ -24150,7 +24015,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000195">
 			<name>MP192b</name>
 			<description><![CDATA[description:               <br>   MP192b    <br>       <br>   FID   140    <br>   POND_NO   MP192b    <br>   GRADING       <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   108803    <br>   PLAN_PROJE       <br>   PLAN_REPOR   108804    <br>   PHOTO   108805    <br>   LAST_UPDAT   3/19/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   1285    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   24    <br>   SHAPE_Leng   140.98897    <br>   SHAPE_Area   1285.282889              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">140</SimpleData>
@@ -24209,7 +24074,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000196">
 			<name>MP212b</name>
 			<description><![CDATA[description:               <br>   MP212b    <br>       <br>   FID   141    <br>   POND_NO   MP212b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110969    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110970    <br>   PHOTO   110971    <br>   LAST_UPDAT   11/11/2011    <br>   LAST_UPD_1   kmng2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   9618    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET       <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   685986    <br>   SHAPE_Leng   431.947324    <br>   SHAPE_Area   9617.659318              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">141</SimpleData>
@@ -24268,7 +24133,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000197">
 			<name>MP211</name>
 			<description><![CDATA[description:               <br>   MP211    <br>       <br>   FID   142    <br>   POND_NO   MP211    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110963    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110964    <br>   PHOTO   110965    <br>   LAST_UPDAT   11/14/2011    <br>   LAST_UPD_1   tffung    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   16735    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET       <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   685986    <br>   SHAPE_Leng   525.990701    <br>   SHAPE_Area   16735.435166              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">142</SimpleData>
@@ -24327,7 +24192,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000198">
 			<name>MP217a</name>
 			<description><![CDATA[description:               <br>   MP217a    <br>       <br>   FID   143    <br>   POND_NO   MP217a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110984    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110985    <br>   PHOTO   110986    <br>   LAST_UPDAT   11/14/2011    <br>   LAST_UPD_1   tffung    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   4555    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET       <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   685986    <br>   SHAPE_Leng   283.16807    <br>   SHAPE_Area   4555.161178              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">143</SimpleData>
@@ -24386,7 +24251,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E000199">
 			<name>MP214</name>
 			<description><![CDATA[description:               <br>   MP214    <br>       <br>   FID   144    <br>   POND_NO   MP214    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110975    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110976    <br>   PHOTO   110977    <br>   LAST_UPDAT   11/14/2011    <br>   LAST_UPD_1   tffung    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   13372    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET       <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   685986    <br>   SHAPE_Leng   482.265361    <br>   SHAPE_Area   13372.236121              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">144</SimpleData>
@@ -24445,7 +24310,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00019A">
 			<name>MP212a</name>
 			<description><![CDATA[description:               <br>   MP212a    <br>       <br>   FID   145    <br>   POND_NO   MP212a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110966    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110967    <br>   PHOTO   110968    <br>   LAST_UPDAT   11/11/2011    <br>   LAST_UPD_1   kmng2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   8504    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET       <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   685986    <br>   SHAPE_Leng   402.730149    <br>   SHAPE_Area   8503.98445              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">145</SimpleData>
@@ -24504,7 +24369,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00019B">
 			<name>MP123</name>
 			<description><![CDATA[description:               <br>   MP123    <br>       <br>   FID   147    <br>   POND_NO   MP123    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105624    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105625    <br>   PHOTO   105626    <br>   LAST_UPDAT   10/7/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   6740    <br>   CAL_POND_A   3917    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   22    <br>   SHAPE_Leng   257.101029    <br>   SHAPE_Area   3916.984348              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">147</SimpleData>
@@ -24563,7 +24428,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00019C">
 			<name>MP117b</name>
 			<description><![CDATA[description:               <br>   MP117b    <br>       <br>   FID   148    <br>   POND_NO   MP117b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105612    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105613    <br>   PHOTO   105614    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   21568    <br>   CAL_POND_A   5911    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   348.966826    <br>   SHAPE_Area   5911.367876              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">148</SimpleData>
@@ -24622,7 +24487,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00019D">
 			<name>MP127a</name>
 			<description><![CDATA[description:               <br>   MP127a    <br>       <br>   FID   150    <br>   POND_NO   MP127a    <br>   GRADING       <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105639    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105640    <br>   PHOTO   105641    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   4880    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   273.400561    <br>   SHAPE_Area   4880.061756              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">150</SimpleData>
@@ -24681,7 +24546,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00019E">
 			<name>MP004</name>
 			<description><![CDATA[description:               <br>   MP004    <br>       <br>   FID   155    <br>   POND_NO   MP004    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103833    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103834    <br>   PHOTO   103835    <br>   LAST_UPDAT   10/10/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   3370    <br>   CAL_POND_A   5697    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   698299    <br>   SHAPE_Leng   285.786412    <br>   SHAPE_Area   5697.133405              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">155</SimpleData>
@@ -24740,7 +24605,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E00019F">
 			<name>MP187</name>
 			<description><![CDATA[description:               <br>   MP187    <br>       <br>   FID   156    <br>   POND_NO   MP187    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105713    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105714    <br>   PHOTO   105715    <br>   LAST_UPDAT   4/19/2011    <br>   LAST_UPD_1   kmng2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   13817    <br>   CAL_POND_A   13796    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   142    <br>   SHAPE_Leng   507.359602    <br>   SHAPE_Area   13796.419973              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">156</SimpleData>
@@ -24806,7 +24671,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0001A0">
 			<name>MP059b</name>
 			<description><![CDATA[description:               <br>   MP059b    <br>       <br>   FID   159    <br>   POND_NO   MP059b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105381    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105382    <br>   PHOTO   105383    <br>   LAST_UPDAT   7/9/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   7414    <br>   CAL_POND_A   7859    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   4    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   14    <br>   SHAPE_Leng   351.207087    <br>   SHAPE_Area   7858.838126              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">159</SimpleData>
@@ -24865,7 +24730,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0001A1">
 			<name>MP024</name>
 			<description><![CDATA[description:               <br>   MP024    <br>       <br>   FID   160    <br>   POND_NO   MP024    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103824    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103825    <br>   PHOTO   103826    <br>   LAST_UPDAT   10/10/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   12132    <br>   CAL_POND_A   12481    <br>   AFFS   N    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   89    <br>   SHAPE_Leng   437.130357    <br>   SHAPE_Area   12480.997406              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">160</SimpleData>
@@ -24924,7 +24789,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0001A2">
 			<name>MP026</name>
 			<description><![CDATA[description:               <br>   MP026    <br>       <br>   FID   161    <br>   POND_NO   MP026    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103830    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103831    <br>   PHOTO   103832    <br>   LAST_UPDAT   10/10/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   16176    <br>   CAL_POND_A   15677    <br>   AFFS   N    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK   Dredging    <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   89    <br>   SHAPE_Leng   500.922507    <br>   SHAPE_Area   15677.140861              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">161</SimpleData>
@@ -24983,7 +24848,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0001A3">
 			<name>MP166</name>
 			<description><![CDATA[description:               <br>   MP166    <br>       <br>   FID   166    <br>   POND_NO   MP166    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105699    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105700    <br>   PHOTO   105701    <br>   LAST_UPDAT   8/7/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   6066    <br>   CAL_POND_A   6819    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   763406    <br>   SHAPE_Leng   335.571121    <br>   SHAPE_Area   6819.424651              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">166</SimpleData>
@@ -25042,7 +24907,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0001A4">
 			<name>MP116</name>
 			<description><![CDATA[description:               <br>   MP116    <br>       <br>   FID   167    <br>   POND_NO   MP116    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105606    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105607    <br>   PHOTO   105608    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   4044    <br>   CAL_POND_A   4008    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   265.094497    <br>   SHAPE_Area   4007.529579              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">167</SimpleData>
@@ -25101,7 +24966,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0001A5">
 			<name>MP104a</name>
 			<description><![CDATA[description:               <br>   MP104a    <br>       <br>   FID   172    <br>   POND_NO   MP104a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105531    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105532    <br>   PHOTO   105533    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   3019    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   213.1253    <br>   SHAPE_Area   3018.766924              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">172</SimpleData>
@@ -25160,7 +25025,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0001A6">
 			<name>MP113a</name>
 			<description><![CDATA[description:               <br>   MP113a    <br>       <br>   FID   173    <br>   POND_NO   MP113a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105585    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105586    <br>   PHOTO   105587    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   5392    <br>   CAL_POND_A   5744    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   296.700359    <br>   SHAPE_Area   5743.867793              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">173</SimpleData>
@@ -25219,7 +25084,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0001A7">
 			<name>MP031</name>
 			<description><![CDATA[description:               <br>   MP031    <br>       <br>   FID   175    <br>   POND_NO   MP031    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103815    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103816    <br>   PHOTO   103817    <br>   LAST_UPDAT   10/10/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   3370    <br>   CAL_POND_A   3795    <br>   AFFS   N    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   89    <br>   SHAPE_Leng   328.527328    <br>   SHAPE_Area   3794.758064              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">175</SimpleData>
@@ -25278,7 +25143,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0001A8">
 			<name>MP018</name>
 			<description><![CDATA[description:               <br>   MP018    <br>       <br>   FID   176    <br>   POND_NO   MP018    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105327    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105328    <br>   PHOTO   105329    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   11458    <br>   CAL_POND_A   11253    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   86    <br>   SHAPE_Leng   419.644906    <br>   SHAPE_Area   11252.860038              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">176</SimpleData>
@@ -25337,7 +25202,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0001A9">
 			<name>MP114a</name>
 			<description><![CDATA[description:               <br>   MP114a    <br>       <br>   FID   177    <br>   POND_NO   MP114a    <br>   GRADING       <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105591    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105592    <br>   PHOTO   105593    <br>   LAST_UPDAT   11/14/2014    <br>   LAST_UPD_1   wflam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   1384    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   154.178849    <br>   SHAPE_Area   1383.522415              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">177</SimpleData>
@@ -25396,7 +25261,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0001AA">
 			<name>MP062</name>
 			<description><![CDATA[description:               <br>   MP062    <br>       <br>   FID   178    <br>   POND_NO   MP062    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103288    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103289    <br>   PHOTO   103310    <br>   LAST_UPDAT   7/15/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   7414    <br>   CAL_POND_A   8718    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   763427    <br>   SHAPE_Leng   466.231232    <br>   SHAPE_Area   8718.480306              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">178</SimpleData>
@@ -25462,7 +25327,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0001AB">
 			<name>MP045</name>
 			<description><![CDATA[description:               <br>   MP045    <br>       <br>   FID   179    <br>   POND_NO   MP045    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104241    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104242    <br>   PHOTO   104243    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   3370    <br>   CAL_POND_A   5082    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Self-retail    <br>   FARM_ID   15    <br>   SHAPE_Leng   284.319936    <br>   SHAPE_Area   5081.865125              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">179</SimpleData>
@@ -25521,7 +25386,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0001AC">
 			<name>MP189</name>
 			<description><![CDATA[description:               <br>   MP189    <br>       <br>   FID   180    <br>   POND_NO   MP189    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105716    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105717    <br>   PHOTO   105718    <br>   LAST_UPDAT   4/19/2011    <br>   LAST_UPD_1   kmng2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   18872    <br>   CAL_POND_A   16129    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Direct Sale    <br>   FARM_ID   142    <br>   SHAPE_Leng   581.148509    <br>   SHAPE_Area   16129.399892              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">180</SimpleData>
@@ -25580,7 +25445,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0001AD">
 			<name>MP109c</name>
 			<description><![CDATA[description:               <br>   MP109c    <br>       <br>   FID   181    <br>   POND_NO   MP109c    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101095    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101096    <br>   PHOTO   101097    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   10784    <br>   CAL_POND_A   8920    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   367.886772    <br>   SHAPE_Area   8919.971494              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">181</SimpleData>
@@ -25639,7 +25504,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0001AE">
 			<name>MP110a</name>
 			<description><![CDATA[description:               <br>   MP110a    <br>       <br>   FID   183    <br>   POND_NO   MP110a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105555    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105556    <br>   PHOTO   105557    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   7414    <br>   CAL_POND_A   7013    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   358.884761    <br>   SHAPE_Area   7013.24825              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">183</SimpleData>
@@ -25698,7 +25563,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0001AF">
 			<name>MP109b</name>
 			<description><![CDATA[description:               <br>   MP109b    <br>       <br>   FID   184    <br>   POND_NO   MP109b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105552    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105553    <br>   PHOTO   105554    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8088    <br>   CAL_POND_A   7640    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   337.120681    <br>   SHAPE_Area   7640.135667              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">184</SimpleData>
@@ -25757,7 +25622,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0E0001B0">
 			<name>MP040</name>
 			<description><![CDATA[description:               <br>   MP040    <br>       <br>   FID   185    <br>   POND_NO   MP040    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103300    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103301    <br>   PHOTO   103302    <br>   LAST_UPDAT   6/11/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   19546    <br>   CAL_POND_A   19803    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   47    <br>   SHAPE_Leng   584.896473    <br>   SHAPE_Area   19802.745611              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">185</SimpleData>
@@ -25816,7 +25681,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001B1">
 			<name>MP112d</name>
 			<description><![CDATA[description:               <br>   MP112d    <br>       <br>   FID   189    <br>   POND_NO   MP112d    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   109145    <br>   PLAN_PROJE       <br>   PLAN_REPOR   109146    <br>   PHOTO   109147    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   4540    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   277.179754    <br>   SHAPE_Area   4539.781026              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">189</SimpleData>
@@ -25875,7 +25740,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001B2">
 			<name>MP112c</name>
 			<description><![CDATA[description:               <br>   MP112c    <br>       <br>   FID   190    <br>   POND_NO   MP112c    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105582    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105583    <br>   PHOTO   105584    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   4332    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   272.356479    <br>   SHAPE_Area   4332.281292              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">190</SimpleData>
@@ -25934,7 +25799,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001B3">
 			<name>MP179</name>
 			<description><![CDATA[description:               <br>   MP179    <br>       <br>   FID   191    <br>   POND_NO   MP179    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104268    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104269    <br>   PHOTO   104270    <br>   LAST_UPDAT   10/2/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   12132    <br>   CAL_POND_A   10919    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   122    <br>   SHAPE_Leng   494.613172    <br>   SHAPE_Area   10919.383634              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">191</SimpleData>
@@ -25993,7 +25858,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001B4">
 			<name>MP049</name>
 			<description><![CDATA[description:               <br>   MP049    <br>       <br>   FID   192    <br>   POND_NO   MP049    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105354    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105355    <br>   PHOTO   105356    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   2696    <br>   CAL_POND_A   4471    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Self-retail    <br>   FARM_ID   15    <br>   SHAPE_Leng   271.536603    <br>   SHAPE_Area   4470.991341              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">192</SimpleData>
@@ -26052,7 +25917,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001B5">
 			<name>MP109a</name>
 			<description><![CDATA[description:               <br>   MP109a    <br>       <br>   FID   194    <br>   POND_NO   MP109a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   102054    <br>   PLAN_PROJE       <br>   PLAN_REPOR   102055    <br>   PHOTO   102056    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   6740    <br>   CAL_POND_A   7252    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   330.448019    <br>   SHAPE_Area   7252.045245              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">194</SimpleData>
@@ -26111,7 +25976,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001B6">
 			<name>MP029</name>
 			<description><![CDATA[description:               <br>   MP029    <br>       <br>   FID   197    <br>   POND_NO   MP029    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103818    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103819    <br>   PHOTO   103820    <br>   LAST_UPDAT   10/10/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8762    <br>   CAL_POND_A   9966    <br>   AFFS   N    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   89    <br>   SHAPE_Leng   397.144911    <br>   SHAPE_Area   9966.006772              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">197</SimpleData>
@@ -26170,7 +26035,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001B7">
 			<name>MP153a</name>
 			<description><![CDATA[description:               <br>   MP153a    <br>       <br>   FID   198    <br>   POND_NO   MP153a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104271    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104272    <br>   PHOTO   104273    <br>   LAST_UPDAT   9/23/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   6363    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   123    <br>   SHAPE_Leng   331.397365    <br>   SHAPE_Area   6363.178711              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">198</SimpleData>
@@ -26229,7 +26094,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001B8">
 			<name>MP043b</name>
 			<description><![CDATA[description:               <br>   MP043b    <br>       <br>   FID   199    <br>   POND_NO   MP043b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110269    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110270    <br>   PHOTO   110271    <br>   LAST_UPDAT   6/11/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   10515    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   47    <br>   SHAPE_Leng   405.947838    <br>   SHAPE_Area   10514.952041              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">199</SimpleData>
@@ -26288,7 +26153,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001B9">
 			<name>MP180</name>
 			<description><![CDATA[description:               <br>   MP180    <br>       <br>   FID   200    <br>   POND_NO   MP180    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104097    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104098    <br>   PHOTO   104099    <br>   LAST_UPDAT   10/2/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   9436    <br>   CAL_POND_A   8694    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   30    <br>   SHAPE_Leng   449.56154    <br>   SHAPE_Area   8693.623003              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">200</SimpleData>
@@ -26347,7 +26212,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001BA">
 			<name>MP181</name>
 			<description><![CDATA[description:               <br>   MP181    <br>       <br>   FID   201    <br>   POND_NO   MP181    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105507    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105508    <br>   PHOTO   105509    <br>   LAST_UPDAT   10/2/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   14154    <br>   CAL_POND_A   16218    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   29    <br>   SHAPE_Leng   597.207434    <br>   SHAPE_Area   16218.043626              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">201</SimpleData>
@@ -26406,7 +26271,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001BB">
 			<name>MP014</name>
 			<description><![CDATA[description:               <br>   MP014    <br>       <br>   FID   202    <br>   POND_NO   MP014    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   102051    <br>   PLAN_PROJE       <br>   PLAN_REPOR   102052    <br>   PHOTO   102053    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   13480    <br>   CAL_POND_A   14598    <br>   AFFS   N    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   86    <br>   SHAPE_Leng   539.264698    <br>   SHAPE_Area   14598.407228              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">202</SimpleData>
@@ -26465,7 +26330,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001BC">
 			<name>MP007</name>
 			<description><![CDATA[description:               <br>   MP007    <br>       <br>   FID   204    <br>   POND_NO   MP007    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103649    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103790    <br>   PHOTO   103791    <br>   LAST_UPDAT   7/9/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   5392    <br>   CAL_POND_A   6234    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   129    <br>   SHAPE_Leng   351.790275    <br>   SHAPE_Area   6234.32552              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">204</SimpleData>
@@ -26531,7 +26396,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001BD">
 			<name>MP008</name>
 			<description><![CDATA[description:               <br>   MP008    <br>       <br>   FID   205    <br>   POND_NO   MP008    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103792    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103793    <br>   PHOTO   103794    <br>   LAST_UPDAT   7/9/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   5392    <br>   CAL_POND_A   6234    <br>   AFFS   Y    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   129    <br>   SHAPE_Leng   324.580565    <br>   SHAPE_Area   6233.969764              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">205</SimpleData>
@@ -26590,7 +26455,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001BE">
 			<name>MP192a</name>
 			<description><![CDATA[description:               <br>   MP192a    <br>       <br>   FID   206    <br>   POND_NO   MP192a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105725    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105726    <br>   PHOTO   105727    <br>   LAST_UPDAT   3/19/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   18872    <br>   CAL_POND_A   16125    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   24    <br>   SHAPE_Leng   591.304674    <br>   SHAPE_Area   16124.663561              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">206</SimpleData>
@@ -26656,7 +26521,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001BF">
 			<name>MP122</name>
 			<description><![CDATA[description:               <br>   MP122    <br>       <br>   FID   209    <br>   POND_NO   MP122    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105621    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105622    <br>   PHOTO   105623    <br>   LAST_UPDAT   10/7/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   1011    <br>   CAL_POND_A   812    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   22    <br>   SHAPE_Leng   188.53072    <br>   SHAPE_Area   812.231432              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">209</SimpleData>
@@ -26715,7 +26580,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001C0">
 			<name>MP010</name>
 			<description><![CDATA[description:               <br>   MP010    <br>       <br>   FID   210    <br>   POND_NO   MP010    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105309    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105310    <br>   PHOTO   105311    <br>   LAST_UPDAT   10/10/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   7414    <br>   CAL_POND_A   8954    <br>   AFFS   N    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   85    <br>   SHAPE_Leng   413.410669    <br>   SHAPE_Area   8954.373168              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">210</SimpleData>
@@ -26781,7 +26646,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001C1">
 			<name>MP164b</name>
 			<description><![CDATA[description:               <br>   MP164b    <br>       <br>   FID   219    <br>   POND_NO   MP164b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103703    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103704    <br>   PHOTO   103705    <br>   LAST_UPDAT   11/24/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   18872    <br>   CAL_POND_A   3793    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   202    <br>   SHAPE_Leng   251.725098    <br>   SHAPE_Area   3792.666763              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">219</SimpleData>
@@ -26840,7 +26705,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001C2">
 			<name>ST001</name>
 			<description><![CDATA[description:               <br>   ST001    <br>       <br>   FID   220    <br>   POND_NO   ST001    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   100699    <br>   PLAN_PROJE       <br>   PLAN_REPOR   100700    <br>   PHOTO   100701    <br>   LAST_UPDAT   6/24/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   14828    <br>   CAL_POND_A   12584    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   87    <br>   SHAPE_Leng   449.304117    <br>   SHAPE_Area   12584.270746              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">220</SimpleData>
@@ -26899,7 +26764,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001C3">
 			<name>ST002</name>
 			<description><![CDATA[description:               <br>   ST002    <br>       <br>   FID   221    <br>   POND_NO   ST002    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105966    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105967    <br>   PHOTO   105968    <br>   LAST_UPDAT   6/24/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   20220    <br>   CAL_POND_A   17769    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   87    <br>   SHAPE_Leng   681.976959    <br>   SHAPE_Area   17768.87889              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">221</SimpleData>
@@ -26958,7 +26823,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001C4">
 			<name>MP043a</name>
 			<description><![CDATA[description:               <br>   MP043a    <br>       <br>   FID   222    <br>   POND_NO   MP043a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105339    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105340    <br>   PHOTO   105341    <br>   LAST_UPDAT   6/11/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   10247    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   47    <br>   SHAPE_Leng   398.456851    <br>   SHAPE_Area   10247.376522              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">222</SimpleData>
@@ -27017,7 +26882,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001C5">
 			<name>MP164a</name>
 			<description><![CDATA[description:               <br>   MP164a    <br>       <br>   FID   223    <br>   POND_NO   MP164a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103700    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103701    <br>   PHOTO   103702    <br>   LAST_UPDAT   11/24/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   18872    <br>   CAL_POND_A   13783    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   202    <br>   SHAPE_Leng   456.802209    <br>   SHAPE_Area   13783.335776              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">223</SimpleData>
@@ -27076,7 +26941,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001C6">
 			<name>MP063</name>
 			<description><![CDATA[description:               <br>   MP063    <br>       <br>   FID   224    <br>   POND_NO   MP063    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105387    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105388    <br>   PHOTO   105389    <br>   LAST_UPDAT   7/15/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   9436    <br>   CAL_POND_A   9994    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   763427    <br>   SHAPE_Leng   472.343694    <br>   SHAPE_Area   9994.089323              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">224</SimpleData>
@@ -27135,7 +27000,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001C7">
 			<name>MP005</name>
 			<description><![CDATA[description:               <br>   MP005    <br>       <br>   FID   226    <br>   POND_NO   MP005    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103184    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103185    <br>   PHOTO   103186    <br>   LAST_UPDAT   9/17/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   6740    <br>   CAL_POND_A   7388    <br>   AFFS   N    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   136    <br>   SHAPE_Leng   370.232334    <br>   SHAPE_Area   7388.165361              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">226</SimpleData>
@@ -27201,7 +27066,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001C8">
 			<name>MP162</name>
 			<description><![CDATA[description:               <br>   MP162    <br>       <br>   FID   227    <br>   POND_NO   MP162    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101558    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101559    <br>   PHOTO   101560    <br>   LAST_UPDAT   3/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   16176    <br>   CAL_POND_A   14036    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   2    <br>   SHAPE_Leng   479.869859    <br>   SHAPE_Area   14036.930625              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">227</SimpleData>
@@ -27260,7 +27125,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001C9">
 			<name>ST005</name>
 			<description><![CDATA[description:               <br>   ST005    <br>       <br>   FID   229    <br>   POND_NO   ST005    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104184    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104185    <br>   PHOTO   104186    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   28    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   3370    <br>   CAL_POND_A   3256    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   296.27019    <br>   SHAPE_Area   3255.657495              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">229</SimpleData>
@@ -27319,7 +27184,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001CA">
 			<name>MP161</name>
 			<description><![CDATA[description:               <br>   MP161    <br>       <br>   FID   230    <br>   POND_NO   MP161    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103243    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103244    <br>   PHOTO   103245    <br>   LAST_UPDAT   3/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   15502    <br>   CAL_POND_A   16995    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   2    <br>   SHAPE_Leng   509.670672    <br>   SHAPE_Area   16995.212822              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">230</SimpleData>
@@ -27378,7 +27243,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001CB">
 			<name>MP128</name>
 			<description><![CDATA[description:               <br>   MP128    <br>       <br>   FID   231    <br>   POND_NO   MP128    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103579    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103580    <br>   PHOTO   103581    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   6066    <br>   CAL_POND_A   6594    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   6    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   331.8752    <br>   SHAPE_Area   6594.04051              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">231</SimpleData>
@@ -27437,7 +27302,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001CC">
 			<name>MP013</name>
 			<description><![CDATA[description:               <br>   MP013    <br>       <br>   FID   232    <br>   POND_NO   MP013    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105318    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105319    <br>   PHOTO   105320    <br>   LAST_UPDAT   10/10/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8762    <br>   CAL_POND_A   9445    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   85    <br>   SHAPE_Leng   395.462122    <br>   SHAPE_Area   9444.842831              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">232</SimpleData>
@@ -27496,7 +27361,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001CD">
 			<name>MP174a</name>
 			<description><![CDATA[description:               <br>   MP174a    <br>       <br>   FID   233    <br>   POND_NO   MP174a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101154    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101155    <br>   PHOTO   101156    <br>   LAST_UPDAT   2/10/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   6740    <br>   CAL_POND_A   7016    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   31    <br>   SHAPE_Leng   400.168456    <br>   SHAPE_Area   7015.996583              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">233</SimpleData>
@@ -27562,7 +27427,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001CE">
 			<name>MP110b</name>
 			<description><![CDATA[description:               <br>   MP110b    <br>       <br>   FID   234    <br>   POND_NO   MP110b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105558    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105559    <br>   PHOTO   105560    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   7414    <br>   CAL_POND_A   5667    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   314.82302    <br>   SHAPE_Area   5666.578535              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">234</SimpleData>
@@ -27621,7 +27486,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001CF">
 			<name>MP174b</name>
 			<description><![CDATA[description:               <br>   MP174b    <br>       <br>   FID   235    <br>   POND_NO   MP174b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101151    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101152    <br>   PHOTO   101153    <br>   LAST_UPDAT   2/10/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8088    <br>   CAL_POND_A   8873    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   31    <br>   SHAPE_Leng   415.348265    <br>   SHAPE_Area   8872.917021              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">235</SimpleData>
@@ -27680,7 +27545,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001D0">
 			<name>MP175a</name>
 			<description><![CDATA[description:               <br>   MP175a    <br>       <br>   FID   236    <br>   POND_NO   MP175a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103587    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103588    <br>   PHOTO   103589    <br>   LAST_UPDAT   2/10/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   6066    <br>   CAL_POND_A   5978    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Self-consume    <br>   FARM_ID   679791    <br>   SHAPE_Leng   358.665211    <br>   SHAPE_Area   5978.275135              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">236</SimpleData>
@@ -27739,7 +27604,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001D1">
 			<name>MP175b</name>
 			<description><![CDATA[description:               <br>   MP175b    <br>       <br>   FID   237    <br>   POND_NO   MP175b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105498    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105499    <br>   PHOTO   105500    <br>   LAST_UPDAT   2/10/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   10110    <br>   CAL_POND_A   10005    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Self-consume    <br>   FARM_ID   679791    <br>   SHAPE_Leng   445.193652    <br>   SHAPE_Area   10004.54021              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">237</SimpleData>
@@ -27805,7 +27670,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001D2">
 			<name>MP177</name>
 			<description><![CDATA[description:               <br>   MP177    <br>       <br>   FID   238    <br>   POND_NO   MP177    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105501    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105502    <br>   PHOTO   105503    <br>   LAST_UPDAT   2/5/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   7414    <br>   CAL_POND_A   7601    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Others    <br>   FARM_ID   243    <br>   SHAPE_Leng   346.489563    <br>   SHAPE_Area   7600.924329              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">238</SimpleData>
@@ -27864,7 +27729,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001D3">
 			<name>MP117a</name>
 			<description><![CDATA[description:               <br>   MP117a    <br>       <br>   FID   239    <br>   POND_NO   MP117a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105609    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105610    <br>   PHOTO   105611    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   21568    <br>   CAL_POND_A   4432    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   310.833746    <br>   SHAPE_Area   4431.586347              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">239</SimpleData>
@@ -27923,7 +27788,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001D4">
 			<name>MP113c</name>
 			<description><![CDATA[description:               <br>   MP113c    <br>       <br>   FID   240    <br>   POND_NO   MP113c    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105588    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105589    <br>   PHOTO   105590    <br>   LAST_UPDAT   11/14/2014    <br>   LAST_UPD_1   wflam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   5392    <br>   CAL_POND_A   7076    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   344.972722    <br>   SHAPE_Area   7075.52267              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">240</SimpleData>
@@ -27982,7 +27847,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001D5">
 			<name>MP176</name>
 			<description><![CDATA[description:               <br>   MP176    <br>       <br>   FID   243    <br>   POND_NO   MP176    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103972    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103973    <br>   PHOTO   103974    <br>   LAST_UPDAT   2/5/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   9436    <br>   CAL_POND_A   9421    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Others    <br>   FARM_ID   243    <br>   SHAPE_Leng   473.481547    <br>   SHAPE_Area   9420.975675              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">243</SimpleData>
@@ -28041,7 +27906,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001D6">
 			<name>MP037</name>
 			<description><![CDATA[description:               <br>   MP037    <br>       <br>   FID   244    <br>   POND_NO   MP037    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105290    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105291    <br>   PHOTO   105332    <br>   LAST_UPDAT   7/16/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8088    <br>   CAL_POND_A   6617    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   4    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   595009    <br>   SHAPE_Leng   357.202572    <br>   SHAPE_Area   6616.842862              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">244</SimpleData>
@@ -28100,7 +27965,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001D7">
 			<name>MP127b</name>
 			<description><![CDATA[description:               <br>   MP127b    <br>       <br>   FID   248    <br>   POND_NO   MP127b    <br>   GRADING       <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103175    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103176    <br>   PHOTO   103177    <br>   LAST_UPDAT   10/7/2013    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   2022    <br>   CAL_POND_A   2647    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   653749    <br>   SHAPE_Leng   205.933266    <br>   SHAPE_Area   2647.07339              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">248</SimpleData>
@@ -28159,7 +28024,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001D8">
 			<name>MP205</name>
 			<description><![CDATA[description:               <br>   MP205    <br>       <br>   FID   249    <br>   POND_NO   MP205    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   107300    <br>   PLAN_PROJE       <br>   PLAN_REPOR   107301    <br>   PHOTO   107302    <br>   LAST_UPDAT   2/10/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   N    <br>   CULTURE_ME   1    <br>   EST_POND_A   6865    <br>   CAL_POND_A   6865    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Self-retail    <br>   FARM_ID   37    <br>   SHAPE_Leng   338.640997    <br>   SHAPE_Area   6864.519655              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">249</SimpleData>
@@ -28218,7 +28083,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001D9">
 			<name>MP044a</name>
 			<description><![CDATA[description:               <br>   MP044a    <br>       <br>   FID   254    <br>   POND_NO   MP044a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105342    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105343    <br>   PHOTO   105344    <br>   LAST_UPDAT   6/11/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   7767    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   47    <br>   SHAPE_Leng   342.246006    <br>   SHAPE_Area   7766.58654              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">254</SimpleData>
@@ -28277,7 +28142,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001DA">
 			<name>MP044b</name>
 			<description><![CDATA[description:               <br>   MP044b    <br>       <br>   FID   255    <br>   POND_NO   MP044b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110272    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110273    <br>   PHOTO   110274    <br>   LAST_UPDAT   6/11/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   11906    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   47    <br>   SHAPE_Leng   440.690242    <br>   SHAPE_Area   11905.972417              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">255</SimpleData>
@@ -28336,7 +28201,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001DB">
 			<name>MP015</name>
 			<description><![CDATA[description:               <br>   MP015    <br>       <br>   FID   256    <br>   POND_NO   MP015    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105321    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105322    <br>   PHOTO   105323    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8088    <br>   CAL_POND_A   8448    <br>   AFFS   Y    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   86    <br>   SHAPE_Leng   361.521498    <br>   SHAPE_Area   8447.585764              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">256</SimpleData>
@@ -28395,7 +28260,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001DC">
 			<name>MP114c</name>
 			<description><![CDATA[description:               <br>   MP114c    <br>       <br>   FID   257    <br>   POND_NO   MP114c    <br>   GRADING       <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105597    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105598    <br>   PHOTO   105599    <br>   LAST_UPDAT   11/14/2014    <br>   LAST_UPD_1   wflam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   6618    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   364.238388    <br>   SHAPE_Area   6617.687945              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">257</SimpleData>
@@ -28454,7 +28319,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001DD">
 			<name>MP038</name>
 			<description><![CDATA[description:               <br>   MP038    <br>       <br>   FID   258    <br>   POND_NO   MP038    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103712    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103713    <br>   PHOTO   103714    <br>   LAST_UPDAT   7/16/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   5392    <br>   CAL_POND_A   5128    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   11    <br>   SHAPE_Leng   275.665493    <br>   SHAPE_Area   5127.671408              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">258</SimpleData>
@@ -28513,7 +28378,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001DE">
 			<name>MP035</name>
 			<description><![CDATA[description:               <br>   MP035    <br>       <br>   FID   259    <br>   POND_NO   MP035    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104332    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104333    <br>   PHOTO   104334    <br>   LAST_UPDAT   7/9/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   8762    <br>   CAL_POND_A   10122    <br>   AFFS   Y    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   129    <br>   SHAPE_Leng   386.246748    <br>   SHAPE_Area   10122.334262              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">259</SimpleData>
@@ -28572,7 +28437,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001DF">
 			<name>MP028</name>
 			<description><![CDATA[description:               <br>   MP028    <br>       <br>   FID   261    <br>   POND_NO   MP028    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103251    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103252    <br>   PHOTO   103253    <br>   LAST_UPDAT   7/9/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   14828    <br>   CAL_POND_A   15712    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   129    <br>   SHAPE_Leng   588.11157    <br>   SHAPE_Area   15712.404426              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">261</SimpleData>
@@ -28631,7 +28496,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001E0">
 			<name>MP117c</name>
 			<description><![CDATA[description:               <br>   MP117c    <br>       <br>   FID   262    <br>   POND_NO   MP117c    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105615    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105616    <br>   PHOTO   105617    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   21568    <br>   CAL_POND_A   5889    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   306.866411    <br>   SHAPE_Area   5888.874977              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">262</SimpleData>
@@ -28690,7 +28555,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001E1">
 			<name>MP153b</name>
 			<description><![CDATA[description:               <br>   MP153b    <br>       <br>   FID   263    <br>   POND_NO   MP153b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   112415    <br>   PLAN_PROJE       <br>   PLAN_REPOR   112416    <br>   PHOTO   112417    <br>   LAST_UPDAT   9/23/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   5467    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   123    <br>   SHAPE_Leng   301.708952    <br>   SHAPE_Area   5467.001117              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">263</SimpleData>
@@ -28749,7 +28614,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001E2">
 			<name>MP219</name>
 			<description><![CDATA[description:               <br>   MP219    <br>       <br>   FID   265    <br>   POND_NO   MP219    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   111545    <br>   PLAN_PROJE       <br>   PLAN_REPOR   111546    <br>   PHOTO   111547    <br>   LAST_UPDAT   5/23/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   13480    <br>   CAL_POND_A   10414    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Self-consume    <br>   FARM_ID   700367    <br>   SHAPE_Leng   431.090189    <br>   SHAPE_Area   10414.07845              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">265</SimpleData>
@@ -28808,7 +28673,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001E3">
 			<name>MP220</name>
 			<description><![CDATA[description:               <br>   MP220    <br>       <br>   FID   266    <br>   POND_NO   MP220    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   111552    <br>   PLAN_PROJE       <br>   PLAN_REPOR   111553    <br>   PHOTO   111554    <br>   LAST_UPDAT   2/23/2012    <br>   LAST_UPD_1   kmng2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   16348    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET       <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   700370    <br>   SHAPE_Leng   506.42472    <br>   SHAPE_Area   16348.302518              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">266</SimpleData>
@@ -28867,7 +28732,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001E4">
 			<name>MP224</name>
 			<description><![CDATA[description:               <br>   MP224    <br>       <br>   FID   267    <br>   POND_NO   MP224    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   111564    <br>   PLAN_PROJE       <br>   PLAN_REPOR   111565    <br>   PHOTO   111566    <br>   LAST_UPDAT   2/23/2012    <br>   LAST_UPD_1   kmng2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   26881    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET       <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   700370    <br>   SHAPE_Leng   664.830262    <br>   SHAPE_Area   26881.21621              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">267</SimpleData>
@@ -28926,7 +28791,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001E5">
 			<name>MP221</name>
 			<description><![CDATA[description:               <br>   MP221    <br>       <br>   FID   268    <br>   POND_NO   MP221    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   111555    <br>   PLAN_PROJE       <br>   PLAN_REPOR   111556    <br>   PHOTO   111557    <br>   LAST_UPDAT   2/23/2012    <br>   LAST_UPD_1   kmng2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   18668    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET       <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   700370    <br>   SHAPE_Leng   548.677417    <br>   SHAPE_Area   18668.236214              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">268</SimpleData>
@@ -28985,7 +28850,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001E6">
 			<name>MP222</name>
 			<description><![CDATA[description:               <br>   MP222    <br>       <br>   FID   269    <br>   POND_NO   MP222    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   111558    <br>   PLAN_PROJE       <br>   PLAN_REPOR   111559    <br>   PHOTO   111560    <br>   LAST_UPDAT   2/23/2012    <br>   LAST_UPD_1   kmng2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   14866    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET       <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   700370    <br>   SHAPE_Leng   488.260631    <br>   SHAPE_Area   14865.777144              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">269</SimpleData>
@@ -29044,7 +28909,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001E7">
 			<name>MP223</name>
 			<description><![CDATA[description:               <br>   MP223    <br>       <br>   FID   270    <br>   POND_NO   MP223    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   111561    <br>   PLAN_PROJE       <br>   PLAN_REPOR   111562    <br>   PHOTO   111563    <br>   LAST_UPDAT   2/23/2012    <br>   LAST_UPD_1   kmng2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   19355    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET       <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   700370    <br>   SHAPE_Leng   570.322571    <br>   SHAPE_Area   19354.608664              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">270</SimpleData>
@@ -29103,7 +28968,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001E8">
 			<name>MP225</name>
 			<description><![CDATA[description:               <br>   MP225    <br>       <br>   FID   271    <br>   POND_NO   MP225    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   111567    <br>   PLAN_PROJE       <br>   PLAN_REPOR   111568    <br>   PHOTO   111569    <br>   LAST_UPDAT   2/23/2012    <br>   LAST_UPD_1   kmng2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   20295    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET       <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   700370    <br>   SHAPE_Leng   579.324453    <br>   SHAPE_Area   20295.007735              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">271</SimpleData>
@@ -29162,7 +29027,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001E9">
 			<name>MP202</name>
 			<description><![CDATA[description:               <br>   MP202    <br>       <br>   FID   273    <br>   POND_NO   MP202    <br>   GRADING       <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104229    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104230    <br>   PHOTO   104231    <br>   LAST_UPDAT   7/16/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   19592    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   4    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   4    <br>   SHAPE_Leng   780.603887    <br>   SHAPE_Area   19591.899091              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">273</SimpleData>
@@ -29221,7 +29086,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001EA">
 			<name>MP217c</name>
 			<description><![CDATA[description:               <br>   MP217c    <br>       <br>   FID   274    <br>   POND_NO   MP217c    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110990    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110991    <br>   PHOTO   110992    <br>   LAST_UPDAT   11/14/2011    <br>   LAST_UPD_1   tffung    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   4330    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET       <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   685986    <br>   SHAPE_Leng   263.402902    <br>   SHAPE_Area   4330.204566              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">274</SimpleData>
@@ -29291,7 +29156,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001EB">
 			<name>MP209</name>
 			<description><![CDATA[description:               <br>   MP209    <br>       <br>   FID   275    <br>   POND_NO   MP209    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110960    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110961    <br>   PHOTO   110962    <br>   LAST_UPDAT   11/14/2011    <br>   LAST_UPD_1   tffung    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   3897    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET       <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   685986    <br>   SHAPE_Leng   243.015387    <br>   SHAPE_Area   3896.646739              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">275</SimpleData>
@@ -29350,7 +29215,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001EC">
 			<name>MP207</name>
 			<description><![CDATA[description:               <br>   MP207    <br>       <br>   FID   276    <br>   POND_NO   MP207    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110954    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110955    <br>   PHOTO   110956    <br>   LAST_UPDAT   11/14/2011    <br>   LAST_UPD_1   tffung    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   4692    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET       <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   685986    <br>   SHAPE_Leng   269.546228    <br>   SHAPE_Area   4692.433894              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">276</SimpleData>
@@ -29409,7 +29274,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001ED">
 			<name>MP213</name>
 			<description><![CDATA[description:               <br>   MP213    <br>       <br>   FID   277    <br>   POND_NO   MP213    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110972    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110973    <br>   PHOTO   110974    <br>   LAST_UPDAT   11/14/2011    <br>   LAST_UPD_1   tffung    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   14124    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET       <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   685986    <br>   SHAPE_Leng   456.262183    <br>   SHAPE_Area   14123.716733              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">277</SimpleData>
@@ -29468,7 +29333,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001EE">
 			<name>MP105f</name>
 			<description><![CDATA[description:               <br>   MP105f    <br>       <br>   FID   278    <br>   POND_NO   MP105f    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   109181    <br>   PLAN_PROJE       <br>   PLAN_REPOR   109182    <br>   PHOTO   109183    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   3510    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   236.661031    <br>   SHAPE_Area   3509.930902              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">278</SimpleData>
@@ -29527,7 +29392,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001EF">
 			<name>MP226</name>
 			<description><![CDATA[description:               <br>   MP226    <br>       <br>   FID   279    <br>   POND_NO   MP226    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   111570    <br>   PLAN_PROJE       <br>   PLAN_REPOR   111571    <br>   PHOTO   111572    <br>   LAST_UPDAT   2/23/2012    <br>   LAST_UPD_1   kmng2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   22127    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET       <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   700370    <br>   SHAPE_Leng   571.219638    <br>   SHAPE_Area   22126.858508              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">279</SimpleData>
@@ -29586,7 +29451,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001F0">
 			<name>MP032</name>
 			<description><![CDATA[description:               <br>   MP032    <br>       <br>   FID   280    <br>   POND_NO   MP032    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104326    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104327    <br>   PHOTO   104328    <br>   LAST_UPDAT   7/9/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   15174    <br>   AFFS   Y    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   129    <br>   SHAPE_Leng   478.115278    <br>   SHAPE_Area   15173.96595              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">280</SimpleData>
@@ -29645,7 +29510,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001F1">
 			<name>MP033</name>
 			<description><![CDATA[description:               <br>   MP033    <br>       <br>   FID   281    <br>   POND_NO   MP033    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104202    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104203    <br>   PHOTO   104204    <br>   LAST_UPDAT   7/9/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   11314    <br>   AFFS   Y    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   129    <br>   SHAPE_Leng   422.194046    <br>   SHAPE_Area   11314.249649              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">281</SimpleData>
@@ -29704,7 +29569,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001F2">
 			<name>MP105a</name>
 			<description><![CDATA[description:               <br>   MP105a    <br>       <br>   FID   282    <br>   POND_NO   MP105a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105537    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105538    <br>   PHOTO   105539    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   3534    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   233.993041    <br>   SHAPE_Area   3533.645462              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">282</SimpleData>
@@ -29763,7 +29628,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001F3">
 			<name>MP105e</name>
 			<description><![CDATA[description:               <br>   MP105e    <br>       <br>   FID   287    <br>   POND_NO   MP105e    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   109178    <br>   PLAN_PROJE       <br>   PLAN_REPOR   109179    <br>   PHOTO   109180    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   2125    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   181.933239    <br>   SHAPE_Area   2214.174013              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">287</SimpleData>
@@ -29822,7 +29687,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001F4">
 			<name>MP001</name>
 			<description><![CDATA[description:               <br>   MP001    <br>       <br>   FID   288    <br>   POND_NO   MP001    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101071    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101072    <br>   PHOTO   101073    <br>   LAST_UPDAT   10/14/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   6740    <br>   CAL_POND_A   6951    <br>   AFFS   N    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK   Pond status was changed from "active" to "   " blank and then changed back to "active" for testing of Pond Status option, by FOIC.    <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   131    <br>   SHAPE_Leng   356.00888    <br>   SHAPE_Area   6950.645557              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">288</SimpleData>
@@ -29881,7 +29746,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001F5">
 			<name>MP034</name>
 			<description><![CDATA[description:               <br>   MP034    <br>       <br>   FID   289    <br>   POND_NO   MP034    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104329    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104330    <br>   PHOTO   104331    <br>   LAST_UPDAT   7/9/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   11243    <br>   AFFS   Y    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   129    <br>   SHAPE_Leng   421.382904    <br>   SHAPE_Area   11242.597896              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">289</SimpleData>
@@ -29951,7 +29816,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001F6">
 			<name>MP061</name>
 			<description><![CDATA[description:               <br>   MP061    <br>       <br>   FID   291    <br>   POND_NO   MP061    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105384    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105385    <br>   PHOTO   105386    <br>   LAST_UPDAT   7/9/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   7414    <br>   CAL_POND_A   7958    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   592811    <br>   SHAPE_Leng   383.041738    <br>   SHAPE_Area   7957.980765              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">291</SimpleData>
@@ -30010,7 +29875,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001F7">
 			<name>MP027</name>
 			<description><![CDATA[description:               <br>   MP027    <br>       <br>   FID   293    <br>   POND_NO   MP027    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104320    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104321    <br>   PHOTO   104322    <br>   LAST_UPDAT   7/9/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   12806    <br>   CAL_POND_A   13978    <br>   AFFS   Y    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   129    <br>   SHAPE_Leng   489.558859    <br>   SHAPE_Area   13978.021377              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">293</SimpleData>
@@ -30069,7 +29934,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001F8">
 			<name>MP100a</name>
 			<description><![CDATA[description:               <br>   MP100a    <br>       <br>   FID   294    <br>   POND_NO   MP100a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103537    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103538    <br>   PHOTO   103539    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   14154    <br>   CAL_POND_A   7066    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   352.233008    <br>   SHAPE_Area   7066.269207              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">294</SimpleData>
@@ -30128,7 +29993,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001F9">
 			<name>MP156b</name>
 			<description><![CDATA[description:               <br>   MP156b    <br>       <br>   FID   295    <br>   POND_NO   MP156b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   113425    <br>   PLAN_PROJE       <br>   PLAN_REPOR   113426    <br>   PHOTO   113427    <br>   LAST_UPDAT   9/23/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   5434    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   1    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   123    <br>   SHAPE_Leng   297.004445    <br>   SHAPE_Area   5434.172744              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">295</SimpleData>
@@ -30187,7 +30052,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001FA">
 			<name>MP041</name>
 			<description><![CDATA[description:               <br>   MP041    <br>       <br>   FID   296    <br>   POND_NO   MP041    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105336    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105337    <br>   PHOTO   105338    <br>   LAST_UPDAT   6/11/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   22242    <br>   CAL_POND_A   23838    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   47    <br>   SHAPE_Leng   679.638402    <br>   SHAPE_Area   23837.66426              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">296</SimpleData>
@@ -30246,7 +30111,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001FB">
 			<name>MP194</name>
 			<description><![CDATA[description:               <br>   MP194    <br>       <br>   FID   297    <br>   POND_NO   MP194    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105734    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105735    <br>   PHOTO   105736    <br>   LAST_UPDAT   5/21/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   10784    <br>   CAL_POND_A   10067    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   23    <br>   SHAPE_Leng   425.32953    <br>   SHAPE_Area   10067.125808              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">297</SimpleData>
@@ -30305,7 +30170,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001FC">
 			<name>MP115c</name>
 			<description><![CDATA[description:               <br>   MP115c    <br>       <br>   FID   298    <br>   POND_NO   MP115c    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105603    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105604    <br>   PHOTO   105605    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   22916    <br>   CAL_POND_A   4734    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   285.225515    <br>   SHAPE_Area   4733.576922              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">298</SimpleData>
@@ -30364,7 +30229,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001FD">
 			<name>MP217b</name>
 			<description><![CDATA[description:               <br>   MP217b    <br>       <br>   FID   303    <br>   POND_NO   MP217b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110987    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110988    <br>   PHOTO   110989    <br>   LAST_UPDAT   11/14/2011    <br>   LAST_UPD_1   tffung    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   4271    <br>   AFFS   N    <br>   LANDUSAGE   0    <br>   LU_SYS_DET       <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   685986    <br>   SHAPE_Leng   254.963052    <br>   SHAPE_Area   4271.3013              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">303</SimpleData>
@@ -30423,7 +30288,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001FE">
 			<name>MP114b</name>
 			<description><![CDATA[description:               <br>   MP114b    <br>       <br>   FID   305    <br>   POND_NO   MP114b    <br>   GRADING       <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105594    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105595    <br>   PHOTO   105596    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   5399    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   298.600099    <br>   SHAPE_Area   5398.636261              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">304</SimpleData>
@@ -30482,7 +30347,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F0001FF">
 			<name>MP093a</name>
 			<description><![CDATA[description:               <br>   MP093a    <br>       <br>   FID   308    <br>   POND_NO   MP093a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105477    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105478    <br>   PHOTO   105479    <br>   LAST_UPDAT   3/15/2008    <br>   LAST_UPD_1   CONVERSION    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   10784    <br>   CAL_POND_A   13805    <br>   AFFS       <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   4    <br>   LS_SYS_DET   Y    <br>   POND_STATU   2    <br>   REMARK       <br>   SALES_CHAN       <br>   FARM_ID   0    <br>   SHAPE_Leng   569.674069    <br>   SHAPE_Area   13804.9494              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">307</SimpleData>
@@ -30541,7 +30406,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F000200">
 			<name>MP058</name>
 			<description><![CDATA[description:               <br>   MP058    <br>       <br>   FID   312    <br>   POND_NO   MP058    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105378    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105379    <br>   PHOTO   105380    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   16176    <br>   CAL_POND_A   17746    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   10    <br>   SHAPE_Leng   541.725812    <br>   SHAPE_Area   17745.514287              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">311</SimpleData>
@@ -30600,7 +30465,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F000201">
 			<name>MP052</name>
 			<description><![CDATA[description:               <br>   MP052    <br>       <br>   FID   314    <br>   POND_NO   MP052    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105363    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105364    <br>   PHOTO   105365    <br>   LAST_UPDAT   6/11/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   17524    <br>   CAL_POND_A   14517    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   47    <br>   SHAPE_Leng   468.647252    <br>   SHAPE_Area   14516.662374              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">313</SimpleData>
@@ -30659,7 +30524,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F000202">
 			<name>MP118a</name>
 			<description><![CDATA[description:               <br>   MP118a    <br>       <br>   FID   315    <br>   POND_NO   MP118a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103853    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103854    <br>   PHOTO   103855    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   8851    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   371.899795    <br>   SHAPE_Area   8851.158997              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">314</SimpleData>
@@ -30718,7 +30583,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F000203">
 			<name>MP115a</name>
 			<description><![CDATA[description:               <br>   MP115a    <br>       <br>   FID   316    <br>   POND_NO   MP115a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103566    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103567    <br>   PHOTO   103568    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   22916    <br>   CAL_POND_A   5391    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   302.110219    <br>   SHAPE_Area   5391.353697              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">315</SimpleData>
@@ -30777,7 +30642,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F000204">
 			<name>MP125b</name>
 			<description><![CDATA[description:               <br>   MP125b    <br>       <br>   FID   317    <br>   POND_NO   MP125b    <br>   GRADING       <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105633    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105634    <br>   PHOTO   105635    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   6343    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   331.393554    <br>   SHAPE_Area   6343.340187              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">316</SimpleData>
@@ -30836,7 +30701,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F000205">
 			<name>MP115b</name>
 			<description><![CDATA[description:               <br>   MP115b    <br>       <br>   FID   319    <br>   POND_NO   MP115b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105600    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105601    <br>   PHOTO   105602    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   7543    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   350.943542    <br>   SHAPE_Area   7542.907193              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">318</SimpleData>
@@ -30895,7 +30760,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F000206">
 			<name>MP156a</name>
 			<description><![CDATA[description:               <br>   MP156a    <br>       <br>   FID   320    <br>   POND_NO   MP156a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103691    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103692    <br>   PHOTO   103693    <br>   LAST_UPDAT   9/23/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   10109    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   1    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   123    <br>   SHAPE_Leng   426.544679    <br>   SHAPE_Area   10109.256606              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">319</SimpleData>
@@ -30954,7 +30819,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F000207">
 			<name>MP100c</name>
 			<description><![CDATA[description:               <br>   MP100c    <br>       <br>   FID   321    <br>   POND_NO   MP100c    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103540    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103541    <br>   PHOTO   103542    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   15502    <br>   CAL_POND_A   6278    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   352.865391    <br>   SHAPE_Area   6278.475067              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">320</SimpleData>
@@ -31013,7 +30878,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F000208">
 			<name>MP188</name>
 			<description><![CDATA[description:               <br>   MP188    <br>       <br>   FID   322    <br>   POND_NO   MP188    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   104250    <br>   PLAN_PROJE       <br>   PLAN_REPOR   104251    <br>   PHOTO   104252    <br>   LAST_UPDAT   1/31/2012    <br>   LAST_UPD_1   kmng2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   15502    <br>   CAL_POND_A   13972    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   4    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   736247    <br>   SHAPE_Leng   562.632958    <br>   SHAPE_Area   13972.494257              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">321</SimpleData>
@@ -31072,7 +30937,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F000209">
 			<name>MP115d</name>
 			<description><![CDATA[description:               <br>   MP115d    <br>       <br>   FID   323    <br>   POND_NO   MP115d    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   110022    <br>   PLAN_PROJE       <br>   PLAN_REPOR   110023    <br>   PHOTO   110024    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   6137    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   328.803179    <br>   SHAPE_Area   6137.566881              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">322</SimpleData>
@@ -31131,7 +30996,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F00020A">
 			<name>MP124a</name>
 			<description><![CDATA[description:               <br>   MP124a    <br>       <br>   FID   324    <br>   POND_NO   MP124a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105627    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105628    <br>   PHOTO   105629    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   7168    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   7    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   387.150877    <br>   SHAPE_Area   7168.383989              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">323</SimpleData>
@@ -31190,7 +31055,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F00020B">
 			<name>MP125a</name>
 			<description><![CDATA[description:               <br>   MP125a    <br>       <br>   FID   327    <br>   POND_NO   MP125a    <br>   GRADING       <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105630    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105631    <br>   PHOTO   105632    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   5062    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   282.949473    <br>   SHAPE_Area   5061.525429              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">326</SimpleData>
@@ -31249,7 +31114,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F00020C">
 			<name>MP117d</name>
 			<description><![CDATA[description:               <br>   MP117d    <br>       <br>   FID   328    <br>   POND_NO   MP117d    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105618    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105619    <br>   PHOTO   105620    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   21568    <br>   CAL_POND_A   6696    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   335.879867    <br>   SHAPE_Area   6695.727338              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">327</SimpleData>
@@ -31308,7 +31173,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F00020D">
 			<name>MP059a</name>
 			<description><![CDATA[description:               <br>   MP059a    <br>       <br>   FID   329    <br>   POND_NO   MP059a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103709    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103710    <br>   PHOTO   103711    <br>   LAST_UPDAT   7/9/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   6740    <br>   CAL_POND_A   7405    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   4    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   14    <br>   SHAPE_Leng   411.820852    <br>   SHAPE_Area   7405.262831              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">328</SimpleData>
@@ -31367,7 +31232,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F00020E">
 			<name>MP098b</name>
 			<description><![CDATA[description:               <br>   MP098b    <br>       <br>   FID   334    <br>   POND_NO   MP098b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   109202    <br>   PLAN_PROJE       <br>   PLAN_REPOR   109203    <br>   PHOTO   109204    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   5771    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   303.57401    <br>   SHAPE_Area   5770.779021              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">333</SimpleData>
@@ -31426,7 +31291,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F00020F">
 			<name>MP065</name>
 			<description><![CDATA[description:               <br>   MP065    <br>       <br>   FID   337    <br>   POND_NO   MP065    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105390    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105391    <br>   PHOTO   105392    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   12806    <br>   CAL_POND_A   14585    <br>   AFFS   N    <br>   LANDUSAGE   14    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   4    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   698304    <br>   SHAPE_Leng   587.910169    <br>   SHAPE_Area   14584.542542              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">336</SimpleData>
@@ -31485,7 +31350,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F000210">
 			<name>MP098a</name>
 			<description><![CDATA[description:               <br>   MP098a    <br>       <br>   FID   338    <br>   POND_NO   MP098a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103572    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103573    <br>   PHOTO   103574    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   1423    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   153.245824    <br>   SHAPE_Area   1422.750986              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">337</SimpleData>
@@ -31544,7 +31409,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F000211">
 			<name>MP039</name>
 			<description><![CDATA[description:               <br>   MP039    <br>       <br>   FID   340    <br>   POND_NO   MP039    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105333    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105334    <br>   PHOTO   105335    <br>   LAST_UPDAT   7/16/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   6066    <br>   CAL_POND_A   4906    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   11    <br>   SHAPE_Leng   269.248103    <br>   SHAPE_Area   4906.205194              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">339</SimpleData>
@@ -31603,7 +31468,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F000212">
 			<name>MP193b</name>
 			<description><![CDATA[description:               <br>   MP193b    <br>       <br>   FID   341    <br>   POND_NO   MP193b    <br>   GRADING       <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105731    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105732    <br>   PHOTO   105733    <br>   LAST_UPDAT   5/21/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   8959    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   23    <br>   SHAPE_Leng   378.083922    <br>   SHAPE_Area   8958.642118              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">340</SimpleData>
@@ -31662,7 +31527,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F000213">
 			<name>MP100b</name>
 			<description><![CDATA[description:               <br>   MP100b    <br>       <br>   FID   345    <br>   POND_NO   MP100b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103569    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103570    <br>   PHOTO   103571    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   0    <br>   EST_POND_A   0    <br>   CAL_POND_A   4088    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   272.762576    <br>   SHAPE_Area   4088.001699              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">344</SimpleData>
@@ -31721,7 +31586,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F000214">
 			<name>MP099a</name>
 			<description><![CDATA[description:               <br>   MP099a    <br>       <br>   FID   346    <br>   POND_NO   MP099a    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101057    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101058    <br>   PHOTO   101059    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   16176    <br>   CAL_POND_A   4931    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   277.433533    <br>   SHAPE_Area   4931.152362              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">345</SimpleData>
@@ -31780,7 +31645,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F000215">
 			<name>MP099b</name>
 			<description><![CDATA[description:               <br>   MP099b    <br>       <br>   FID   347    <br>   POND_NO   MP099b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   101057    <br>   PLAN_PROJE       <br>   PLAN_REPOR   101058    <br>   PHOTO   101059    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   16176    <br>   CAL_POND_A   6109    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   304.371334    <br>   SHAPE_Area   6108.807126              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">346</SimpleData>
@@ -31839,7 +31704,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F000216">
 			<name>MP051</name>
 			<description><![CDATA[description:               <br>   MP051    <br>       <br>   FID   348    <br>   POND_NO   MP051    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105360    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105361    <br>   PHOTO   105362    <br>   LAST_UPDAT   2/28/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   1011    <br>   CAL_POND_A   1085    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Self-retail    <br>   FARM_ID   15    <br>   SHAPE_Leng   137.358774    <br>   SHAPE_Area   1084.726179              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">347</SimpleData>
@@ -31898,7 +31763,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F000217">
 			<name>MP105g</name>
 			<description><![CDATA[description:               <br>   MP105g    <br>       <br>   FID   349    <br>   POND_NO   MP105g    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   109184    <br>   PLAN_PROJE       <br>   PLAN_REPOR   109185    <br>   PHOTO   109186    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   2136    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   184.665521    <br>   SHAPE_Area   2135.98939              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">348</SimpleData>
@@ -31957,7 +31822,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F000218">
 			<name>MP105c</name>
 			<description><![CDATA[description:               <br>   MP105c    <br>       <br>   FID   350    <br>   POND_NO   MP105c    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105543    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105544    <br>   PHOTO   105545    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   2993    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   214.904314    <br>   SHAPE_Area   2992.763041              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">349</SimpleData>
@@ -32016,7 +31881,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F000219">
 			<name>MP105b</name>
 			<description><![CDATA[description:               <br>   MP105b    <br>       <br>   FID   351    <br>   POND_NO   MP105b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105540    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105541    <br>   PHOTO   105542    <br>   LAST_UPDAT   11/25/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   2    <br>   EST_POND_A   0    <br>   CAL_POND_A   2901    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   215.811989    <br>   SHAPE_Area   2901.141769              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">350</SimpleData>
@@ -32075,7 +31940,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F00021A">
 			<name>MP100d</name>
 			<description><![CDATA[description:               <br>   MP100d    <br>       <br>   FID   352    <br>   POND_NO   MP100d    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   109187    <br>   PLAN_PROJE       <br>   PLAN_REPOR   109188    <br>   PHOTO   109189    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   4021    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   247.225122    <br>   SHAPE_Area   4020.714418              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">351</SimpleData>
@@ -32134,7 +31999,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F00021B">
 			<name>MP190</name>
 			<description><![CDATA[description:               <br>   MP190    <br>       <br>   FID   353    <br>   POND_NO   MP190    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105719    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105720    <br>   PHOTO   105721    <br>   LAST_UPDAT   3/19/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   15839    <br>   CAL_POND_A   15875    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   24    <br>   SHAPE_Leng   502.401566    <br>   SHAPE_Area   15874.552995              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">352</SimpleData>
@@ -32193,7 +32058,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F00021C">
 			<name>MP152</name>
 			<description><![CDATA[description:               <br>   MP152    <br>       <br>   FID   354    <br>   POND_NO   MP152    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   103197    <br>   PLAN_PROJE       <br>   PLAN_REPOR   103198    <br>   PHOTO   103199    <br>   LAST_UPDAT   8/7/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   9436    <br>   CAL_POND_A   3411    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   763406    <br>   SHAPE_Leng   241.271549    <br>   SHAPE_Area   3410.577199              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">353</SimpleData>
@@ -32252,7 +32117,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F00021D">
 			<name>MP118b</name>
 			<description><![CDATA[description:               <br>   MP118b    <br>       <br>   FID   356    <br>   POND_NO   MP118b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   112326    <br>   PLAN_PROJE       <br>   PLAN_REPOR   112327    <br>   PHOTO   112328    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   5378    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   293.150225    <br>   SHAPE_Area   5377.961226              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">355</SimpleData>
@@ -32311,7 +32176,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F00021E">
 			<name>MP124b</name>
 			<description><![CDATA[description:               <br>   MP124b    <br>       <br>   FID   357    <br>   POND_NO   MP124b    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   112823    <br>   PLAN_PROJE       <br>   PLAN_REPOR   112824    <br>   PHOTO   112825    <br>   LAST_UPDAT   11/28/2014    <br>   LAST_UPD_1   wmli2    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   0    <br>   CAL_POND_A   7465    <br>   AFFS   N    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   7    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale,Direct Sale,Self-retail    <br>   FARM_ID   201    <br>   SHAPE_Leng   366.541259    <br>   SHAPE_Area   7465.098693              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">356</SimpleData>
@@ -32370,7 +32235,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F00021F">
 			<name>MP012</name>
 			<description><![CDATA[description:               <br>   MP012    <br>       <br>   FID   358    <br>   POND_NO   MP012    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105315    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105316    <br>   PHOTO   105317    <br>   LAST_UPDAT   10/10/2014    <br>   LAST_UPD_1   sltang    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   13480    <br>   CAL_POND_A   14124    <br>   AFFS   N    <br>   LANDUSAGE   22    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   5    <br>   LS_SYS_DET   Y    <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   85    <br>   SHAPE_Leng   501.293456    <br>   SHAPE_Area   14123.612498              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">357</SimpleData>
@@ -32436,7 +32301,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F000220">
 			<name>MP054</name>
 			<description><![CDATA[description:               <br>   MP054    <br>       <br>   FID   359    <br>   POND_NO   MP054    <br>   GRADING   good    <br>   ERF_REF       <br>   DAMAGE_REF       <br>   DAMAGE_REP   105369    <br>   PLAN_PROJE       <br>   PLAN_REPOR   105370    <br>   PHOTO   105371    <br>   LAST_UPDAT   6/11/2014    <br>   LAST_UPD_1   kltam    <br>   PFCZ   21    <br>   PFCZ_SYS_D   Y    <br>   CULTURE_ME   1    <br>   EST_POND_A   18198    <br>   CAL_POND_A   14657    <br>   AFFS   Y    <br>   LANDUSAGE   4    <br>   LU_SYS_DET   Y    <br>   LANDSTATUS   0    <br>   LS_SYS_DET       <br>   POND_STATU   1    <br>   REMARK       <br>   SALES_CHAN   Wholesale    <br>   FARM_ID   47    <br>   SHAPE_Leng   471.064075    <br>   SHAPE_Area   14657.313951              <br>tessellate: -1<br>extrude: 0<br>visibility: 0<br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">358</SimpleData>
@@ -32495,7 +32360,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F000221">
 			<name>MP182a</name>
 			<description><![CDATA[description: <br>tessellate: <br>extrude: <br>visibility: <br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">360</SimpleData>
@@ -32525,7 +32390,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 		<Placemark id="5BD06B9F0F000222">
 			<name>MP182b</name>
 			<description><![CDATA[description: <br>tessellate: <br>extrude: <br>visibility: <br>snippet: ]]></description>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="COL5BD06BA3221432FA">361</SimpleData>
@@ -32564,7 +32429,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>3231.59705249418</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -32587,7 +32452,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>3231.59779417736</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -32610,7 +32475,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>3231.597052494181</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -32633,7 +32498,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>3231.590006503976</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -32656,7 +32521,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>3231.589635662386</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -32679,7 +32544,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>3231.588523137616</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -32702,7 +32567,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>3231.592602395103</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -32725,7 +32590,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>3231.592973236693</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -32748,7 +32613,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>3231.597052494181</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -32771,7 +32636,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>3231.061557238573</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -32794,7 +32659,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>3232.194107453688</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -32817,7 +32682,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>3232.19225324574</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -32840,7 +32705,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>2586.347519981792</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -32863,7 +32728,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>2589.373401933408</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -32886,7 +32751,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>2352.070014440396</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -32909,7 +32774,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>2352.070014440396</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -32932,7 +32797,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>2352.068901915627</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -32955,7 +32820,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>2348.935475902981</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -32978,7 +32843,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>2348.937144690135</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -33001,7 +32866,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>2110.71907641599</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -33024,7 +32889,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>2110.381425148516</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -33047,7 +32912,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>2569.339055888413</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -33070,7 +32935,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>2570.238532164367</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -33093,7 +32958,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>2569.338499626029</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -33116,7 +32981,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>2569.338870467618</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -33139,7 +33004,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>2569.338499626028</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -33162,7 +33027,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>2569.337201680464</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -33185,7 +33050,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>2568.05001052242</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -33208,7 +33073,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>1487.73811781648</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -33231,7 +33096,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>1487.068470615777</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -33254,7 +33119,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>1487.068192484585</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -33277,7 +33142,7 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>1487.078205207508</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -33300,12 +33165,104 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>1487.078205207508</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
 						<coordinates>
 							114.0392139981535,22.48088603950917,0 114.0388974115862,22.47994946665625,0 114.0395521681885,22.47941151332609,0 114.0404092734688,22.48023859866112,0 114.0403958057309,22.48055441337838,0 114.0392139981535,22.48088603950917,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="08E8D1EF353EF80EC688">
+			<name>ST125b</name>
+			<LookAt>
+				<longitude>114.0644981742912</longitude>
+				<latitude>22.50629402503957</latitude>
+				<altitude>-0.6566338373535241</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>1240.513419851923</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							114.0639009806946,22.5061639458002,0 114.0632255891572,22.50553566897558,0 114.0637015951995,22.50526194713655,0 114.0642699476405,22.50576466849841,0 114.0639009806946,22.5061639458002,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="005B8048383EF810ECAB">
+			<name>ST066a</name>
+			<LookAt>
+				<longitude>114.0691838942611</longitude>
+				<latitude>22.50404404853391</latitude>
+				<altitude>-0.5428482634187703</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>549.2010045031203</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							114.0685671038512,22.50494940524587,0 114.0678512200785,22.50442332940229,0 114.0679713174336,22.50424266825226,0 114.0687430817507,22.50385532403895,0 114.068846352263,22.50387521789247,0 114.0692978315759,22.50441146823252,0 114.0692977950594,22.5044669437381,0 114.0685671038512,22.50494940524587,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="042070423B3EF8118A53">
+			<name>ST066b</name>
+			<LookAt>
+				<longitude>114.0691838942611</longitude>
+				<latitude>22.50404404853391</latitude>
+				<altitude>-0.5428482634187703</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>549.2010045031203</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							114.0693343984515,22.50437576654177,0 114.0688571019759,22.5038394656358,0 114.0693063784854,22.50352391953347,0 114.0696612041203,22.50344020272264,0 114.0697772360459,22.50348794081876,0 114.0700778966807,22.50387330146157,0 114.0693343984515,22.50437576654177,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="057CB1893C3EF814A348">
+			<name>ST037a</name>
+			<LookAt>
+				<longitude>114.0624046439946</longitude>
+				<latitude>22.50447645772855</latitude>
+				<altitude>-0.4658371394857808</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>979.4812696863664</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							114.0613542683246,22.50483415153693,0 114.0610429929318,22.50396617853446,0 114.0615612835657,22.50369022958825,0 114.0619214645947,22.50468193553005,0 114.0613542683246,22.50483415153693,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
@@ -33323,12 +33280,81 @@ window.STUDY_SITES_KML = `<?xml version="1.0" encoding="UTF-8"?>
 				<range>1487.068285194982</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0F6996B6BB3EF2BC4E56</styleUrl>
+			<styleUrl>#__managed_style_0B2F0618073EF80E55AB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
 						<coordinates>
 							114.0380368095098,22.47933569789032,0 114.0389789139501,22.47892402967025,0 114.039564787393,22.47935639694884,0 114.0381971680449,22.48026229839794,0 114.0380368095098,22.47933569789032,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="0CC4CD1B6C3EF81513D9">
+			<name>ST037b</name>
+			<LookAt>
+				<longitude>114.0623049113449</longitude>
+				<latitude>22.50409372784322</latitude>
+				<altitude>-0.1883242411781294</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>979.2037874668315</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							114.0619521104257,22.50466057014876,0 114.0615957222582,22.50368644716374,0 114.0617950624271,22.50347041302465,0 114.0619599009347,22.50344208108012,0 114.0620979052382,22.50344562295505,0 114.0623931165028,22.50458620000033,0 114.0619521104257,22.50466057014876,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="09DD075AB33EF815906B">
+			<name>ST014a</name>
+			<LookAt>
+				<longitude>114.0608954729423</longitude>
+				<latitude>22.50073244323107</latitude>
+				<altitude>-0.1888311634559237</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>671.6309250764607</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							114.0592100936512,22.5006765643377,0 114.0593547111061,22.50017859181004,0 114.0600593610633,22.50037778756965,0 114.0600462121136,22.50071786609344,0 114.059864789466,22.50095834945836,0 114.0592100936512,22.5006765643377,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="0EF81128503EF815C8BB">
+			<name>ST014b</name>
+			<LookAt>
+				<longitude>114.0608954729423</longitude>
+				<latitude>22.50073244323107</latitude>
+				<altitude>-0.1888311634559237</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>671.6309250764607</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0559B64E693EF80E55A9</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							114.0601066860397,22.50074701633061,0 114.0600909123496,22.50039479158759,0 114.0604695286537,22.50046766691274,0 114.0604116833738,22.50078345406915,0 114.0601066860397,22.50074701633061,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
