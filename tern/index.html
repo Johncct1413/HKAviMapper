@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>HKAviMapper-Water Bird Count</title>
+  <link rel="stylesheet" href="../assets/leaflet/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <section class="map-card">
+      <div class="map-overlay">
+        <div class="overlay-group">
+        </div>
+        <div class="overlay-group overlay-actions">
+          <div class="status" id="statusText">Marker not created</div>
+          <button id="helpBtn" type="button" style="border-radius: 50%; padding: 8px 12px; font-weight: bold; background: #7f3f98; color: white; border: none;">?</button>
+          <button id="locateBtn" type="button">Locate</button>
+          <button id="exportBtn" type="button">Export</button>
+          <button id="clearAllBtn" type="button" class="danger">Clear</button>
+          <div class="count mobile-count" id="recordCount" style="display: none">0 records</div>
+        </div>
+      </div>
+      <div id="map" aria-label="Satellite Map"></div>
+    </section>
+
+    <section class="table-card">
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Plot / Env.</th> <th>Species</th>
+              <th>Count</th>
+              <th>Date</th>
+              <th>Time</th>
+              <th>Coordinates</th>
+              <th>Remarks</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="recordsBody">
+            <tr class="empty-row">
+              <td colspan="6">No records yet. Click on the map to add a record.</td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    </section>
+  </main>
+<datalist id="hk-birds">
+<option value="Lesser Whistling Duck">
+<option value="Greylag Goose">
+<option value="Taiga Bean Goose">
+<option value="Tundra Bean Goose">
+<option value="Greater White-fronted Goose">
+<option value="Lesser White-fronted Goose">
+<option value="Whooper Swan">
+<option value="Common Shelduck">
+<option value="Ruddy Shelduck">
+<option value="Mandarin Duck">
+<option value="Cotton Pygmy Goose">
+<option value="Baikal Teal">
+<option value="Garganey">
+<option value="Northern Shoveler">
+<option value="Gadwall">
+<option value="Falcated Duck">
+<option value="Eurasian Wigeon">
+<option value="American Wigeon">
+<option value="Philippine Duck">
+<option value="Indian Spot-billed Duck">
+<option value="Chinese Spot-billed Duck">
+<option value="Mallard">
+<option value="Northern Pintail">
+<option value="Eurasian Teal">
+<option value="Green-winged Teal">
+<option value="Red-crested Pochard">
+<option value="Common Pochard">
+<option value="Baer's Pochard">
+<option value="Ferruginous Duck">
+<option value="Tufted Duck">
+<option value="Greater Scaup">
+<option value="Velvet Scoter">
+<option value="Black Scoter">
+<option value="Common Goldeneye">
+<option value="Smew">
+<option value="Red-breasted Merganser">
+<option value="Scaly-sided Merganser">
+<option value="Chinese Bamboo Partridge">
+<option value="Chinese Francolin">
+<option value="Japanese Quail">
+<option value="Grey Nightjar">
+<option value="Savanna Nightjar">
+<option value="Himalayan Swiftlet">
+<option value="White-throated Needletail">
+<option value="Silver-backed Needletail">
+<option value="Brown-backed Needletail">
+<option value="Common Swift">
+<option value="Pacific Swift">
+<option value="House Swift">
+<option value="Greater Coucal">
+<option value="Lesser Coucal">
+<option value="Chestnut-winged Cuckoo">
+<option value="Jacobin Cuckoo">
+<option value="Asian Koel">
+<option value="Plaintive Cuckoo">
+<option value="Square-tailed Drongo-Cuckoo">
+<option value="Large Hawk-Cuckoo">
+<option value="Northern Hawk-Cuckoo">
+<option value="Hodgson's Hawk-Cuckoo">
+<option value="Lesser Cuckoo">
+<option value="Indian Cuckoo">
+<option value="Oriental Cuckoo">
+<option value="Common Cuckoo">
+<option value="Rock Dove">
+<option value="Oriental Turtle Dove">
+<option value="Eurasian Collared Dove">
+<option value="Red Collared Dove">
+<option value="Spotted Dove">
+<option value="Barred Cuckoo-Dove">
+<option value="Common Emerald Dove">
+<option value="Orange-breasted Green Pigeon">
+<option value="Thick-billed Green Pigeon">
+<option value="Wedge-tailed Green Pigeon">
+<option value="White-bellied Green Pigeon">
+<option value="Ryukyu Green Pigeon">
+<option value="Western Water Rail">
+<option value="Eastern Water Rail">
+<option value="Slaty-breasted Rail">
+<option value="Common Moorhen">
+<option value="Eurasian Coot">
+<option value="Grey-headed Swamphen">
+<option value="Ruddy-breasted Crake">
+<option value="Band-bellied Crake">
+<option value="Brown Crake">
+<option value="Baillon's Crake">
+<option value="Slaty-legged Crake">
+<option value="White-browed Crake">
+<option value="Watercock">
+<option value="White-breasted Waterhen">
+<option value="Siberian Crane">
+<option value="Common Crane">
+<option value="Hooded Crane">
+<option value="Little Grebe">
+<option value="Great Crested Grebe">
+<option value="Horned Grebe">
+<option value="Black-necked Grebe">
+<option value="Yellow-legged Buttonquail">
+<option value="Barred Buttonquail">
+<option value="Great Stone-Curlew">
+<option value="Eurasian Oystercatcher">
+<option value="Black-winged Stilt">
+<option value="Pied Avocet">
+<option value="Grey Plover">
+<option value="European Golden Plover">
+<option value="Pacific Golden Plover">
+<option value="Common Ringed Plover">
+<option value="Little Ringed Plover">
+<option value="Long-billed Plover">
+<option value="Northern Lapwing">
+<option value="Grey-headed Lapwing">
+<option value="Oriental Plover">
+<option value="Tibetan Sand Plover">
+<option value="Siberian Sand Plover">
+<option value="Greater Sand Plover">
+<option value="Kentish Plover">
+<option value="White-faced Plover">
+<option value="Greater Painted-snipe">
+<option value="Pheasant-tailed Jacana">
+<option value="Eurasian Whimbrel">
+<option value="Little Curlew">
+<option value="Far Eastern Curlew">
+<option value="Eurasian Curlew">
+<option value="Bar-tailed Godwit">
+<option value="Black-tailed Godwit">
+<option value="Asian Dowitcher">
+<option value="Long-billed Dowitcher">
+<option value="Eurasian Woodcock">
+<option value="Swinhoe's Snipe">
+<option value="Pintail Snipe">
+<option value="Latham's Snipe">
+<option value="Common Snipe">
+<option value="Red Phalarope">
+<option value="Red-necked Phalarope">
+<option value="Terek Sandpiper">
+<option value="Common Sandpiper">
+<option value="Green Sandpiper">
+<option value="Grey-tailed Tattler">
+<option value="Marsh Sandpiper">
+<option value="Wood Sandpiper">
+<option value="Common Redshank">
+<option value="Lesser Yellowlegs">
+<option value="Nordmann's Greenshank">
+<option value="Spotted Redshank">
+<option value="Common Greenshank">
+<option value="Ruddy Turnstone">
+<option value="Great Knot">
+<option value="Red Knot">
+<option value="Ruff">
+<option value="Broad-billed Sandpiper">
+<option value="Sharp-tailed Sandpiper">
+<option value="Curlew Sandpiper">
+<option value="Temminck's Stint">
+<option value="Long-toed Stint">
+<option value="Red-necked Stint">
+<option value="Spoon-billed Sandpiper">
+<option value="Buff-breasted Sandpiper">
+<option value="Sanderling">
+<option value="Dunlin">
+<option value="Little Stint">
+<option value="Pectoral Sandpiper">
+<option value="Small Pratincole">
+<option value="Oriental Pratincole">
+<option value="Brown Noddy">
+<option value="Black Noddy">
+<option value="Aleutian Tern">
+<option value="Sooty Tern">
+<option value="Bridled Tern">
+<option value="Little Tern">
+<option value="Gull-billed Tern">
+<option value="Caspian Tern">
+<option value="Whiskered Tern">
+<option value="White-winged Tern">
+<option value="Common Tern">
+<option value="Black-naped Tern">
+<option value="Roseate Tern">
+<option value="Greater Crested Tern">
+<option value="Little Gull">
+<option value="Black-legged Kittiwake">
+<option value="Saunders's Gull">
+<option value="Slender-billed Gull">
+<option value="Black-headed Gull">
+<option value="Brown-headed Gull">
+<option value="Franklin's Gull">
+<option value="Pallas's Gull">
+<option value="Relict Gull">
+<option value="Black-tailed Gull">
+<option value="Common Gull">
+<option value="Short-billed Gull">
+<option value="Ring-billed Gull">
+<option value="Vega Gull">
+<option value="Mongolian Gull">
+<option value="Glaucous Gull">
+<option value="Lesser Black-backed Gull">
+<option value="Glaucous-winged Gull">
+<option value="Slaty-backed Gull">
+<option value="Long-tailed Jaeger">
+<option value="Parasitic Jaeger">
+<option value="Pomarine Jaeger">
+<option value="Ancient Murrelet">
+<option value="Japanese Murrelet">
+<option value="White-tailed Tropicbird">
+<option value="Red-throated Loon">
+<option value="Pacific Loon">
+<option value="Yellow-billed Loon">
+<option value="Swinhoe's Storm Petrel">
+<option value="Herald Petrel">
+<option value="Streaked Shearwater">
+<option value="Wedge-tailed Shearwater">
+<option value="Short-tailed Shearwater">
+<option value="Flesh-footed Shearwater">
+<option value="Bulwer's Petrel">
+<option value="Black Stork">
+<option value="Oriental Stork">
+<option value="Lesser Frigatebird">
+<option value="Great Frigatebird">
+<option value="Christmas Frigatebird">
+<option value="Red-footed Booby">
+<option value="Brown Booby">
+<option value="Masked Booby">
+<option value="Japanese Cormorant">
+<option value="Great Cormorant">
+<option value="Black-headed Ibis">
+<option value="Glossy Ibis">
+<option value="Eurasian Spoonbill">
+<option value="Black-faced Spoonbill">
+<option value="Eurasian Bittern">
+<option value="Black Bittern">
+<option value="Cinnamon Bittern">
+<option value="Von Schrenck's Bittern">
+<option value="Yellow Bittern">
+<option value="Black-crowned Night Heron">
+<option value="Malayan Night Heron">
+<option value="Japanese Night Heron">
+<option value="Pacific Reef Heron">
+<option value="Chinese Egret">
+<option value="Little Egret">
+<option value="Little Heron">
+<option value="Chinese Pond Heron">
+<option value="Javan Pond Heron">
+<option value="Great Egret">
+<option value="Intermediate Egret">
+<option value="Eastern Cattle Egret">
+<option value="Grey Heron">
+<option value="Purple Heron">
+<option value="Dalmatian Pelican">
+<option value="Osprey">
+<option value="Black-winged Kite">
+<option value="Crested Honey Buzzard">
+<option value="Black Baza">
+<option value="Cinereous Vulture">
+<option value="Crested Serpent Eagle">
+<option value="Short-toed Snake Eagle">
+<option value="Mountain Hawk-Eagle">
+<option value="Black Eagle">
+<option value="Greater Spotted Eagle">
+<option value="Booted Eagle">
+<option value="Steppe Eagle">
+<option value="Eastern Imperial Eagle">
+<option value="Bonelli's Eagle">
+<option value="Crested Goshawk">
+<option value="Shikra">
+<option value="Chinese Sparrowhawk">
+<option value="Japanese Sparrowhawk">
+<option value="Besra">
+<option value="Eurasian Sparrowhawk">
+<option value="Eurasian Goshawk">
+<option value="Western Marsh Harrier ">
+<option value="Eastern Marsh Harrier">
+<option value="Hen Harrier">
+<option value="Pied Harrier">
+<option value="Black Kite">
+<option value="Brahminy Kite">
+<option value="White-bellied Sea Eagle">
+<option value="Grey-faced Buzzard">
+<option value="Eastern Buzzard">
+<option value="Eastern Grass Owl">
+<option value="Northern Boobook">
+<option value="Collared Owlet">
+<option value="Asian Barred Owlet">
+<option value="Mountain Scops Owl">
+<option value="Oriental Scops Owl">
+<option value="Collared Scops Owl">
+<option value="Short-eared Owl">
+<option value="Eurasian Eagle-Owl">
+<option value="Brown Fish Owl">
+<option value="Brown Wood Owl">
+<option value="Eurasian Hoopoe">
+<option value="European Roller">
+<option value="Oriental Dollarbird">
+<option value="Ruddy Kingfisher">
+<option value="White-throated Kingfisher">
+<option value="Black-capped Kingfisher">
+<option value="Collared Kingfisher">
+<option value="Common Kingfisher">
+<option value="Black-backed Dwarf Kingfisher">
+<option value="Crested Kingfisher">
+<option value="Pied Kingfisher">
+<option value="Blue-tailed Bee-eater">
+<option value="Blue-throated Bee-eater">
+<option value="Great Barbet">
+<option value="Chinese Barbet">
+<option value="Eurasian Wryneck">
+<option value="Speckled Piculet">
+<option value="Rufous-bellied Woodpecker">
+<option value="Grey-headed Woodpecker">
+<option value="Bay Woodpecker">
+<option value="Rufous Woodpecker">
+<option value="Common Kestrel">
+<option value="Amur Falcon">
+<option value="Eurasian Hobby">
+<option value="Peregrine Falcon">
+<option value="Yellow-crested Cockatoo">
+<option value="Alexandrine Parakeet">
+<option value="Rose-ringed Parakeet">
+<option value="Blue-winged Pitta">
+<option value="Fairy Pitta">
+<option value="Ashy Woodswallow">
+<option value="Grey-chinned Minivet">
+<option value="Scarlet Minivet">
+<option value="Ashy Minivet">
+<option value="Ryukyu Minivet">
+<option value="Swinhoe's Minivet">
+<option value="Rosy Minivet">
+<option value="Oriental Cuckooshrike">
+<option value="Black-winged Cuckooshrike">
+<option value="White-bellied Erpornis">
+<option value="Silver Oriole">
+<option value="Black-naped Oriole">
+<option value="Crow-billed Drongo">
+<option value="Hair-crested Drongo">
+<option value="Ashy Drongo">
+<option value="Black Drongo">
+<option value="Black-naped Monarch">
+<option value="Amur Paradise Flycatcher">
+<option value="Japanese Paradise Flycatcher">
+<option value="Chinese Grey Shrike">
+<option value="Tiger Shrike">
+<option value="Red-backed Shrike">
+<option value="Brown Shrike">
+<option value="Bull-headed Shrike">
+<option value="Long-tailed Shrike">
+<option value="Grey-backed Shrike">
+<option value="Eurasian Jay">
+<option value="Azure-winged Magpie">
+<option value="Red-billed Blue Magpie">
+<option value="Indochinese Green Magpie">
+<option value="Grey Treepie">
+<option value="Oriental Magpie">
+<option value="Daurian Jackdaw">
+<option value="House Crow">
+<option value="Rook">
+<option value="Carrion Crow">
+<option value="Collared Crow">
+<option value="Large-billed Crow">
+<option value="Japanese Waxwing">
+<option value="Grey-headed Canary-flycatcher">
+<option value="Fire-capped Tit">
+<option value="Yellow-bellied Tit">
+<option value="Varied Tit">
+<option value="Cinereous Tit">
+<option value="Yellow-cheeked Tit">
+<option value="Chinese Penduline Tit">
+<option value="Oriental Skylark">
+<option value="Eurasian Skylark">
+<option value="Mongolian Short-toed Lark">
+<option value="Asian Short-toed Lark">
+<option value="Chestnut Bulbul">
+<option value="Mountain Bulbul">
+<option value="Brown-eared Bulbul">
+<option value="Black Bulbul">
+<option value="Chinese Bulbul">
+<option value="Red-whiskered Bulbul">
+<option value="Sooty-headed Bulbul">
+<option value="Grey-throated Martin">
+<option value="Sand Martin">
+<option value="Pacific Swallow">
+<option value="Barn Swallow">
+<option value="Siberian House Martin">
+<option value="Asian House Martin">
+<option value="Eastern Red-rumped Swallow">
+<option value="Pygmy Wren-babbler">
+<option value="Rufous-faced Warbler">
+<option value="Mountain Tailorbird">
+<option value="Manchurian Bush Warbler">
+<option value="Brown-flanked Bush Warbler">
+<option value="Asian Stubtail">
+<option value="Pale-footed Bush Warbler">
+<option value="Black-throated Bushtit">
+<option value="Wood Warbler">
+<option value="Hume's Leaf Warbler">
+<option value="Yellow-browed Warbler">
+<option value="Chinese Leaf Warbler">
+<option value="Pallas's Leaf Warbler">
+<option value="Yellow-streaked Warbler">
+<option value="Radde's Warbler">
+<option value="Tickell's Leaf Warbler">
+<option value="Dusky Warbler">
+<option value="Buff-throated Warbler">
+<option value="Willow Warbler">
+<option value="Common Chiffchaff">
+<option value="Eastern Crowned Warbler">
+<option value="Ijima's Leaf Warbler">
+<option value="White-spectacled Warbler">
+<option value="Grey-crowned Warbler">
+<option value="Bianchi's Warbler">
+<option value="Alström's Warbler">
+<option value="Martens's Warbler">
+<option value="Two-barred Warbler">
+<option value="Greenish Warbler">
+<option value="Emei Leaf Warbler ">
+<option value="Sakhalin Leaf Warbler">
+<option value="Pale-legged Leaf Warbler">
+<option value="Japanese Leaf Warbler">
+<option value="Arctic Warbler">
+<option value="Chestnut-crowned Warbler">
+<option value="Sulphur-breasted Warbler">
+<option value="Hartert's Leaf Warbler">
+<option value="Kloss's Leaf Warbler">
+<option value="Oriental Reed Warbler">
+<option value="Black-browed Reed Warbler">
+<option value="Blunt-winged Warbler">
+<option value="Manchurian Reed Warbler">
+<option value="Paddyfield Warbler">
+<option value="Blyth's Reed Warbler">
+<option value="Thick-billed Warbler">
+<option value="Booted Warbler">
+<option value="Sykes's Warbler">
+<option value="Marsh Grassbird">
+<option value="Pallas's Grasshopper Warbler">
+<option value="Middendorff's Grasshopper Warbler">
+<option value="Styan's Grasshopper Warbler">
+<option value="Lanceolated Warbler">
+<option value="Brown Bush Warbler">
+<option value="Chinese Bush Warbler">
+<option value="Baikal Bush Warbler">
+<option value="Russet Bush Warbler">
+<option value="Zitting Cisticola">
+<option value="Golden-headed Cisticola">
+<option value="Yellow-bellied Prinia">
+<option value="Plain Prinia">
+<option value="Common Tailorbird">
+<option value="Lesser Whitethroat">
+<option value="Vinous-throated Parrotbill">
+<option value="Indochinese Yuhina">
+<option value="Black-chinned Yuhina">
+<option value="Chestnut-flanked White-eye">
+<option value="Swinhoe's White-eye">
+<option value="Rufous-capped Babbler">
+<option value="Streak-breasted Scimitar Babbler">
+<option value="Chinese Grassbird">
+<option value="Huet's Fulvetta">
+<option value="Blue-winged Minla">
+<option value="Red-billed Leiothrix">
+<option value="Silver-eared Mesia">
+<option value="Chinese Hwamei">
+<option value="Black-throated Laughingthrush">
+<option value="White-browed Laughingthrush">
+<option value="Masked Laughingthrush">
+<option value="Greater Necklaced Laughingthrush">
+<option value="Chinese Babax">
+<option value="Goldcrest">
+<option value="Velvet-fronted Nuthatch">
+<option value="Great Myna">
+<option value="Crested Myna">
+<option value="Common Myna">
+<option value="Red-billed Starling">
+<option value="White-cheeked Starling">
+<option value="Black-collared Starling">
+<option value="Daurian Starling">
+<option value="Chestnut-cheeked Starling">
+<option value="White-shouldered Starling">
+<option value="Chestnut-tailed Starling">
+<option value="Rosy Starling">
+<option value="Common Starling">
+<option value="White's Thrush">
+<option value="Siberian Thrush">
+<option value="Orange-headed Thrush">
+<option value="Chinese Thrush">
+<option value="Chinese Blackbird">
+<option value="Japanese Thrush">
+<option value="Grey-backed Thrush">
+<option value="Eyebrowed Thrush">
+<option value="Pale Thrush">
+<option value="Brown-headed Thrush">
+<option value="Red-throated Thrush">
+<option value="Dusky Thrush">
+<option value="Naumann's Thrush">
+<option value="Oriental Magpie-Robin">
+<option value="White-rumped Shama">
+<option value="Grey-streaked Flycatcher">
+<option value="Dark-sided Flycatcher">
+<option value="Ferruginous Flycatcher">
+<option value="Brown-breasted Flycatcher">
+<option value="Asian Brown Flycatcher">
+<option value="Fujian Niltava">
+<option value="Small Niltava">
+<option value="Blue-and-white Flycatcher">
+<option value="Zappey's Flycatcher">
+<option value="Verditer Flycatcher">
+<option value="Chinese Blue Flycatcher">
+<option value="Hainan Blue Flycatcher">
+<option value="Brown-chested Jungle Flycatcher">
+<option value="Hill Blue Flycatcher">
+<option value="Bluethroat">
+<option value="White-tailed Robin">
+<option value="Siberian Rubythroat">
+<option value="Slaty-backed Forktail">
+<option value="Blue Whistling Thrush">
+<option value="Lesser Shortwing">
+<option value="Siberian Blue Robin">
+<option value="Japanese Robin">
+<option value="Rufous-tailed Robin">
+<option value="Yellow-rumped Flycatcher">
+<option value="Green-backed Flycatcher">
+<option value="Narcissus Flycatcher">
+<option value="Ryukyu Flycatcher">
+<option value="Mugimaki Flycatcher">
+<option value="Slaty-backed Flycatcher">
+<option value="Rufous-gorgeted Flycatcher">
+<option value="Ultramarine Flycatcher">
+<option value="Red-breasted Flycatcher">
+<option value="Red-throated Flycatcher">
+<option value="Red-flanked Bluetail">
+<option value="Plumbeous Water Redstart">
+<option value="Black Redstart">
+<option value="Daurian Redstart">
+<option value="Hodgson's Redstart">
+<option value="White-throated Rock Thrush">
+<option value="Chestnut-bellied Rock Thrush">
+<option value="Blue Rock Thrush">
+<option value="Grey Bush Chat">
+<option value="Amur Stonechat">
+<option value="Pied Wheatear">
+<option value="Orange-bellied Leafbird">
+<option value="Plain Flowerpecker">
+<option value="Fire-breasted Flowerpecker">
+<option value="Scarlet-backed Flowerpecker">
+<option value="Ornate Sunbird">
+<option value="Mrs. Gould's Sunbird">
+<option value="Fork-tailed Sunbird">
+<option value="Russet Sparrow">
+<option value="Eurasian Tree Sparrow">
+<option value="House Sparrow">
+<option value="Baya Weaver">
+<option value="Scaly-breasted Munia">
+<option value="White-rumped Munia">
+<option value="Chestnut Munia">
+<option value="Forest Wagtail">
+<option value="Western Yellow Wagtail">
+<option value="Eastern Yellow Wagtail">
+<option value="Citrine Wagtail">
+<option value="Grey Wagtail">
+<option value="White Wagtail">
+<option value="Richard's Pipit">
+<option value="Blyth's Pipit">
+<option value="Tree Pipit">
+<option value="Olive-backed Pipit">
+<option value="Pechora Pipit">
+<option value="Rosy Pipit">
+<option value="Red-throated Pipit">
+<option value="Siberian Pipit">
+<option value="Water Pipit">
+<option value="Upland Pipit">
+<option value="Brambling">
+<option value="Hawfinch">
+<option value="Chinese Grosbeak">
+<option value="Japanese Grosbeak">
+<option value="Common Rosefinch">
+<option value="Oriental Greenfinch">
+<option value="Eurasian Siskin">
+<option value="Lapland Longspur">
+<option value="Crested Bunting">
+<option value="Slaty Bunting">
+<option value="Pine Bunting">
+<option value="Ortolan Bunting">
+<option value="Tristram's Bunting">
+<option value="Chestnut-eared Bunting">
+<option value="Little Bunting">
+<option value="Yellow-browed Bunting">
+<option value="Rustic Bunting">
+<option value="Yellow-throated Bunting">
+<option value="Yellow-breasted Bunting">
+<option value="Chestnut Bunting">
+<option value="Black-headed Bunting">
+<option value="Red-headed Bunting">
+<option value="Japanese Yellow Bunting">
+<option value="Black-faced Bunting">
+<option value="Pallas's Reed Bunting">
+<option value="Japanese Reed Bunting">
+<option value="Common Reed Bunting">
+        </datalist>
+<div id="manual-modal" class="modal hidden">
+    <div class="modal-content" style="max-width: 500px; max-height: 85vh; overflow-y: auto;">
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #eee; padding-bottom: 10px; margin-bottom: 15px;">
+            <h2 style="margin: 0; color: #7f3f98;">User Manual</h2>
+            <button id="closeManualBtn" class="danger" style="padding: 8px 16px; border-radius: 6px; border: none; font-weight: bold;">Close</button>
+        </div>
+        
+        <div style="line-height: 1.6; font-size: 15px; color: #333;">
+            <h3 style="margin-top: 0;">📍 1. Setting Your Location</h3>
+            <ul style="padding-left: 20px; margin-bottom: 15px;">
+                <li>Tap <strong>Locate</strong> at the top to jump to your current GPS position.</li>
+                <li>Tap anywhere on the map to drop a new pin and start a checklist.</li>
+            </ul>
+
+            <h3>📝 2. Adding Records</h3>
+            <ul style="padding-left: 20px; margin-bottom: 15px;">
+                <li>When you drop a pin, a checklist form opens.</li>
+                <li>Fill in the <strong>Plot No.</strong> and <strong>Plot Notes</strong> at the top.</li>
+                <li>Type the <strong>Species</strong>, <strong>Count</strong>, and <strong>Remarks</strong>.</li>
+                <li>Tap <strong>+ Add Species</strong> to continue adding birds to the same location.</li>
+                <li>Tap <strong>Save</strong> when finished. <em>(Duplicates are merged automatically!)</em></li>
+            </ul>
+
+            <h3>✏️ 3. Editing & Deleting</h3>
+            <ul style="padding-left: 20px; margin-bottom: 15px;">
+                <li><strong>On the Map:</strong> Tap any saved pin to view and edit the checklist.</li>
+                <li><strong>In the Table:</strong> Use the <strong>+</strong> and <strong>-</strong> buttons to quickly adjust counts, or tap Edit/Delete.</li>
+            </ul>
+
+            <h3 style="color: #d94f3d;">💾 4. Exporting Data (CRITICAL)</h3>
+            <ul style="padding-left: 20px; margin-bottom: 15px;">
+                <li>Data is saved to your phone's offline memory.</li>
+                <li>At the end of your survey, you MUST tap <strong>Export</strong> to download your Excel file.</li>
+                <li>Once exported safely, tap <strong>Clear</strong> to wipe the map for your next survey.</li>
+            </ul>
+        </div>
+        <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: center; font-size: 12px; color: #888; line-height: 1.5;">
+            <strong>Last updated: 202604</strong><br>
+            Credits: Based on original source code by <a href="https://github.com/RedbirdTaiwan" target="_blank" style="color: #7f3f98; text-decoration: underline;">Redbird Taiwan</a>.<br>
+          App customized to facilitate bird surveys in Hong Kong.
+        </div>
+    </div>
+</div>
+
+  
+  <script src="../assets/leaflet/leaflet.js"></script>
+  <script src="../assets/xlsx/xlsx.full.min.js"></script>
+  <script src="orthophoto-manifest.js"></script>
+  <script src="studysites.kml.js"></script>
+  <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js')
+          .then(registration => {
+            console.log('Seabird Offline Map Cache activated successfully.');
+          })
+          .catch(err => {
+            console.error('Offline Map Cache failed to activate.', err);
+          });
+      });
+    }
+  </script>
+
+</body>
+</html>
