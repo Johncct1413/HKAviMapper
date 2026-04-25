@@ -692,5 +692,18 @@
   <script src="../common/orthophoto-manifest.js"></script>
   <script src="studysites.kml.js"></script>
   <script src="../common/app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js')
+          .then(registration => {
+            console.log('Seabird Offline Map Cache activated successfully.');
+          })
+          .catch(err => {
+            console.error('Offline Map Cache failed to activate.', err);
+          });
+      });
+    }
+  </script>
 </body>
 </html>
