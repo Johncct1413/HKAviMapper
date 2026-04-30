@@ -1,0 +1,1 @@
+﻿window.ORTHOPHOTO_IMAGES = [];

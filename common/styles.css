@@ -1,0 +1,584 @@
+:root {
+  --bg: #f2eee2;
+  --surface: rgba(255, 250, 240, 0.92);
+  --surface-strong: #fffdf7;
+  --line: #d6c8a6;
+  --text: #1c2b24;
+  --muted: #5d6c63;
+  --accent: #305f4b;
+  --accent-strong: #214434;
+  --danger: #a13a2a;
+  --danger-strong: #7e271a;
+  --shadow: 0 18px 40px rgba(60, 45, 16, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+  /* Protects every single element on the page from Safari double-tap zoom */
+  touch-action: manipulation !important; 
+}
+
+html, body {
+  /* 1. Viewport Lock (Kills the Keyboard Shift Bug) */
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Uses 100% instead of 100vh */
+  overflow: hidden; 
+  overscroll-behavior-y: none;
+  margin: 0;
+  padding: 0;
+
+  /* 2. Aesthetics (Your fonts and beautiful gradients) */
+  font-family: "Segoe UI", "Microsoft JhengHei", sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(circle at top left, rgba(242, 198, 94, 0.28), transparent 28%),
+    radial-gradient(circle at top right, rgba(75, 138, 115, 0.22), transparent 26%),
+    linear-gradient(180deg, #f6f1e4 0%, #ede6d3 100%);
+}
+
+.page {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+}
+
+.map-card,
+.table-card {
+  background: var(--surface);
+  border: 1px solid rgba(214, 200, 166, 0.85);
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(10px);
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+h1 {
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1.04;
+}
+
+.map-head p,
+.table-head p {
+  margin: 10px 0 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+button {
+  border: 0;
+  border-radius: 999px;
+  padding: 11px 16px;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  color: #fffdf7;
+  background: var(--accent);
+  transition: transform 0.15s ease, background 0.15s ease, opacity 0.15s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  background: var(--accent-strong);
+}
+
+button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none;
+}
+
+button.danger {
+  background: var(--danger);
+}
+
+button.danger:hover {
+  background: var(--danger-strong);
+}
+
+.map-card {
+  position: absolute;
+  inset: 0;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
+  background: transparent;
+}
+
+.map-overlay,
+.table-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.map-overlay {
+  position: absolute;
+  top: max(12px, env(safe-area-inset-top));
+  left: 12px;
+  right: 12px;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.overlay-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  pointer-events: auto;
+}
+
+.overlay-actions {
+  justify-content: flex-end;
+}
+
+.status,
+.count {
+  white-space: nowrap;
+  background: #f2ead2;
+  color: var(--accent-strong);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 10px 14px;
+  font-weight: 700;
+}
+
+#map {
+  height: 100vh;
+  height: 100dvh;
+  width: 100%;
+}
+
+.bird-marker {
+  background: transparent;
+  border: 0;
+}
+
+.bird-marker svg {
+  display: block;
+  width: 28px;
+  height: 40px;
+  filter: drop-shadow(0 7px 8px rgba(48, 26, 14, 0.2));
+}
+
+.location-marker {
+  background: transparent;
+  border: 0;
+}
+
+.location-marker svg {
+  display: block;
+  width: 26px;
+  height: 26px;
+  filter: drop-shadow(0 4px 6px rgba(18, 39, 31, 0.22));
+}
+
+.popup-form {
+  width: min(228px, 60vw);
+  font-size: 0.82rem;
+}
+
+.popup-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 6px;
+}
+
+.popup-form label {
+  display: grid;
+  gap: 5px;
+  color: var(--text);
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.popup-form input {
+  min-width: 0;
+  width: 100%;
+  border: 1px solid #c9bb96;
+  border-radius: 9px;
+  padding: 7px 8px;
+  font: inherit;
+  color: var(--text);
+  background: #fffdf8;
+}
+
+.popup-form input[readonly] {
+  background: #f7f2e5;
+  color: #55635b;
+}
+
+.popup-actions {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.popup-actions button {
+  flex: 1;
+  padding: 7px 8px;
+  font-size: 0.78rem;
+}
+
+.inline-note,
+.error-text {
+  margin-top: 5px;
+  font-size: 0.72rem;
+}
+
+.inline-note {
+  color: var(--muted);
+}
+
+.error-text {
+  color: var(--danger);
+  min-height: 1.2em;
+}
+
+.table-wrap {
+  flex: 1;
+  overflow-x: auto;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 760px;
+}
+
+th,
+td {
+  padding: 2px;
+  border-bottom: 1px solid #eadfbe;
+  text-align: left;
+  vertical-align: middle;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  color: var(--accent-strong);
+  background: rgba(242, 234, 210, 0.65);
+  font-size: 0.95rem;
+}
+
+tbody tr:hover {
+  background: rgba(255, 251, 239, 0.8);
+}
+
+.row-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.row-actions button {
+  padding: 8px 12px;
+  font-size: 0.9rem;
+}
+
+.empty-row td {
+  color: var(--muted);
+  text-align: center;
+  padding: 18px 10px;
+}
+
+.table-card {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 900;
+  /* Reduced top padding from 18px to 12px to save space */
+  padding: 12px 16px env(safe-area-inset-bottom);
+  /* Slightly more subtle corner radius */
+  border-radius: 20px 20px 0 0;
+  border-top: 1px solid rgba(0,0,0,0.05);
+  /* INCREASED height to 35% of the screen so you see more data */
+  height: 25vh;
+  max-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fdfaf1; /* Keeps your natural theme */
+  box-shadow: 0 -4px 15px rgba(0,0,0,0.1); /* Adds a nice "lift" from the map */
+}
+
+.table-head {
+  margin-bottom: 14px;
+}
+
+@media (max-width: 860px) {
+  .map-overlay,
+  .table-head {
+    flex-direction: column;
+  }
+
+  .overlay-actions {
+    width: 100%;
+  }
+
+  .overlay-actions button {
+    flex: 1 1 0;
+  }
+
+  .status,
+  .count {
+    backdrop-filter: blur(10px);
+  }
+
+  .leaflet-popup-content-wrapper {
+    border-radius: 16px;
+  }
+
+  .leaflet-popup-content {
+    margin: 8px 9px 9px;
+  }
+
+  .popup-form {
+    width: min(210px, 56vw);
+    font-size: 0.76rem;
+  }
+
+  .popup-form input {
+    padding: 6px 7px;
+  }
+
+  .popup-actions {
+    gap: 5px;
+  }
+
+  .popup-actions button {
+    padding: 6px 7px;
+    font-size: 0.74rem;
+  }
+}
+
+@media (min-width: 861px) {
+  .page {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+
+  .map-card,
+  .table-card {
+    left: 0;
+    right: 0;
+  }
+}
+
+/* --- Custom overrides for Hong Kong Survey App --- */
+
+/* Make top overlay buttons and status text smaller */
+.overlay-actions button {
+  padding: 5px 10px !important;
+  font-size: 12px !important;
+  min-height: 30px !important;
+  height: auto !important;
+}
+
+.overlay-actions .status, 
+.overlay-actions .count {
+  padding: 5px 10px !important;
+  font-size: 12px !important;
+}
+
+/* --- Checklist Grouping Styles --- */
+
+/* Thick dark line to separate different checklists */
+tr.group-start td {
+  border-top: 2px solid #214434 !important; 
+  padding-top: 10px !important;
+}
+
+/* Light dashed line for birds within the same checklist */
+tr.group-continue td {
+  border-top: 1px dashed #cccccc !important; 
+  background-color: rgba(232, 243, 200, 0.2); /* Very faint green tint */
+}
+
+/* MOBILE UX FIX: Reverted to 10px font size to maximize screen real estate for long bird names */
+.popup-form input {
+    font-size: 10px !important; 
+    padding: 4px 2px; 
+    height: 32px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* MOBILE UX FIX: Keeping the X button fat-finger friendly, but matched to the 32px height */
+.popup-form .remove-btn {
+    height: 32px;
+    width: 32px;
+    font-size: 12px;
+    padding: 0;
+    flex-shrink: 0; 
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ensure the row number aligns nicely with the inputs */
+.row-number {
+    font-size: 10px;
+    min-width: 10px;
+    margin-right: 2px;
+    margin-top: 0px; 
+}
+
+/* ========================================== */
+/* BIRD MAPPER: MANUAL MODAL STYLES           */
+/* ========================================== */
+.modal {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal.hidden {
+    display: none !important;
+}
+.modal-content {
+    background-color: white;
+    width: 90%;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* ========================================== */
+/* BIRD MAPPER: TOP BAR UI FIXES              */
+/* ========================================== */
+
+/* 1. Put status text back on a single line, but limit its size so it doesn't squish the buttons */
+#statusText {
+    max-width: 150px; /* Stops the text from stretching the bar */
+    overflow: hidden; /* Hides extra long text */
+    text-overflow: ellipsis; /* Adds "..." if the text is too long */
+    white-space: nowrap; /* Forces it to stay on one line */
+}
+
+/* 2. Lock the "?" button into a perfect, non-stretching circle */
+#helpBtn {
+    flex: 0 0 32px !important; /* Forces it to never grow or shrink */
+    width: 32px !important;
+    height: 32px !important;
+    min-height: 32px !important;
+    padding: 0 !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 16px !important;
+}
+
+/* 3. Keep the remaining action buttons nicely tucked together */
+@media (max-width: 860px) {
+    .overlay-actions button:not(#helpBtn) {
+        flex: 0 0 auto !important; /* FIX: '0 0 auto' stops the button from stretching! */
+        padding: 5px 12px !important; /* Slightly wider padding so they are still easy to tap */
+        margin-bottom: 4px !important; /* Adds a tiny gap if they wrap to a second line */
+    }
+}
+
+/* ========================================== */
+/* BIRD MAPPER: TABLE COMPACT VIEW            */
+/* ========================================== */
+
+/* 1. Prevent text wrapping and reduce font size for maximum row visibility */
+th, td {
+    white-space: nowrap !important; /* Stops text from wrapping to a second line */
+    font-size: 12px !important; /* Smaller, consistent font size */
+    padding: 4px 6px !important; /* Tighter padding to shrink row height */
+}
+
+/* 2. Make action buttons (Edit/Delete) in the table smaller to fit the new row height */
+.row-actions {
+    flex-wrap: nowrap !important; /* Prevents buttons from stacking vertically */
+    gap: 4px !important;
+}
+
+.row-actions button {
+    padding: 4px 8px !important;
+    font-size: 11px !important;
+}
+
+/* 3. Keep the +/- counter buttons compact so they don't stretch the row */
+td div button[data-action="increase-count"],
+td div button[data-action="decrease-count"] {
+    padding: 2px 6px !important;
+    font-size: 12px !important;
+}
+
+/* ========================================== */
+/* BIRD MAPPER: TABLE COMPACT VIEW (NO FREEZE)*/
+/* ========================================== */
+
+/* 1. Standard scrollable table cells */
+th, td {
+    white-space: nowrap !important;
+    font-size: 12px !important;
+    padding: 4px 6px !important;
+    position: static !important; /* This removes the "Freeze" / Sticky effect */
+    background-color: transparent;
+}
+
+/* 2. Standard Header styling */
+th {
+    position: sticky !important;
+    top: 0; /* Keep headers at the top while scrolling down */
+    z-index: 10;
+    background-color: #f2ead2 !important;
+}
+
+/* 3. Maintain the grouping style without frozen backgrounds */
+tr.group-continue td {
+    background-color: rgba(232, 243, 200, 0.2) !important;
+}
+
+/* 4. Column 1 (Plot Notes) can still wrap text so it's readable */
+td:nth-child(1) {
+    white-space: normal !important;
+    min-width: 100px;
+    max-width: 150px;
+    word-wrap: break-word;
+}
+
+/* ========================================== */
+/* BIRD MAPPER: POLYGON LABELS                */
+/* ========================================== */
+
+.polygon-label {
+    background-color: rgba(255, 255, 255, 0.75) !important; /* Semi-transparent white background */
+    /*border: 1px solid #000000 !important; /* Cyan border to match your polygon */
+    border-radius: 4px !important;
+    color: #111 !important; /* Dark text for high contrast */
+    font-size: 10px !important;
+    font-weight: bold !important;
+    padding: 2px 2px !important;
+    box-shadow: none !important;
+    
+    /* CRITICAL FIX: This makes the label a "ghost" so taps pass right through to the map! */
+    pointer-events: none !important; 
+}
+
+/* Removes the little default arrow/triangle that Leaflet adds to tooltips */
+.polygon-label::before {
+    display: none !important;
+}
