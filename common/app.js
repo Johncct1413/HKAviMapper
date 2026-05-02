@@ -676,7 +676,7 @@ function bindPopupForm() {
   const dateInput = popupRoot.querySelector("#dateInput");
   const timeInput = popupRoot.querySelector("#timeInput");
   const plotInput = popupRoot.querySelector("#plotInput");
-  const plotRemarksInput = popupRoot.querySelector("#plotRemarksInput");
+  const plotRemarksInput = popupRoot.querySelector("#plotRemarksInput"); 
   const speciesList = popupRoot.querySelector("#speciesList");
   const addSpeciesBtn = popupRoot.querySelector("#addSpeciesBtn");
   const saveBtn = popupRoot.querySelector("#saveBtn");
@@ -686,7 +686,10 @@ function bindPopupForm() {
 
   const validate = () => {
     const rows = popupRoot.querySelectorAll(".species-row");
-    let allValid = !!(dateInput.value && timeInput.value && rows.length > 0);
+    let allValid = true;
+    
+    if (!dateInput.value || !timeInput.value) allValid = false;
+    if (rows.length === 0) allValid = false; 
 
     rows.forEach((row, index) => {
       const numSpan = row.querySelector(".row-number");
@@ -699,123 +702,177 @@ function bindPopupForm() {
     });
 
     saveBtn.disabled = !allValid;
-    saveBtn.style.backgroundColor = allValid ? "#7f3f98" : "#9bb1a8";
-    formError.textContent = allValid ? "" : "Please fill in species and count (>0).";
+    formError.textContent = allValid ? "" : (rows.length === 0 ? "You must add at least one species." : "Please fill in species and count (> 0) and remove unfilled rows before saving.");
 
     const removeBtns = popupRoot.querySelectorAll(".remove-btn");
-    removeBtns.forEach(btn => btn.style.display = rows.length > 1 ? "block" : "none");
+    removeBtns.forEach(btn => {
+      btn.style.display = rows.length > 1 ? "inline-block" : "none";
+    });
   };
+
+  // Helper function to add the "Auto-Jump" logic to a row
+  const setupAutoJump = (row) => {
+    const speciesInput = row.querySelector(".speciesInput");
+    const quantityInput = row.querySelector(".quantityInput");
+
+    // Jump when a species is selected from the datalist
+    speciesInput.addEventListener("change", () => {
+      if (speciesInput.value.trim() !== "") {
+        quantityInput.focus();
+        quantityInput.select(); // Highlights the text so you can just start typing the number
+      }
+    });
+
+    // Jump when the "Enter" or "Done" key is pressed
+    speciesInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault(); // Prevents the form from accidentally saving too early
+        quantityInput.focus();
+        quantityInput.select();
+      }
+    });
+  };
+
+  // Apply auto-jump and validation to existing rows (for when you Edit a pin)
+  popupRoot.querySelectorAll(".species-row").forEach((row) => {
+    setupAutoJump(row);
+    const btn = row.querySelector(".remove-btn");
+    if (btn) {
+      btn.addEventListener("click", () => {
+        row.remove();
+        validate();
+      });
+    }
+  });
 
   if (addSpeciesBtn) {
     addSpeciesBtn.addEventListener("click", () => {
       const newRow = document.createElement("div");
       newRow.className = "species-row";
-      newRow.setAttribute("data-id", "");
+      newRow.setAttribute("data-id", ""); 
+      newRow.style.cssText = "display: flex; gap: 5px; margin-bottom: 5px; width: 100%;";
+      
       newRow.innerHTML = `
-        <span class="row-number" style="font-weight: bold; font-size: 12px; min-width: 15px; color: #7f3f98;"></span>
-        <input class="speciesInput" list="hk-birds" style="flex: 5;" type="text" maxlength="100" placeholder="Species" required>
-        <input class="quantityInput" style="width: 42px; flex-shrink: 0;" type="number" min="1" step="1" placeholder="Qty" required>
-        <input class="remarksInput" style="flex: 1;" type="text" placeholder="Rem.">
-        <button type="button" class="remove-btn danger">X</button>
+        <span class="row-number" style="font-weight: bold; font-size: 14px; display: flex; align-items: center; min-width: 15px; color: #7f3f98;"></span>
+        <input class="speciesInput" list="hk-birds" style="flex: 4; width: 100%; box-sizing: border-box;" type="text" maxlength="100" placeholder="Species" required>
+        <input class="quantityInput" style="flex: 1; width: 100%; box-sizing: border-box;" type="number" min="1" step="1" placeholder="Count" required>
+        <input class="remarksInput" style="flex: 2; width: 100%; box-sizing: border-box;" type="text" placeholder="Remarks">
+        <button type="button" class="remove-btn danger" style="padding: 0 10px;">X</button>
       `;
-      speciesList.appendChild(newRow);
-      
-      // Hook up validation and delete buttons
-      newRow.querySelector(".remove-btn").addEventListener("click", () => { newRow.remove(); validate(); });
-      newRow.querySelectorAll("input").forEach(i => { i.addEventListener("input", validate); i.addEventListener("change", validate); });
-      
-      // NEW: Listen for "Enter" key on the NEW Remarks input
-      newRow.querySelector(".remarksInput").addEventListener("keydown", (e) => {
-        if (e.key === "Enter") {
-            e.preventDefault(); // Stops the keyboard from closing or submitting early
-            addSpeciesBtn.click();
-        }
+
+      newRow.querySelector(".remove-btn").addEventListener("click", () => {
+        newRow.remove();
+        validate();
       });
 
+      newRow.querySelectorAll("input").forEach((input) => {
+        input.addEventListener("input", validate);
+        input.addEventListener("change", validate);
+      });
+
+      // APPLY THE AUTO-JUMP to the new row
+      setupAutoJump(newRow);
+
+      speciesList.appendChild(newRow);
       validate();
       
-      // Scroll to the bottom and INSTANTLY focus the new Species box
-      speciesList.parentElement.scrollTop = speciesList.parentElement.scrollHeight;
-      newRow.querySelector(".speciesInput").focus();
+      const scrollBox = speciesList.parentElement;
+      scrollBox.scrollTop = scrollBox.scrollHeight;
+
+      const newSpeciesInput = newRow.querySelector(".speciesInput");
+      if (newSpeciesInput) {
+        setTimeout(() => { newSpeciesInput.focus(); }, 50);
+      }
     });
   }
 
-  // Hook up delete buttons for existing rows
-  popupRoot.querySelectorAll(".species-row").forEach(row => {
-    row.querySelector(".remove-btn").addEventListener("click", () => { row.remove(); validate(); });
-  });
-
-  // Hook up validation for existing inputs
-  popupRoot.querySelectorAll("input").forEach(i => {
-    i.addEventListener("input", validate);
-    i.addEventListener("change", validate);
-  });
-
-  // NEW: Listen for "Enter" key on INITIAL Remarks inputs (when the popup first opens)
-  popupRoot.querySelectorAll(".remarksInput").forEach(input => {
-      input.addEventListener("keydown", (e) => {
-          if (e.key === "Enter") {
-              e.preventDefault();
-              addSpeciesBtn.click();
-          }
-      });
+  popupRoot.querySelectorAll("input").forEach((input) => {
+    input.addEventListener("input", validate);
+    input.addEventListener("change", validate);
   });
 
   if (deleteChecklistBtn) {
     deleteChecklistBtn.addEventListener("click", () => {
-      if (confirm("Delete this location and ALL records?")) {
+      if (confirm("Are you sure you want to delete this location and ALL its bird records? This cannot be undone.")) {
         const oldIds = state.editingRecords.map(r => r.id).filter(id => id);
-        state.records = state.records.filter(r => !oldIds.includes(r.id));
-        persistRecords(); renderTable(); renderMapMarkers(); clearActiveMarker();
-        state.editingRecords = null; statusText.textContent = "Location deleted.";
+        state.records = state.records.filter((item) => !oldIds.includes(item.id));
+        persistRecords();
+        renderTable();
+        renderMapMarkers(); 
+        clearActiveMarker(); 
+        state.editingRecords = null;
+        statusText.textContent = "Location deleted.";
       }
     });
   }
 
   saveBtn.addEventListener("click", () => {
-    if (saveBtn.disabled) return;
+    if (saveBtn.disabled) {
+      validate();
+      return;
+    }
+
     const latlng = state.activeMarker.getLatLng();
     const rows = popupRoot.querySelectorAll(".species-row");
+
     if (state.editingRecords) {
-        const oldIds = state.editingRecords.map(r => r.id).filter(id => id);
-        state.records = state.records.filter(r => !oldIds.includes(r.id));
+      const oldIds = state.editingRecords.map(r => r.id).filter(id => id);
+      state.records = state.records.filter((item) => !oldIds.includes(item.id));
     }
-    const plotNo = plotInput.value.trim();
-    const plotRem = plotRemarksInput.value.trim();
-    
-    const merged = [];
-    rows.forEach(row => {
-        const sp = row.querySelector(".speciesInput").value.trim();
-        const qty = Number(row.querySelector(".quantityInput").value.trim());
-        const rem = row.querySelector(".remarksInput").value.trim();
-        const id = row.getAttribute("data-id");
-        
-        // Skip empty rows if they accidentally pressed Enter one too many times
-        if (!sp) return; 
 
-        const exist = merged.find(m => m.species.toLowerCase() === sp.toLowerCase());
-        if (exist) {
-            exist.quantity += qty;
-            if (rem && !exist.remarks.includes(rem)) exist.remarks += ` | ${rem}`;
-        } else {
-            merged.push({ id, species: sp, quantity: qty, remarks: rem });
+    const sharedPlotNo = plotInput.value.trim();
+    const sharedPlotRemarks = plotRemarksInput ? plotRemarksInput.value.trim() : "";
+    const mergedRecords = [];
+
+    rows.forEach((row) => {
+      const speciesName = row.querySelector(".speciesInput").value.trim();
+      const quantity = Number(row.querySelector(".quantityInput").value.trim());
+      const remarks = row.querySelector(".remarksInput").value.trim();
+      const existingId = row.getAttribute("data-id");
+
+      const existingRecord = mergedRecords.find(r => r.species.toLowerCase() === speciesName.toLowerCase());
+
+      if (existingRecord) {
+        existingRecord.quantity += quantity;
+        if (remarks) {
+          if (!existingRecord.remarks) existingRecord.remarks = remarks;
+          else if (!existingRecord.remarks.includes(remarks)) existingRecord.remarks += ` | ${remarks}`; 
         }
+      } else {
+        mergedRecords.push({ id: existingId, species: speciesName, quantity: quantity, remarks: remarks });
+      }
     });
 
-    merged.forEach(m => {
-        state.records.unshift({
-            id: m.id || createId(), date: dateInput.value, time: timeInput.value,
-            lat: roundCoordinate(latlng.lat), lng: roundCoordinate(latlng.lng),
-            plotNo, plotRemarks: plotRem, species: m.species, quantity: m.quantity,
-            remarks: m.remarks, updatedAt: new Date().toISOString()
-        });
+    mergedRecords.forEach((record) => {
+      state.records.unshift({
+        id: record.id ? record.id : createId(), 
+        date: dateInput.value,
+        time: timeInput.value,
+        lat: roundCoordinate(latlng.lat),
+        lng: roundCoordinate(latlng.lng),
+        plotNo: sharedPlotNo,      
+        plotRemarks: sharedPlotRemarks, 
+        species: record.species,
+        quantity: record.quantity,
+        remarks: record.remarks,  
+        updatedAt: new Date().toISOString(),
+      });
     });
 
-    persistRecords(); renderTable(); renderMapMarkers(); clearActiveMarker();
-    state.editingRecords = null; statusText.textContent = "Saved.";
+    persistRecords();
+    renderTable();
+    renderMapMarkers(); 
+    clearActiveMarker();
+    state.editingRecords = null;
+    statusText.textContent = "Saved.";
   });
 
-  cancelBtn.addEventListener("click", () => { state.editingRecords = null; clearActiveMarker(); });
+  cancelBtn.addEventListener("click", () => {
+    state.editingRecords = null;
+    clearActiveMarker();
+    statusText.textContent = "Edit cancelled.";
+  });
+
   validate();
 }
 
