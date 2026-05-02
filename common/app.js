@@ -654,10 +654,12 @@ function buildPopupHtml(recordsToEdit, latlng, defaultPlotNo = "") {
 
       <div class="error-text" id="formError" style="color: #d94f3d; font-size: 12px; margin-bottom: 5px;"></div>
       
+      <div class="error-text" id="formError" style="color: #d94f3d; font-size: 12px; margin-bottom: 5px;"></div>
+      
       <div class="popup-actions" style="width: 100%; display: flex; flex-wrap: wrap; gap: 5px;">
-        <button id="saveBtn" type="button" style="flex: 1; height: 38px; background: #9bb1a8; color: white; border: none; border-radius: 6px;" disabled>Save</button>
-        <button id="cancelBtn" type="button" class="danger" style="flex: 1; height: 38px; border-radius: 6px; border: none;">Cancel</button>
-        ${isEditing ? `<button id="deleteChecklistBtn" type="button" class="danger" style="flex-basis: 100%; margin-top: 5px; height: 38px; border-radius: 6px; border: none;">Delete Entire Location</button>` : ''}
+        <button id="saveBtn" type="button" style="flex: 1;" disabled>Save</button>
+        <button id="cancelBtn" type="button" class="danger" style="flex: 1;">Cancel</button>
+        ${isEditing ? `<button id="deleteChecklistBtn" type="button" class="danger" style="flex-basis: 100%; margin-top: 5px;">Delete Entire Location</button>` : ''}
       </div>
     </div>
   `;
