@@ -648,14 +648,9 @@ function buildPopupHtml(recordsToEdit, latlng, defaultPlotNo = "") {
         <div id="speciesList" style="width: 100%;">
           ${rowsHtml}
         </div>
-        
-        <button type="button" id="addSpeciesBtn" style="margin-bottom: 10px; height: 40px; width: 100%; border: 1px dashed #7f3f98; background: transparent; color: #7f3f98; box-sizing: border-box;">+ Add Species</button>
+      <button type="button" id="addSpeciesBtn" style="margin-bottom: 10px; width: 100%; border: 1px dashed #7f3f98; background: transparent; color: #7f3f98; box-sizing: border-box;">+ Add Species</button>
       </div>
-
-      <div class="error-text" id="formError" style="color: #d94f3d; font-size: 12px; margin-bottom: 5px;"></div>
-      
-      <div class="error-text" id="formError" style="color: #d94f3d; font-size: 12px; margin-bottom: 5px;"></div>
-      
+      <div class="error-text" id="formError"></div>
       <div class="popup-actions" style="width: 100%; display: flex; flex-wrap: wrap; gap: 5px;">
         <button id="saveBtn" type="button" style="flex: 1;" disabled>Save</button>
         <button id="cancelBtn" type="button" class="danger" style="flex: 1;">Cancel</button>
