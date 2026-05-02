@@ -607,33 +607,27 @@ function buildPopupHtml(recordsToEdit, latlng, defaultPlotNo = "") {
   const isEditing = recordsToEdit && recordsToEdit.length > 0;
   const title = isEditing ? "Location Checklist" : "New Record";
   
-  // Pass the default plot name into the base record
   const baseRecord = isEditing ? recordsToEdit[0] : getDefaultRecord(latlng, defaultPlotNo);
 
   let rowsHtml = '';
 
+  // The fixed layout HTML string (using min-width: 0 and precise flex ratios)
+  const rowTemplate = (index, record = {}) => `
+    <div class="species-row" data-id="${escapeAttribute(record.id || "")}" style="display: flex; gap: 4px; margin-bottom: 5px; width: 100%; align-items: center;">
+      <span class="row-number" style="font-weight: bold; font-size: 14px; min-width: 15px; color: #7f3f98;">${index}.</span>
+      <input class="speciesInput" list="hk-birds" style="flex: 5; min-width: 0; box-sizing: border-box;" type="text" value="${escapeAttribute(record.species)}" maxlength="100" placeholder="Species" required>
+      <input class="quantityInput" style="width: 45px; flex-shrink: 0; box-sizing: border-box;" type="number" value="${escapeAttribute(String(record.quantity))}" min="1" step="1" placeholder="Count" required>
+      <input class="remarksInput" style="flex: 2; min-width: 0; box-sizing: border-box;" type="text" value="${escapeAttribute(record.remarks)}" placeholder="Remarks">
+      <button type="button" class="remove-btn danger" style="width: 32px; flex-shrink: 0; padding: 0;">X</button>
+    </div>
+  `;
+
   if (isEditing) {
     recordsToEdit.forEach((record, index) => {
-      rowsHtml += `
-        <div class="species-row" data-id="${escapeAttribute(record.id || "")}" style="display: flex; gap: 5px; margin-bottom: 5px; width: 100%;">
-          <span class="row-number" style="font-weight: bold; font-size: 14px; display: flex; align-items: center; min-width: 15px; color: #7f3f98;">${index + 1}.</span>
-          <input class="speciesInput" list="hk-birds" style="flex: 4; width: 100%; box-sizing: border-box;" type="text" value="${escapeAttribute(record.species)}" maxlength="100" placeholder="Species" required>
-          <input class="quantityInput" style="flex: 1; width: 100%; box-sizing: border-box;" type="number" value="${escapeAttribute(String(record.quantity))}" min="1" step="1" placeholder="Count" required>
-          <input class="remarksInput" style="flex: 2; width: 100%; box-sizing: border-box;" type="text" value="${escapeAttribute(record.remarks)}" placeholder="Remarks">
-          <button type="button" class="remove-btn danger" style="padding: 0 10px;">X</button>
-        </div>
-      `;
+      rowsHtml += rowTemplate(index + 1, record);
     });
   } else {
-    rowsHtml = `
-      <div class="species-row" data-id="" style="display: flex; gap: 5px; margin-bottom: 5px; width: 100%;">
-        <span class="row-number" style="font-weight: bold; font-size: 14px; display: flex; align-items: center; min-width: 15px; color: #7f3f98;">1.</span>
-        <input class="speciesInput" list="hk-birds" style="flex: 4; width: 100%; box-sizing: border-box;" type="text" maxlength="100" placeholder="Species" required>
-        <input class="quantityInput" style="flex: 1; width: 100%; box-sizing: border-box;" type="number" min="1" step="1" placeholder="Count" required>
-        <input class="remarksInput" style="flex: 2; width: 100%; box-sizing: border-box;" type="text" placeholder="Remarks">
-        <button type="button" class="remove-btn danger" style="display:none; padding: 0 10px;">X</button>
-      </div>
-    `;
+    rowsHtml = rowTemplate(1, { species: "", quantity: "", remarks: "" });
   }
 
   return `
@@ -655,15 +649,15 @@ function buildPopupHtml(recordsToEdit, latlng, defaultPlotNo = "") {
           ${rowsHtml}
         </div>
         
-        <button type="button" id="addSpeciesBtn" style="margin-bottom: 10px; width: 100%; border: 1px dashed #7f3f98; background: transparent; color: #7f3f98; box-sizing: border-box;">+ Add Species</button>
+        <button type="button" id="addSpeciesBtn" style="margin-bottom: 10px; height: 40px; width: 100%; border: 1px dashed #7f3f98; background: transparent; color: #7f3f98; box-sizing: border-box;">+ Add Species</button>
       </div>
 
-      <div class="error-text" id="formError"></div>
+      <div class="error-text" id="formError" style="color: #d94f3d; font-size: 12px; margin-bottom: 5px;"></div>
       
       <div class="popup-actions" style="width: 100%; display: flex; flex-wrap: wrap; gap: 5px;">
-        <button id="saveBtn" type="button" style="flex: 1;" disabled>Save</button>
-        <button id="cancelBtn" type="button" class="danger" style="flex: 1;">Cancel</button>
-        ${isEditing ? `<button id="deleteChecklistBtn" type="button" class="danger" style="flex-basis: 100%; margin-top: 5px;">Delete Entire Location</button>` : ''}
+        <button id="saveBtn" type="button" style="flex: 1; height: 38px; background: #9bb1a8; color: white; border: none; border-radius: 6px;" disabled>Save</button>
+        <button id="cancelBtn" type="button" class="danger" style="flex: 1; height: 38px; border-radius: 6px; border: none;">Cancel</button>
+        ${isEditing ? `<button id="deleteChecklistBtn" type="button" class="danger" style="flex-basis: 100%; margin-top: 5px; height: 38px; border-radius: 6px; border: none;">Delete Entire Location</button>` : ''}
       </div>
     </div>
   `;
@@ -684,12 +678,10 @@ function bindPopupForm() {
   const formError = popupRoot.querySelector("#formError");
   const deleteChecklistBtn = popupRoot.querySelector("#deleteChecklistBtn");
 
-  const validate = () => {
+    const validate = () => {
     const rows = popupRoot.querySelectorAll(".species-row");
-    let allValid = true;
-    
-    if (!dateInput.value || !timeInput.value) allValid = false;
-    if (rows.length === 0) allValid = false; 
+    let validRowCount = 0;
+    let hasInvalidRow = false;
 
     rows.forEach((row, index) => {
       const numSpan = row.querySelector(".row-number");
@@ -697,99 +689,126 @@ function bindPopupForm() {
 
       const species = row.querySelector(".speciesInput").value.trim();
       const quantity = row.querySelector(".quantityInput").value.trim();
+      const remarks = row.querySelector(".remarksInput").value.trim();
+
       const quantityValid = /^\d+$/.test(quantity) && Number(quantity) > 0;
-      if (species.length === 0 || !quantityValid) allValid = false;
-    });
 
-    saveBtn.disabled = !allValid;
-    formError.textContent = allValid ? "" : (rows.length === 0 ? "You must add at least one species." : "Please fill in species and count (> 0) and remove unfilled rows before saving.");
+      // NEW: Check if the row is completely blank (e.g., from pressing Enter)
+      const isCompletelyEmpty = species === "" && quantity === "" && remarks === "";
 
-    const removeBtns = popupRoot.querySelectorAll(".remove-btn");
-    removeBtns.forEach(btn => {
-      btn.style.display = rows.length > 1 ? "inline-block" : "none";
-    });
-  };
+      if (isCompletelyEmpty) {
+        // Skip validation for this row entirely! 
+        return; 
+      }
 
-  // Helper function to add the "Auto-Jump" logic to a row
-  const setupAutoJump = (row) => {
-    const speciesInput = row.querySelector(".speciesInput");
-    const quantityInput = row.querySelector(".quantityInput");
-
-    // Jump when a species is selected from the datalist
-    speciesInput.addEventListener("change", () => {
-      if (speciesInput.value.trim() !== "") {
-        quantityInput.focus();
-        quantityInput.select(); // Highlights the text so you can just start typing the number
+      // If it has ANY text, it must be completely filled out correctly
+      if (species.length > 0 && quantityValid) {
+        validRowCount++;
+      } else {
+        hasInvalidRow = true;
       }
     });
 
-    // Jump when the "Enter" or "Done" key is pressed
-    speciesInput.addEventListener("keydown", (e) => {
-      if (e.key === "Enter") {
-        e.preventDefault(); // Prevents the form from accidentally saving too early
+    // Form is valid IF: Date/Time exist, at least 1 valid bird exists, and NO partially broken rows exist
+    let allValid = !!(dateInput.value && timeInput.value && validRowCount > 0 && !hasInvalidRow);
+
+    saveBtn.disabled = !allValid;
+    saveBtn.style.backgroundColor = allValid ? "#305f4b" : "#9bb1a8";
+
+    // Smarter error messages
+    if (validRowCount === 0 && !hasInvalidRow) {
+      formError.textContent = "Please add at least one species.";
+    } else if (hasInvalidRow) {
+      formError.textContent = "Please complete all started rows (Species + Qty > 0).";
+    } else {
+      formError.textContent = "";
+    }
+
+    const removeBtns = popupRoot.querySelectorAll(".remove-btn");
+    removeBtns.forEach(btn => btn.style.display = rows.length > 1 ? "block" : "none");
+  };
+
+  // --- THE MAGIC JUMP & ENTER LOGIC ---
+  const setupRowEvents = (row) => {
+    const speciesInput = row.querySelector(".speciesInput");
+    const quantityInput = row.querySelector(".quantityInput");
+    const remarksInput = row.querySelector(".remarksInput");
+    const removeBtn = row.querySelector(".remove-btn");
+
+    // 1. Jump from Species to Count
+    speciesInput.addEventListener("change", () => {
+      if (speciesInput.value.trim() !== "") {
         quantityInput.focus();
         quantityInput.select();
       }
     });
-  };
+    speciesInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        quantityInput.focus();
+        quantityInput.select();
+      }
+    });
 
-  // Apply auto-jump and validation to existing rows (for when you Edit a pin)
-  popupRoot.querySelectorAll(".species-row").forEach((row) => {
-    setupAutoJump(row);
-    const btn = row.querySelector(".remove-btn");
-    if (btn) {
-      btn.addEventListener("click", () => {
+    // 2. Jump from Count to Remarks
+    quantityInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        remarksInput.focus();
+      }
+    });
+
+    // 3. ENTER ON REMARKS = Add New Species automatically!
+    remarksInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        addSpeciesBtn.click();
+      }
+    });
+
+    // Ensure inputs trigger validation when typed in
+    row.querySelectorAll("input").forEach(i => {
+      i.addEventListener("input", validate);
+      i.addEventListener("change", validate);
+    });
+
+    // Setup Delete Button
+    if (removeBtn) {
+      removeBtn.addEventListener("click", () => {
         row.remove();
         validate();
       });
     }
-  });
+  };
+
+  // Attach events to the existing rows when the popup opens
+  popupRoot.querySelectorAll(".species-row").forEach(setupRowEvents);
 
   if (addSpeciesBtn) {
     addSpeciesBtn.addEventListener("click", () => {
       const newRow = document.createElement("div");
       newRow.className = "species-row";
       newRow.setAttribute("data-id", ""); 
-      newRow.style.cssText = "display: flex; gap: 5px; margin-bottom: 5px; width: 100%;";
+      newRow.style.cssText = "display: flex; gap: 4px; margin-bottom: 5px; width: 100%; align-items: center;";
       
       newRow.innerHTML = `
-        <span class="row-number" style="font-weight: bold; font-size: 14px; display: flex; align-items: center; min-width: 15px; color: #7f3f98;"></span>
-        <input class="speciesInput" list="hk-birds" style="flex: 4; width: 100%; box-sizing: border-box;" type="text" maxlength="100" placeholder="Species" required>
-        <input class="quantityInput" style="flex: 1; width: 100%; box-sizing: border-box;" type="number" min="1" step="1" placeholder="Count" required>
-        <input class="remarksInput" style="flex: 2; width: 100%; box-sizing: border-box;" type="text" placeholder="Remarks">
-        <button type="button" class="remove-btn danger" style="padding: 0 10px;">X</button>
+        <span class="row-number" style="font-weight: bold; font-size: 14px; min-width: 15px; color: #7f3f98;"></span>
+        <input class="speciesInput" list="hk-birds" style="flex: 5; min-width: 0; box-sizing: border-box;" type="text" maxlength="100" placeholder="Species" required>
+        <input class="quantityInput" style="width: 45px; flex-shrink: 0; box-sizing: border-box;" type="number" min="1" step="1" placeholder="Count" required>
+        <input class="remarksInput" style="flex: 2; min-width: 0; box-sizing: border-box;" type="text" placeholder="Remarks">
+        <button type="button" class="remove-btn danger" style="width: 32px; flex-shrink: 0; padding: 0;">X</button>
       `;
 
-      newRow.querySelector(".remove-btn").addEventListener("click", () => {
-        newRow.remove();
-        validate();
-      });
-
-      newRow.querySelectorAll("input").forEach((input) => {
-        input.addEventListener("input", validate);
-        input.addEventListener("change", validate);
-      });
-
-      // APPLY THE AUTO-JUMP to the new row
-      setupAutoJump(newRow);
-
       speciesList.appendChild(newRow);
+      setupRowEvents(newRow); // Apply the jump logic to the newly created row!
       validate();
       
+      // Scroll to bottom and instantly focus the new species box
       const scrollBox = speciesList.parentElement;
       scrollBox.scrollTop = scrollBox.scrollHeight;
-
-      const newSpeciesInput = newRow.querySelector(".speciesInput");
-      if (newSpeciesInput) {
-        setTimeout(() => { newSpeciesInput.focus(); }, 50);
-      }
+      setTimeout(() => { newRow.querySelector(".speciesInput").focus(); }, 50);
     });
   }
-
-  popupRoot.querySelectorAll("input").forEach((input) => {
-    input.addEventListener("input", validate);
-    input.addEventListener("change", validate);
-  });
 
   if (deleteChecklistBtn) {
     deleteChecklistBtn.addEventListener("click", () => {
@@ -829,6 +848,9 @@ function bindPopupForm() {
       const quantity = Number(row.querySelector(".quantityInput").value.trim());
       const remarks = row.querySelector(".remarksInput").value.trim();
       const existingId = row.getAttribute("data-id");
+
+      // Skip entirely empty rows in case they pressed Enter by accident at the end
+      if (!speciesName) return;
 
       const existingRecord = mergedRecords.find(r => r.species.toLowerCase() === speciesName.toLowerCase());
 
